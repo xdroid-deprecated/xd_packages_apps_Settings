@@ -267,4 +267,6 @@
     <!-- Wi-Fi Standard icon -->
     <string name="show_wifi_standard_icon_title">Tampilkan jenis Wi-Fi</string>
     <string name="show_wifi_standard_icon_summary">Menampilkan jenis Wi-Fi di indikator sinyal Wi-Fi</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkap layar</string>
 </resources>
