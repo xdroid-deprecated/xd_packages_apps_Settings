@@ -267,4 +267,6 @@
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suara tangkap layar</string>
 </resources>
