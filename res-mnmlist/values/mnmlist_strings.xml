@@ -137,5 +137,9 @@
     <string name="keygaurd_media_art_title">Show media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
+    
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
 
 </resources>
