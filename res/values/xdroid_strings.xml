@@ -19,4 +19,6 @@
     <!-- xdroid version -->
     <string name="xd_version">XD revision</string>
 
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage" translatable="false"></string>
 </resources>
