@@ -9,4 +9,7 @@
     <string name="xdroid_version">XdroidOSS version</string>
     <string name="xdroid_version_default">Unknown</string>
 
+    <!-- Xdroid Maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
