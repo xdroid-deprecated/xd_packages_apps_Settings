@@ -86,6 +86,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "SettingsGoogle-lib",
+        "xd.xdui-preference",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
