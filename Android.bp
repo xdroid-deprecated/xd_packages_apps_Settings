@@ -89,6 +89,7 @@ android_library {
         "lottie",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
+        "xd.xdui-preference",
     ],
 
     libs: [
