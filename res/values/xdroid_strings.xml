@@ -12,4 +12,7 @@
     <!-- Xdroid Maintainer -->
     <string name="maintainer">Maintainer</string>
 
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="about_device_name">Device</string>
+
 </resources>
