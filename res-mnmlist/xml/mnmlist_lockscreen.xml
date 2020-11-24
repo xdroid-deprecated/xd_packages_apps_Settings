@@ -18,4 +18,10 @@
      android:title="@string/lockscreen_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:defaultValue="true"/>
+
 </PreferenceScreen>
