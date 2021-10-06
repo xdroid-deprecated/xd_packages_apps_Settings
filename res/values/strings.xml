@@ -13652,4 +13652,5 @@
 
     <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate">Refresh rate</string>
+
 </resources>
