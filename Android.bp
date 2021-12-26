@@ -88,6 +88,7 @@ android_library {
         "windowExtLib",
         "faceunlock_framework",
         "accountfeatureprovidergoogle",
+        "gamemode-settingsgoogle",
     ],
 
     libs: [
@@ -157,5 +158,11 @@ filegroup {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "gamemode-settingsgoogle",
+    jars: ["libs/gamemode.jar"],
     sdk_version: "current",
 }
