@@ -301,4 +301,9 @@
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+
 </resources>
