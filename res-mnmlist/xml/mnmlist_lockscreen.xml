@@ -23,5 +23,11 @@
         android:title="@string/qstile_requires_unlocking_title"
         android:summary="@string/qstile_requires_unlocking_summary"
         android:defaultValue="true"/>
+     
+     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        android:key="secure_lockscreen_qs_disabled"
+        android:title="@string/disable_qs_title"
+        android:summary="@string/disable_qs_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
