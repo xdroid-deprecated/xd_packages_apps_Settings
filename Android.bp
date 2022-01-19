@@ -52,6 +52,7 @@ android_library {
     srcs: ["src/**/*.java",
            "src-xdui/**/*.java",
            "src-mnmlist/**/*.java",
+           "src-mnmlist/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.xdroid.mnmlist",
