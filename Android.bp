@@ -86,6 +86,8 @@ android_library {
         "lottie",
         "xd.xdui-preference",
         "windowExtLib",
+        "accountfeatureprovidergoogle",
+        "columbus-settingsgoogle",
         "faceunlock_framework",
         "accountfeatureprovidergoogle",
         "gamemode-settingsgoogle",
@@ -158,6 +160,12 @@ filegroup {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
     sdk_version: "current",
 }
 
