@@ -44,10 +44,13 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
-    resource_dirs: [
-        "res",
-        "res-pixel",
+    resource_dirs: ["res",
+                    "res-xdui",
+                    "res-pixel",
+    ],
+
+    srcs: ["src/**/*.java",
+           "src-xdui/**/*.java",
     ],
 
     static_libs: [
