@@ -36,7 +36,7 @@
           android:layout_width="fill_parent"
           android:layout_height="@dimen/settingslib_toolbar_layout_height"
           app:collapsedTitleTextAppearance="@style/CollapsingToolbarTitle.Collapsed"
-          app:contentScrim="@color/settingslib_colorSurfaceHeader"
+          app:contentScrim="@android:color/transparent"
           app:expandedTitleMarginEnd="@dimen/expanded_title_margin_end"
           app:expandedTitleMarginStart="@dimen/expanded_title_margin_start"
           app:expandedTitleTextAppearance="@style/CollapsingToolbarTitle.Expanded"
