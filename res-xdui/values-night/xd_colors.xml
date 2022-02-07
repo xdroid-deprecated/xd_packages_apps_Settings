@@ -17,6 +17,6 @@
 <resources>
 
      <!-- xd. Framework -->
-     <color name="xd_pref_card_color">#15FFFFFF</color>
+     <color name="xd_pref_card_color">@android:color/system_neutral1_800</color>
 
 </resources>
