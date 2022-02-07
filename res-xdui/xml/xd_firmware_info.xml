@@ -24,7 +24,7 @@
     <!-- xd. banner header -->
     <Preference
         android:key="xd_firmware_header"
-        android:fragment="com.xdroid.preferences.AboutXDFragments"
+        android:fragment="com.android.settings.deviceinfo.aboutxd.AboutXDFragments"
         settings:layout="@layout/xd_firmware_header"/>
 
     <!-- Firmware Category -->
