@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021-2022 xdroid, xyzprjkt
+     Copyright 2021-2022 xdroid, xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,5 +15,8 @@
      limitations under the License.
 -->
 <resources>
+
+     <!-- xd. Framework -->
+     <color name="xd_pref_card_color">#15FFFFFF</color>
 
 </resources>
