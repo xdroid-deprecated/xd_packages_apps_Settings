@@ -16,6 +16,11 @@
 -->
 <resources>
 
+     <!-- xd. Toolbar -->
+     <dimen name="xd_toolbar_height">225dp</dimen>
+     <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
+     <dimen name="xd_toolbar_expanded_title_margin_end">150dp</dimen>
+
      <!-- xd. Preference Card -->
      <dimen name="xd_pref_card_radius">24dp</dimen>
      <dimen name="xd_pref_card_radius-outer">5dp</dimen>
