@@ -17,93 +17,85 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title=" ">
-
-    <!-- xd. fake toolbar -->
-    <Preference
-        android:title="@string/xd_about"
-        android:key="xd_action_bar"
-        android:layout="@layout/xd_action_bar"
-        android:selectable="false"/>
+    android:title="@string/xd_about">
 
     <!-- xd. About Header -->
     <Preference
         android:key="xd_about_header"
-        android:layout="@layout/xd_about_header"
+        settings:layout="@layout/xd_about_header"
         android:selectable="false"/>
 
     <!-- xd. Desc -->
     <Preference
         android:key="xd_about_desc"
-        android:layout="@layout/xd_about_desc"
+        settings:layout="@layout/xd_about_desc"
         android:selectable="false"/>
 
     <!-- Core Team Category -->
-    <Preference
+    <PreferenceCategory
         android:key="xd_about_core_team"
-        android:layout="@layout/xd_pref_category"
-        android:title="@string/xd_about_core_team_cat"
-        android:selectable="false"/>
+        android:title="@string/xd_about_core_team_cat">
 
-    <!-- xyzuan -->
-    <Preference
-        android:key="xd_about_xyzuan"
-        android:layout="@layout/xd_about_core_pref"
-        android:icon="@drawable/xd_about_xyzuan"
-        android:title="@string/xd_about_core_xyzuan"
-        android:summary="@string/xd_about_core_xyzuan_role">
+        <!-- xyzuan -->
+        <Preference
+            android:key="xd_about_xyzuan"
+            settings:layout="@layout/xd_about_core_pref"
+            android:icon="@drawable/xd_about_xyzuan"
+            android:title="@string/xd_about_core_xyzuan"
+            android:summary="@string/xd_about_core_xyzuan_role">
 
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/xyzuan"/>
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/xyzuan"/>
 
-    </Preference>
+        </Preference>
 
-    <!-- friction -->
-    <Preference
-        android:key="xd_about_friction"
-        android:icon="@drawable/xd_about_friction"
-        android:layout="@layout/xd_about_core_pref"
-        android:title="@string/xd_about_core_friction"
-        android:summary="@string/xd_about_core_friction_role">
+        <!-- friction -->
+        <Preference
+            android:key="xd_about_friction"
+            android:icon="@drawable/xd_about_friction"
+            settings:layout="@layout/xd_about_core_pref"
+            android:title="@string/xd_about_core_friction"
+            android:summary="@string/xd_about_core_friction_role">
 
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/gerobaksariroti"/>
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/gerobaksariroti"/>
 
-    </Preference>
+        </Preference>
+
+    </PreferenceCategory>
 
     <!-- Contributor Category -->
-    <Preference
+    <PreferenceCategory
         android:key="xd_about_contributor"
-        android:layout="@layout/xd_pref_category"
-        android:title="@string/xd_about_contributor_cat"
-        android:selectable="false"/>
+        android:title="@string/xd_about_contributor_cat">
 
-    <!-- rdclxvi -->
-    <Preference
-        android:layout="@layout/xd_about_core_pref"
-        android:icon="@drawable/xd_about_rdclxvi"
-        android:title="@string/xd_about_contributor_rdclxvi"
-        android:summary="@string/xd_about_contributor_rdclxvi_role">
+        <!-- rdclxvi -->
+        <Preference
+            settings:layout="@layout/xd_about_core_pref"
+            android:icon="@drawable/xd_about_rdclxvi"
+            android:title="@string/xd_about_contributor_rdclxvi"
+            android:summary="@string/xd_about_contributor_rdclxvi_role">
 
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/rdclxvi"/>
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/rdclxvi"/>
 
-    </Preference>
+        </Preference>
 
-    <!-- iszon -->
-    <Preference
-        android:layout="@layout/xd_about_core_pref"
-        android:icon="@drawable/xd_about_unknown"
-        android:title="@string/xd_about_contributor_iszon"
-        android:summary="@string/xd_about_contributor_iszon_role">
+        <!-- iszon -->
+        <Preference
+            settings:layout="@layout/xd_about_core_pref"
+            android:icon="@drawable/xd_about_unknown"
+            android:title="@string/xd_about_contributor_iszon"
+            android:summary="@string/xd_about_contributor_iszon_role">
 
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/iszon"/>
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/iszon"/>
 
-    </Preference>
-
+        </Preference>
+    </PreferenceCategory>
+    
 </PreferenceScreen>

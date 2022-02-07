@@ -28,9 +28,6 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
-import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
-import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,7 +45,6 @@ public class HardwareInfoFragment extends DashboardFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        use(ImeiInfoPreferenceController.class).setHost(this /* parent */);
     }
 
     @Override
@@ -57,28 +53,11 @@ public class HardwareInfoFragment extends DashboardFragment {
     }
 
     @Override
-    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, this /* fragment */, getSettingsLifecycle());
-    }
-
-    private static List<AbstractPreferenceController> buildPreferenceControllers(
-            Context context, HardwareInfoFragment fragment, Lifecycle lifecycle) {
-        final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new SimStatusPreferenceController(context, fragment));
-        return controllers;
-    }
-
-    @Override
     protected String getLogTag() {
         return TAG;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.hardware_info) {
-
-                @Override
-                protected boolean isPageSearchEnabled(Context context) {
-                    return context.getResources().getBoolean(R.bool.config_show_device_model);
-                }
-            };
+        new BaseSearchIndexProvider(R.xml.hardware_info) {
+    };
 }

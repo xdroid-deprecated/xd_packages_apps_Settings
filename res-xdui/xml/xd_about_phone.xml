@@ -93,7 +93,7 @@
         <!-- Legal information -->
         <Preference
             android:key="legal_container"
-            settings:layout="@layout/xd_pref_card_top"
+            settings:layout="@layout/xd_pref_card_sin"
             android:title="@string/legal_information"
             android:summary="@string/xd_legal_information_summary"
             android:fragment="com.android.settings.LegalSettings"/>
@@ -101,7 +101,7 @@
         <!-- Regulatory labels -->
         <Preference
             android:key="regulatory_info"
-            settings:layout="@layout/xd_pref_card_bot"
+            settings:layout="@layout/xd_pref_card_sin"
             android:title="@string/regulatory_labels"
             android:summary="@string/xd_regulatory_summary">
             <intent android:action="android.settings.SHOW_REGULATORY_INFO"/>

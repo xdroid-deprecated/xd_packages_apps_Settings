@@ -40,7 +40,6 @@ import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.UptimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.widget.EntityHeaderController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
@@ -54,7 +53,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         implements DeviceNamePreferenceController.DeviceNamePreferenceHost {
 
     private static final String LOG_TAG = "MyDeviceInfoFragment";
-    private static final String KEY_MY_DEVICE_INFO_HEADER = "my_device_info_header";
 
     private BuildNumberPreferenceController mBuildNumberPreferenceController;
 
@@ -79,7 +77,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
     @Override
     public void onStart() {
         super.onStart();
-        initHeader();
     }
 
     @Override
