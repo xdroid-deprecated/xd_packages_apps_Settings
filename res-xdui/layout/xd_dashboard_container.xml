@@ -76,7 +76,7 @@
 
             <TextView
                 android:id="@+id/homepage_title"
-                android:text="@string/xd_dashboard_greet"
+                android:text="@string/xd_dashboard_greet_default"
                 style="@style/xd_dashboard_header_title"/>
 
             <FrameLayout

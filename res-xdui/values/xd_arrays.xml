@@ -16,4 +16,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+     <string-array name="xd_dashboard_greet">
+          <item>@string/xd_dashboard_greet1</item>
+          <item>@string/xd_dashboard_greet2</item>
+          <item>@string/xd_dashboard_greet3</item>
+          <item>@string/xd_dashboard_greet4</item>
+          <item>@string/xd_dashboard_greet5</item>
+          <item>@string/xd_dashboard_greet6</item>
+          <item>@string/xd_dashboard_greet7</item>
+          <item>@string/xd_dashboard_greet8</item>
+          <item>@string/xd_dashboard_greet9</item>
+          <item>@string/xd_dashboard_greet10</item>
+          <item>@string/xd_dashboard_greet11</item>
+          <item>@string/xd_dashboard_greet12</item>
+     </string-array>
+
 </resources>

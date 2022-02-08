@@ -41,6 +41,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.core.graphics.Insets;
@@ -69,7 +70,8 @@ import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
 
 import java.net.URISyntaxException;
-import java.util.Set;
+import java.util.*;
+import java.lang.*;
 
 /** Settings homepage activity */
 public class SettingsHomepageActivity extends FragmentActivity implements
@@ -181,6 +183,14 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         setupEdgeToEdge();
         setContentView(R.layout.xd_dashboard_container);
+
+        // xdUI Dashboard
+        // Generate random welcome massage as title header
+        final TextView textView = findViewById(R.id.homepage_title);
+        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
+        Random genmsg = new Random();
+        int  n = genmsg.nextInt(msg.length-1);
+        textView.setText(msg[n]);
 
         mSplitController = SplitController.getInstance();
         mIsTwoPane = mSplitController.isActivityEmbedded(this);

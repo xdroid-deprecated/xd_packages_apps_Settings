@@ -29,7 +29,19 @@
     <string name="xd_about">About xdroid</string>
 
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet">What are you looking for?</string>
+    <string name="xd_dashboard_greet_default">What are you looking for?</string>
+    <string name="xd_dashboard_greet1">What are you looking for?</string>
+    <string name="xd_dashboard_greet2">Looking for something?</string>
+    <string name="xd_dashboard_greet3">Need to change anything?</string>
+    <string name="xd_dashboard_greet4">Search for something?</string>
+    <string name="xd_dashboard_greet5">Need anything?</string>
+    <string name="xd_dashboard_greet6">Let's do something cool</string>
+    <string name="xd_dashboard_greet7">Got something to change?</string>
+    <string name="xd_dashboard_greet8">Say hi, to the world?</string>
+    <string name="xd_dashboard_greet9">Hi, welcome to mnmlist</string>
+    <string name="xd_dashboard_greet10">Tweak your device here!</string>
+    <string name="xd_dashboard_greet11">Trying to fing something?</string>
+    <string name="xd_dashboard_greet12">Hey, There i'am using xdroid</string>
     <string name="xd_dashboard_device">About phone</string>
     <string name="xd_dashboard_account">Account</string>
     <string name="xd_dashboard_network">Internet</string>
