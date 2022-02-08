@@ -22,12 +22,12 @@ import androidx.annotation.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class xdVersionPreferenceController extends BasePreferenceController {
+public class aospVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String XD_REVISION_PROP = "ro.xdroid.revision";
+    private static final String AOSP_REVISION_PROP = "ro.aosp.revision";
 
-    public xdVersionPreferenceController(Context context, String preferenceKey) {
+    public aospVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
 
@@ -38,7 +38,7 @@ public class xdVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(XD_REVISION_PROP,
+        return SystemProperties.get(AOSP_REVISION_PROP,
                 mContext.getString(R.string.device_info_default));
     }
 }
