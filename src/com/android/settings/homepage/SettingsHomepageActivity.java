@@ -74,7 +74,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_homepage_container);
+        setContentView(R.layout.xd_dashboard_container);
 
         final View appBar = findViewById(R.id.app_bar_container);
         appBar.setMinimumHeight(getSearchBoxHeight());
@@ -115,7 +115,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
 
         mSuggestionView = findViewById(R.id.suggestion_content);
-        mHomepageView = findViewById(R.id.settings_homepage_container);
+        mHomepageView = findViewById(R.id.xd_dashboard_container);
         // Hide the homepage for preparing the suggestion.
         mHomepageView.setVisibility(View.GONE);
         // Schedule a timer to show the homepage and hide the suggestion on timeout.

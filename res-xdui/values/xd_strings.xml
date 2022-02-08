@@ -37,7 +37,8 @@
     <string name="xd_dashboard_display">Display</string>
     <string name="xd_dashboard_battery">Battery</string>
     <string name="xd_dashboard_sound">Sound</string>
-    <string name="xd_dashboard_apps">Apps</string>    
+    <string name="xd_dashboard_apps">Apps</string>
+    <string name="xd_dashboard_notif">Notifications</string>
     <string name="xd_dashboard_storage">Storage</string>
     <string name="xd_dashboard_privacy">Privacy</string>    
     <string name="xd_dashboard_location">Location</string>

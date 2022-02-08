@@ -113,6 +113,14 @@
         <item name="android:layout_marginTop">16dp</item>
     </style>
 
+    <style name="xd_dashboard_header_title" parent="CollapsingToolbarTitle.Expanded">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">75dp</item>
+        <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
+        <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
+    </style>
+
     <style name="xd_dashboard_search">
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
@@ -131,7 +139,7 @@
     </style>
 
     <style name="xd_dashboard_about_phone">
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
         <item name="android:background">@drawable/xd_pref_card_sin</item>

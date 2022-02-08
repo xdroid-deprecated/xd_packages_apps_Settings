@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018 The Android Open Source Project
+     Copyright (C) 2022 The xdroidOSS & xyzprjkt
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +19,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/settings_homepage_container"
+    android:id="@+id/xd_dashboard_container"
     android:fitsSystemWindows="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -78,8 +79,8 @@
 
             <TextView
                 android:id="@+id/homepage_title"
-                android:text="@string/settings_label"
-                style="@style/HomepageTitleText"/>
+                android:text="@string/xd_dashboard_greet"
+                style="@style/xd_dashboard_header_title"/>
 
             <FrameLayout
                 android:id="@+id/suggestion_content"
