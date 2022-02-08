@@ -43,6 +43,13 @@
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
+        <Preference
+            android:key="emergency_info"
+            settings:layout="@layout/xd_pref_card_bot"
+            android:title="@string/emergency_info_title"
+            android:summary="@string/summary_placeholder"
+            settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController"/>
+
         <!-- Account name -->
         <Preference
             android:key="branded_account"
@@ -50,13 +57,6 @@
             android:title="@string/my_device_info_account_preference_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
-
-        <Preference
-            android:key="emergency_info"
-            settings:layout="@layout/xd_pref_card_bot"
-            android:title="@string/emergency_info_title"
-            android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.accounts.EmergencyInfoPreferenceController"/>
 
     </PreferenceCategory>
 
