@@ -34,6 +34,7 @@
     <string name="xd_dashboard_battery">Baterai</string>
     <string name="xd_dashboard_sound">Suara</string>
     <string name="xd_dashboard_apps">Aplikasi</string>
+    <string name="xd_dashboard_notif">Notifikasi</string>
     <string name="xd_dashboard_storage">Penyimpanan</string>
     <string name="xd_dashboard_privacy">Privasi</string>
     <string name="xd_dashboard_location">Lokasi</string>
