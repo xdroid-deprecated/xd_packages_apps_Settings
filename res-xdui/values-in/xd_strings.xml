@@ -70,7 +70,7 @@
     <string name="xd_about_core_team_cat">Pengembang utama</string>
     <string name="xd_about_contributor_cat">Kontributor</string>
     <!-- xd. About -->
-    <string name="xd_about_desc">xdroid adalah ROM kustom berbasis CAF yang berfokus pada UI sederhana dan minimalis dengan tetap menjaga kelancaran dan pengoptimalan yang disediakan oleh Forum Code Aurora.</string>
+    <string name="xd_about_desc">xdroid adalah ROM kustom berbasis AOSP yang berfokus pada UI sederhana dan minimalis dengan tetap menjaga kelancaran dan pengoptimalan yang disediakan oleh AOSP.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
     <string name="xd_about_core_xyzuan_role">Pendiri, Pengembang Utama, dan Perancang UI</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
