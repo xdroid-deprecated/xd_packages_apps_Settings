@@ -42,10 +42,20 @@
             settings:searchable="false"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+        <!-- aosp. version -->
+        <Preference
+            android:key="aosp_version"
+            android:title="@string/aosp_revision"
+            android:summary="@string/summary_placeholder"
+            settings:layout="@layout/xd_pref_card_mid"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.aospVersionPreferenceController"/>
+
+
         <!-- xd. version -->
         <Preference
             android:key="xd_version"
-            android:title="@string/xd_version"
+            android:title="@string/xd_revision"
             android:summary="@string/summary_placeholder"
             settings:layout="@layout/xd_pref_card_bot"
             settings:enableCopying="true"
