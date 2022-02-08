@@ -68,7 +68,7 @@
     <string name="xd_category_brightness">Яркость</string>
     <string name="xd_about_core_team_cat">Главный разработчик</string>
     <!-- xd. About -->
-    <string name="xd_about_desc">xdroid - это кастомная прошивка, основанное на CAF, которое фокусируется на простом и минималистичном пользовательском интерфейсе, сохраняя при этом плавность и оптимизацию, обеспечиваемую форумом Code Aurora.</string>
+    <string name="xd_about_desc">xdroid - это кастомная прошивка, основанное на AOSP, которое фокусируется на простом и минималистичном пользовательском интерфейсе, сохраняя при этом плавность и оптимизацию, обеспечиваемую форумом AOSP.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
     <string name="xd_about_core_xyzuan_role">Основатель, ведущий разработчик и UI дизайнер</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>

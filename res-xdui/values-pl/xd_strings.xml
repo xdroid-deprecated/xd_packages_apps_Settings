@@ -68,7 +68,7 @@
     <string name="xd_category_brightness">Jasność</string>
     <string name="xd_about_core_team_cat">Główny programista</string>
     <!-- xd. About -->
-    <string name="xd_about_desc">xdroid to niestandardowy ROM oparty na CAF, który koncentruje się na prostym i minimalnym interfejsie użytkownika, utrzymując jednocześnie płynność i optymalizację zapewnioną przez Code Aurora Forum.</string>
+    <string name="xd_about_desc">xdroid to niestandardowy ROM oparty na AOSP, który koncentruje się na prostym i minimalnym interfejsie użytkownika, utrzymując jednocześnie płynność i optymalizację zapewnioną przez AOSP.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
     <string name="xd_about_core_xyzuan_role">Założyciel, główny programista i projektant interfejsu użytkownika</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
