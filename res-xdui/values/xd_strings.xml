@@ -22,6 +22,10 @@
     <!-- AOSP Revision -->
     <string name="aosp_revision">AOSP revision</string>
 
+    <!-- xd. Placeholder -->
+    <string name="xd_title_placeholder">loremipsum</string>
+    <string name="xd_summary_placeholder">loremipsum</string>
+
     <!-- xd. fake toolbar -->
     <string name="xd_firmware_info">Firmware information</string>
     <string name="xd_hardware_info">Hardware information</string>
@@ -113,5 +117,10 @@
     <string name="xd_camera_mp_summary">Unknown</string>
     <string name="xd_screen_type">Screen</string>
     <string name="xd_screen_type_summary">Unknown</string>
-    
+
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">Your devices is not officially supported!</string>
+    <string name="xd_build_maintained_summary">Maintained by %s</string>
+    <string name="xd_build_unmaintained_summary">This build are not maintained officially</string>
+
 </resources>
