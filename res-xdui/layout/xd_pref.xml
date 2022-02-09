@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@android:id/title"
             android:layout_alignStart="@android:id/title"
-            android:maxLines="10"
+            android:singleLine="true"
             android:layout_marginTop="1dp"
             style="@style/xd_text_secondary" />
 
