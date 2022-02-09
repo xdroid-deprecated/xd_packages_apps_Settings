@@ -80,14 +80,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.xd_dashboard_container);
 
-        // xdUI Dashboard
-        // Generate random welcome massage as title header
-        final TextView textView = findViewById(R.id.homepage_title);
-        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
-        Random genmsg = new Random();
-        int  n = genmsg.nextInt(msg.length-1);
-        textView.setText(msg[n]);
-
         final View appBar = findViewById(R.id.app_bar_container);
         appBar.setMinimumHeight(getSearchBoxHeight());
         initHomepageContainer();
@@ -117,6 +109,14 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
+
+        // xdUI Dashboard
+        // Generate random welcome massage as title header
+        final TextView textView = findViewById(R.id.homepage_title);
+        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
+        Random genmsg = new Random();
+        int  n = genmsg.nextInt(msg.length-1);
+        textView.setText(msg[n]);
     }
 
     private void showSuggestionFragment() {
