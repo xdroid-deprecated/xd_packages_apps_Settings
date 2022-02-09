@@ -96,6 +96,19 @@
                 android:data="https://t.me/iszon"/>
 
         </Preference>
+        
+        <!-- Vietnamese -->
+        <Preference
+            settings:layout="@layout/xd_about_core_pref"
+            android:icon="@drawable/xd_about_unknown"
+            android:title="@string/xd_about_contributor_vi"
+            android:summary="@string/xd_about_contributor_vi_summary">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/log1cs"/>
+
+        </Preference>
     </PreferenceCategory>
     
 </PreferenceScreen>
