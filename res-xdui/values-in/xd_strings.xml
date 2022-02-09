@@ -98,4 +98,8 @@
     <string name="xd_gpu">GPU</string>
     <string name="xd_camera_mp">Kamera</string>
     <string name="xd_screen_type">Layar</string>
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">Perangkat ini tidak didukung secara resmi</string>
+    <string name="xd_build_maintained_summary">Dipelihara oleh %s</string>
+    <string name="xd_build_unmaintained_summary">Build ini tidak didukung secara resmi</string>
 </resources>
