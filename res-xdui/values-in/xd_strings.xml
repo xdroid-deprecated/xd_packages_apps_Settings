@@ -25,7 +25,19 @@
     <string name="xd_about_phone">Tentang ponsel</string>
     <string name="xd_about">Tentang xdroid</string>
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet">Apa yang sedang anda cari?</string>
+    <string name="xd_dashboard_greet_default">Apa yang sedang anda cari?</string>
+    <string name="xd_dashboard_greet1">Apa yang sedang anda cari?</string>
+    <string name="xd_dashboard_greet2">Sedang mencari sesuatu?</string>
+    <string name="xd_dashboard_greet3">Anda butuh sesuatu?</string>
+    <string name="xd_dashboard_greet4">Ingin mengubah sesuatu?</string>
+    <string name="xd_dashboard_greet5">Selamat datang di era mnmlist</string>
+    <string name="xd_dashboard_greet6">Ayo melakukan sesuatu yang keren</string>
+    <string name="xd_dashboard_greet7">Madosi nopo nggeh?</string>
+    <string name="xd_dashboard_greet8">Naon anu anjeun milarian sobat?</string>
+    <string name="xd_dashboard_greet9">He rek! ndoleki opo?</string>
+    <string name="xd_dashboard_greet10">Halo! Sugeng rawuh ing xdroid</string>
+    <string name="xd_dashboard_greet11">Apo yang ang cari?</string>
+    <string name="xd_dashboard_greet12">Wilujeng sumping ka xdroid</string>
     <string name="xd_dashboard_device">Tentang ponsel</string>
     <string name="xd_dashboard_account">Akun</string>
     <string name="xd_dashboard_network">Internet</string>
