@@ -105,6 +105,8 @@
     <string name="xd_about_contributor_rdclxvi_role">Indonesia Translator</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
     <string name="xd_about_contributor_iszon_role">Polish Translator</string>
+    <string name="xd_about_contributor_vi">log1cs</string>
+    <string name="xd_about_contributor_vi_summary">Vietnamese Translator</string>
 
     <!-- xd. About Phone -->
     <string name="xd_device_name">Device Name</string>
