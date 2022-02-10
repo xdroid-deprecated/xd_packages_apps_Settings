@@ -28,7 +28,7 @@
     <com.google.android.material.appbar.AppBarLayout
       android:theme="@style/Theme.CollapsingToolbar.Settings"
       android:id="@id/app_bar"
-      android:background="?android:colorPrimary"
+      android:background="@color/xd_base_layout_header"
       android:fitsSystemWindows="true"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
@@ -60,6 +60,7 @@
               android:id="@id/action_bar"
               android:layout_width="fill_parent"
               android:layout_height="?actionBarSize"
+              android:layout_marginTop="15dp"
               android:transitionName="shared_element_view"
               app:layout_collapseMode="pin" />
 
@@ -70,6 +71,16 @@
       android:id="@id/content_frame"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
+      android:paddingTop="25dp"
       app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:backgroundTint="@color/xd_base_layout_header"
+      android:background="@drawable/xd_base_layout_round_mask"
+      app:layout_anchor="@id/app_bar"
+      app:layout_anchorGravity="bottom"
+      android:layout_gravity="bottom"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
