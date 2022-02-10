@@ -49,8 +49,8 @@
 
     <style name="xd_pref_card_top">
         <item name="android:layout_marginBottom">2dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:background">@drawable/xd_pref_card_top</item>
         <item name="android:clipToPadding">false</item>
@@ -58,16 +58,16 @@
 
     <style name="xd_pref_card_mid">
         <item name="android:layout_marginBottom">2dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_mid</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_pref_card_bot">
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_bot</item>
         <item name="android:clipToPadding">false</item>
     </style>
@@ -75,8 +75,8 @@
     <style name="xd_pref_card_sin">
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_sin</item>
         <item name="android:clipToPadding">false</item>
     </style>
@@ -84,9 +84,9 @@
     <!-- xd. Dashboard Style -->
     
     <style name="xd_dashboard_header">
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginTop">@dimen/xd_pref_card_horizontal_padding</item>
     </style>
 
     <style name="xd_dashboard_header_title" parent="CollapsingToolbarTitle.Expanded">
@@ -100,58 +100,58 @@
     </style>
 
     <style name="xd_dashboard_about_phone">
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_sin</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_dashboard_pref_card_top">
         <item name="android:layout_marginBottom">2dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginTop">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_top</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_dashboard_pref_card_mid">
         <item name="android:layout_marginBottom">2dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_mid</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_dashboard_pref_card_bot">
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_bot</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_dashboard_pref_card_sin">
-        <item name="android:layout_marginTop">16dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginBottom">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_sin</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_about_card_top">
         <item name="android:layout_marginBottom">-1dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginTop">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_top</item>
         <item name="android:clipToPadding">false</item>
     </style>
     
     <style name="xd_about_card_bot">
         <item name="android:layout_marginTop">-1dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_bot</item>
         <item name="android:clipToPadding">false</item>
     </style>
@@ -159,17 +159,17 @@
     <!-- xd. Firmware Header Style -->
     <style name="xd_pref_card_firmware-header">
         <item name="android:layout_marginTop">4dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_firmware-header</item>
         <item name="android:clipToPadding">false</item>
     </style>
 
     <style name="xd_pref_card_sin-accent">
-        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginTop">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginStart">@dimen/xd_pref_card_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/xd_pref_card_horizontal_padding</item>
         <item name="android:background">@drawable/xd_pref_card_sin-accent</item>
         <item name="android:clipToPadding">false</item>
     </style>

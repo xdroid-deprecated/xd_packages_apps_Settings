@@ -60,7 +60,7 @@
               android:id="@id/action_bar"
               android:layout_width="fill_parent"
               android:layout_height="?actionBarSize"
-              android:layout_marginTop="15dp"
+              android:layout_marginTop="4dp"
               android:transitionName="shared_element_view"
               app:layout_collapseMode="pin" />
 
@@ -68,16 +68,33 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <FrameLayout
-      android:id="@id/content_frame"
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-      android:paddingTop="25dp"
-      app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="@dimen/xd_pref_card_horizontal_padding"
+            android:layout_marginEnd="@dimen/xd_pref_card_horizontal_padding"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="@dimen/xd_pref_card_radius"
+            app:cardElevation="0dp">
+
+          <FrameLayout
+            android:id="@id/content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xd_pref_card_horizontal_padding-negative"
+            android:layout_marginEnd="@dimen/xd_pref_card_horizontal_padding-negative"/>
+
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
 
     <FrameLayout
       android:layout_width="match_parent"
-      android:layout_height="25dp"
-      android:backgroundTint="@color/xd_base_layout_header"
+      android:layout_height="30dp"
       android:background="@drawable/xd_base_layout_round_mask"
       app:layout_anchor="@id/app_bar"
       app:layout_anchorGravity="bottom"
