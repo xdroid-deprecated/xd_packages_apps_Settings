@@ -94,7 +94,7 @@
 
     <FrameLayout
       android:layout_width="match_parent"
-      android:layout_height="30dp"
+      android:layout_height="25dp"
       android:background="@drawable/xd_base_layout_round_mask"
       app:layout_anchor="@id/app_bar"
       app:layout_anchorGravity="bottom"
