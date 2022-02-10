@@ -93,13 +93,13 @@
     <string name="xd_about_contributor_iszon">Iszon</string>
     <string name="xd_about_contributor_iszon_role">Penerjemah Polish</string>
     <!-- xd. About Phone -->
-    <string name="xd_device_name">Nama Perangkat</string>
+    <string name="xd_device_name">Nama perangkat</string>
     <string name="xd_chipset_type">Chipset</string>
     <string name="xd_gpu">GPU</string>
     <string name="xd_camera_mp">Kamera</string>
     <string name="xd_screen_type">Layar</string>
     <!-- xd. Build Status -->
     <string name="xd_build_status">Perangkat ini tidak didukung secara resmi</string>
-    <string name="xd_build_maintained_summary">Dipelihara oleh %s</string>
+    <string name="xd_build_maintained_summary">Dimaintain oleh %s</string>
     <string name="xd_build_unmaintained_summary">Build ini tidak didukung secara resmi</string>
 </resources>
