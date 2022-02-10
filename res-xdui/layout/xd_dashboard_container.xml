@@ -21,34 +21,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.core.widget.NestedScrollView
-        android:id="@+id/main_content_scrollable_container"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         app:layout_behavior="com.android.settings.widget.HomepageAppBarScrollingViewBehavior">
-
-        <LinearLayout
-            android:id="@+id/homepage_container"
+    
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_marginStart="@dimen/xd_pref_card_horizontal_padding"
+            android:layout_marginEnd="@dimen/xd_pref_card_horizontal_padding"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="@dimen/xd_pref_card_radius"
+            app:cardElevation="0dp">
 
-            <FrameLayout
-                android:id="@+id/contextual_cards_content"
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/main_content_scrollable_container"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/contextual_card_side_margin"
-                android:layout_marginEnd="@dimen/contextual_card_side_margin"/>
+                android:layout_height="match_parent">
 
-            <FrameLayout
-                android:id="@+id/main_content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:animateLayoutChanges="true"
-                android:background="?android:attr/windowBackground"/>
+                <LinearLayout
+                    android:id="@+id/homepage_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
+                    <FrameLayout
+                        android:id="@+id/contextual_cards_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <FrameLayout
+                        android:id="@+id/main_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/xd_pref_card_horizontal_padding-negative"
+                        android:layout_marginEnd="@dimen/xd_pref_card_horizontal_padding-negative"
+                        android:animateLayoutChanges="true"
+                        android:background="?android:attr/windowBackground"/>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
