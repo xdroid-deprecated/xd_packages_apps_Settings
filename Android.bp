@@ -87,6 +87,7 @@ android_library {
         "lottie",
         "SettingsGoogle-lib",
         "xd.xdui-preference",
+        "faceunlock_framework",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
