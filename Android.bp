@@ -46,11 +46,16 @@ android_library {
 
     resource_dirs: ["res",
                     "res-xdui",
+                    "res-mnmlist",
                     "res-pixel",
     ],
 
     srcs: ["src/**/*.java",
            "src-xdui/**/*.java",
+           "src-mnmlist/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.xdroid.mnmlist",
     ],
 
     static_libs: [
