@@ -86,6 +86,7 @@ android_library {
         "lottie",
         "xd.xdui-preference",
         "windowExtLib",
+        "faceunlock_framework",
     ],
 
     libs: [
