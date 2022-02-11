@@ -43,6 +43,13 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"/>
 
     <Preference
+        android:key="top_level_mnmlist"
+        android:order="-86"
+        android:title="@string/mnmlist_title"
+        settings:layout="@layout/xd_dashboard_pref_sin"
+        android:fragment="com.xd.mnmlist.Dashboard"/>
+
+    <Preference
         android:key="top_level_display"
         android:order="-85"
         android:title="@string/xd_dashboard_display"
