@@ -18,4 +18,46 @@
      android:title="@string/lockscreen_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+          android:key="lockscreen_small_clock"
+          android:title="@string/lockscreen_small_clock_title"
+          android:summary="@string/lockscreen_small_clock_summary"
+          android:defaultValue="false" />
+
+     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+          android:key="lockscreen_battery_info"
+          android:title="@string/lockscreen_battery_info_title"
+          android:summary="@string/lockscreen_battery_info_summary"
+          android:defaultValue="true" />
+
+     <!-- AOD on charge -->
+     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+          android:key="doze_on_charge"
+          android:defaultValue="false"
+          android:title="@string/doze_on_charge_title"
+          android:summary="@string/doze_on_charge_summary" />
+
+     <PreferenceCategory
+          android:key="lockscreen_media_art_options"
+          android:title="@string/lockscreen_media_art_category_title"
+          android:order="1002">
+
+          <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+               android:key="keygaurd_media_art"
+               android:title="@string/keygaurd_media_art_title"
+               android:summary="@string/keygaurd_media_art_summary"
+               android:defaultValue="false" />
+
+          <com.xd.mnmlist.preferences.CustomSystemSeekBarPreference
+               android:key="lockscreen_media_blur"
+               android:title="@string/lockscreen_media_blur_title"
+               android:dependency="keygaurd_media_art"
+               settings:allowEditText="true"
+               android:max="25"
+               android:min="0"
+               android:defaultValue="25"
+               settings:units="dp"/>
+     
+    </PreferenceCategory>
+
 </PreferenceScreen>
