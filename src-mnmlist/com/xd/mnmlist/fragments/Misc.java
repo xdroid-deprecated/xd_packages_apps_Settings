@@ -49,7 +49,12 @@ import java.util.List;
 public class Misc extends SettingsPreferenceFragment {
 
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
+    private static final String KEY_GAMES_SPOOF = "use_games_spoof";
+
+    private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
+
     private Preference mShowCutoutForce;
+    private SwitchPreference mGamesSpoof;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +72,21 @@ public class Misc extends SettingsPreferenceFragment {
         if (TextUtils.isEmpty(displayCutout)) {
             prefSet.removePreference(mShowCutoutForce);
         }
+
+        mGamesSpoof = (SwitchPreference) findPreference(KEY_GAMES_SPOOF);
+        mGamesSpoof.setChecked(SystemProperties.getBoolean(SYS_GAMES_SPOOF, false));
+        mGamesSpoof.setOnPreferenceChangeListener(this);
+
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mGamesSpoof) {
+            boolean value = (Boolean) newValue;
+            SystemProperties.set(SYS_GAMES_SPOOF, value ? "true" : "false");
+            return true;
+        }
+        return false;
     }
 
     @Override
