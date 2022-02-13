@@ -56,11 +56,9 @@ public class Interfaces extends SettingsPreferenceFragment
     private static final int BATTERY_PERCENT_HIDDEN = 0;
     //private static final int BATTERY_PERCENT_SHOW_INSIDE = 1;
     //private static final int BATTERY_PERCENT_SHOW_OUTSIDE = 2;
-    private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
     private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
 
-    private SystemSettingMasterSwitchPreference mEdgeLightning;
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
     private int mBatteryPercentValue;
@@ -113,13 +111,6 @@ public class Interfaces extends SettingsPreferenceFragment
         mCombinedIcons.setChecked(enabled);
         mCombinedIcons.setOnPreferenceChangeListener(this);
 
-        mEdgeLightning = (SystemSettingMasterSwitchPreference)
-                findPreference(KEY_EDGE_LIGHTNING);
-        enabled = Settings.System.getIntForUser(resolver,
-                KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
-        mEdgeLightning.setChecked(enabled);
-        mEdgeLightning.setOnPreferenceChangeListener(this);
-
         mNetworkTraffic = (SystemSettingMasterSwitchPreference)
                 findPreference(KEY_NETWORK_TRAFFIC);
         enabled = Settings.System.getIntForUser(resolver,
@@ -153,11 +144,6 @@ public class Interfaces extends SettingsPreferenceFragment
             boolean enabled = (boolean) newValue;
             Settings.Secure.putInt(resolver,
                     COBINED_STATUSBAR_ICONS, enabled ? 1 : 0);
-            return true;
-        } else if (preference == mEdgeLightning) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
-                    value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         } else if (preference == mNetworkTraffic) {
             boolean value = (Boolean) newValue;
