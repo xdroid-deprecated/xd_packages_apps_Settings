@@ -25,11 +25,6 @@
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
-    <SwitchPreference
-        android:key="tap_to_wake"
-        android:title="@string/tap_to_wake"
-        android:summary="@string/tap_to_wake_summary_custom"/>
-
     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_sleep_gesture_title"
