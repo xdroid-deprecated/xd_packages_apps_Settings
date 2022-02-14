@@ -103,37 +103,18 @@ public class TopLevelSettings extends DashboardFragment implements
         if (screen == null) {
             return;
         }
-        // Tint the homepage icons
-        final int tintColor = Utils.getHomepageIconColor(getContext());
-        final int count = screen.getPreferenceCount();
-        for (int i = 0; i < count; i++) {
-            final Preference preference = screen.getPreference(i);
-            if (preference == null) {
-                break;
-            }
-            final Drawable icon = preference.getIcon();
-            if (icon != null) {
-                icon.setTint(tintColor);
-            }
-        }
-
         // xdUI Dashboard
         // Mask the unlisted references in dashboard.
         for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
             Preference pref = getPreferenceScreen().getPreference(i);
             if (pref.isVisible() && pref.getTitle() != null && 
                 pref.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_sin && 
                 pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot && 
                 pref.getLayoutResource() != R.layout.xd_dashboard_phone ) {
                 pref.setLayoutResource(R.layout.xd_dashboard_pref_mid);
             }
         }
-    }
-
-    @Override
-    protected boolean shouldForceRoundedIcon() {
-        return getContext().getResources()
-                .getBoolean(R.bool.config_force_rounded_icon_TopLevelSettings);
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

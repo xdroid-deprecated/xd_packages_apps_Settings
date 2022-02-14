@@ -157,11 +157,6 @@
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
 
-        <Preference
-            android:key="screensaver"
-            android:title="@string/screensaver_settings_title"
-            android:fragment="com.android.settings.dream.DreamSettings"/>
-
         <SwitchPreference
             android:key="camera_gesture"
             android:title="@string/camera_gesture_title"
@@ -170,11 +165,6 @@
         <SwitchPreference
             android:key="lift_to_wake"
             android:title="@string/lift_to_wake_title"/>
-
-        <SwitchPreference
-            android:key="tap_to_wake"
-            android:title="@string/tap_to_wake"
-            android:summary="@string/tap_to_wake_summary"/>
 
         <ListPreference
             android:key="theme"

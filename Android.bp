@@ -46,11 +46,16 @@ android_library {
 
     resource_dirs: ["res",
                     "res-xdui",
+                    "res-mnmlist",
                     "res-pixel",
     ],
 
     srcs: ["src/**/*.java",
            "src-xdui/**/*.java",
+           "src-mnmlist/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.xdroid.mnmlist",
     ],
 
     static_libs: [
@@ -81,6 +86,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "SettingsGoogle-lib",
+        "xd.xdui-preference",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
