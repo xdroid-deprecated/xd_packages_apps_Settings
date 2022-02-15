@@ -19,9 +19,9 @@
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
     <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
+    <string name="xd_tap_about">Sobre xdroid</string>
+    <string name="xd_tap_about_summary">Presiona aquí para saber más de xdroid</string>
+    <string name="gestures_title">Gestos</string>
     <string name="gestures_summary">Double tap gesture • System navigation</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Advance reboot • Back haptic</string>
