@@ -25,9 +25,9 @@
     <string name="gestures_title">Gestures</string>
     <string name="gestures_summary">Double tap gesture • System navigation</string>
     <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Advance reboot • Back haptic</string>
+    <string name="misc_summary">Advanced reboot • Back haptic</string>
     <string name="interfaces_title">System interfaces</string>
-    <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
+    <string name="interfaces_summary"> Clock • Battery • Icons • Network traffic</string>
     <string name="interfaces_style_title">System style</string>
     <string name="interfaces_statusbar_title">Statusbar</string>
     <string name="interfaces_battery_title">Battery</string>
@@ -36,7 +36,7 @@
     <string name="quicksettings_title">Quick Settings</string>
     <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
     <string name="lockscreen_title">Lock Screen</string>
-    <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
+    <string name="lockscreen_summary">Always on display • Media Art • Charging info</string>
 
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
