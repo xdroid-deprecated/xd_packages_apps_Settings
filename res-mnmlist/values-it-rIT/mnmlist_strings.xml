@@ -18,44 +18,44 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Double tap gesture • System navigation</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Advance reboot • Back haptic</string>
-    <string name="interfaces_title">System interfaces</string>
-    <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
-    <string name="interfaces_style_title">System style</string>
-    <string name="interfaces_statusbar_title">Statusbar</string>
-    <string name="interfaces_battery_title">Battery</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="buttons_summary">Volume wake • Playback control</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="mnmlist_dashboard_title">Che cos\'è xdroid?</string>
+    <string name="xd_tap_about">Informazioni su xdroid</string>
+    <string name="xd_tap_about_summary">Tocca qui per saperne di più su xdroid</string>
+    <string name="gestures_title">Gesti</string>
+    <string name="gestures_summary">Gesto doppio tocco • Navigazione del sistema</string>
+    <string name="misc_title">Impostazioni varie</string>
+    <string name="misc_summary">Riavvio avanzato • tasto indietro aptico</string>
+    <string name="interfaces_title">Interfaccia di sistema</string>
+    <string name="interfaces_summary"> Orologio • Batteria • Icona • traffico dati</string>
+    <string name="interfaces_style_title">Stile di sistema</string>
+    <string name="interfaces_statusbar_title">Barra di stato</string>
+    <string name="interfaces_battery_title">Batteria</string>
+    <string name="buttons_title">Pulsanti</string>
+    <string name="buttons_summary">Risveglio con volume • Controllo riproduzione</string>
+    <string name="quicksettings_title">Impostazioni rapide</string>
+    <string name="quicksettings_summary">Cursore luminosità • Luminosità automatica</string>
+    <string name="lockscreen_title">Blocco schermo</string>
+    <string name="lockscreen_summary">Always on display • Media Art • Informazioni di ricarica</string>
+    <string name="three_finger_gesture">Scorri per fare uno screenshot</string>
+    <string name="three_finger_gesture_summary">Scorri in giù con tre dita per scattare uno screenshot</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Abilita riavvio avanzato</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra le opzioni per recupero e bootloader nel menù di spegnimento</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_custom">Tocca due volte qualsiasi punto dello schermo per riattivare o sospendere il dispositivo</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Tocca per spegnere</string>
+    <string name="double_tap_sleep_gesture_summary">Doppio tocco sulla barra di stato per sospendere il dispositivo</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
+    <string name="statusbar_items_title">Elementi della barra di stato</string>
+    <string name="statusbar_items_summary">Abilita/Disabilita gli elementi nella barra di stato</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controllo di riproduzione</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento, la pressione prolungata dei tasti del volume cambierà le tracce musicali</string>
     <!-- Customization Categories/Fragment Titles -->
-    <string name="clocksettings_title">Clock Settings</string>
-    <string name="clocksettings_summary">Statusbar clock settings</string>
-    <string name="status_bar_clock_date_title">Clock and Date</string>
+    <string name="clocksettings_title">Impostazioni Orologio</string>
+    <string name="clocksettings_summary">Impostazioni orologio della barra di stato</string>
+    <string name="status_bar_clock_date_title">Data e Ora</string>
     <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
