@@ -19,22 +19,22 @@
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
     <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
+    <string name="xd_tap_about">Thông tin về xdroid</string>
     <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
+    <string name="gestures_title">Cử chỉ</string>
     <string name="gestures_summary">Double tap gesture • System navigation</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">Advance reboot • Back haptic</string>
     <string name="interfaces_title">System interfaces</string>
     <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
     <string name="interfaces_style_title">System style</string>
-    <string name="interfaces_statusbar_title">Statusbar</string>
-    <string name="interfaces_battery_title">Battery</string>
+    <string name="interfaces_statusbar_title">Thanh trạng thái</string>
+    <string name="interfaces_battery_title">Pin</string>
     <string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Volume wake • Playback control</string>
     <string name="quicksettings_title">Quick Settings</string>
     <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="lockscreen_title">Màn hình khóa</string>
     <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
@@ -51,7 +51,7 @@
     <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">Khi màn hình tắt, giữ phím âm lượng để chuyển bài hát</string>
     <!-- Customization Categories/Fragment Titles -->
     <string name="clocksettings_title">Clock Settings</string>
     <string name="clocksettings_summary">Statusbar clock settings</string>
@@ -59,17 +59,17 @@
     <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_clock_style_title">Kiểu đồng hồ</string>
+    <string name="status_bar_clock_style_right">Phải</string>
+    <string name="status_bar_clock_style_center">Giữa</string>
+    <string name="status_bar_clock_style_left">Trái</string>
     <string name="status_bar_date_title">Date settings</string>
     <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_info">Đồng hồ dạng 24 giờ đã được bật</string>
     <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Small</string>
     <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
+    <string name="clock_seconds_display">Hiển thị giây</string>
     <string name="clock_date_display">Date</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_display_none">Don\'t show</string>
@@ -102,22 +102,22 @@
     <string name="linear_lightness_title">Use a custom lightness scale</string>
     <string name="white_luminance_title">Brightness</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Biểu tượng 4G</string>
+    <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G thay vì biểu tượng LTE</string>
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Battery Customizations</string>
-    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Dọc (mặc định)</string>
+    <string name="status_bar_battery_style_circle">Tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Tròn (chấm)</string>
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <!-- Volume rocker wake -->
