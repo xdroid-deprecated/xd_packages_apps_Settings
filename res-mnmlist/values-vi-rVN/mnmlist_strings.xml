@@ -18,9 +18,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">What is xdroid?</string>
+    <string name="mnmlist_dashboard_title">xdroid là gì?</string>
     <string name="xd_tap_about">Thông tin về xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
+    <string name="xd_tap_about_summary">Bấm vào đây để biết thêm về xdroid</string>
     <string name="gestures_title">Cử chỉ</string>
     <string name="gestures_summary">Double tap gesture • System navigation</string>
     <string name="misc_title">Miscellaneous</string>
@@ -36,8 +36,8 @@
     <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
     <string name="lockscreen_title">Màn hình khóa</string>
     <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
+    <string name="three_finger_gesture_summary">Vuốt 3 ngón tay từ trên xuống dưới để chụp ảnh màn hình</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
@@ -114,26 +114,26 @@
     <string name="status_bar_battery_style_dotted_circle">Tròn (chấm)</string>
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Phần trăm pin</string>
     <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_inside">Bên trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng pin</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
+    <string name="double_tap_title">Chạm 2 lần vào màn hình</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_title">Thanh độ sáng</string>
     <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_brightness_position_bottom_title">Thanh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh độ sáng phía dưới bảng cài đặt nhanh</string>
+    <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
+    <string name="qs_show_auto_brightness_summary">Hiển thị biểu tượng độ sáng tự động gần thanh độ sáng</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
@@ -141,11 +141,11 @@
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- General strings -->
-    <string name="default_string">Default</string>
-    <string name="unit_seconds">Second(s)</string>
+    <string name="default_string">Mặc định</string>
+    <string name="unit_seconds">Giây(s)</string>
     <!-- Lockscreen media art -->
     <string name="lockscreen_media_art_category_title">Media art</string>
     <string name="keygaurd_media_art_title">Show media art</string>
@@ -180,8 +180,8 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Mở khóa tức thì khi mà nhập đúng PIN/mật khẩu</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
@@ -190,10 +190,10 @@
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_title">Cử chỉ toàn màn hình</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
+    <string name="short_label">Ngắn</string>
+    <string name="long_label">Dài</string>
 </resources>
