@@ -1,0 +1,5 @@
+files:
+  - source: /res-mnmlist/values/mnmlist_strings.xml
+    translation: /res-mnmlist/values-%android_code%/%original_file_name%
+  - source: /res-xdui/values/xd_strings.xml
+    translation: /res-xdui/values-%android_code%/%original_file_name%
