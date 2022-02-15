@@ -17,7 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
-    <string name="mnmlist_title">mnmlist</string>
+    <string name="mnmlist_title">mmmlist</string>
     <string name="mnmlist_dashboard_title">What is xdroid?</string>
     <string name="xd_tap_about">About xdroid</string>
     <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
