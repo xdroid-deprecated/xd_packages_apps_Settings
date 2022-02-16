@@ -18,182 +18,182 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Double tap gesture • System navigation</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Advance reboot • Back haptic</string>
-    <string name="interfaces_title">System interfaces</string>
-    <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
-    <string name="interfaces_style_title">System style</string>
-    <string name="interfaces_statusbar_title">Statusbar</string>
-    <string name="interfaces_battery_title">Battery</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="buttons_summary">Volume wake • Playback control</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="mnmlist_dashboard_title">xdroid nedir?</string>
+    <string name="xd_tap_about">Xdroid hakkında</string>
+    <string name="xd_tap_about_summary">Xdroid hakkında daha fazla bilgi almak için tıkla</string>
+    <string name="gestures_title">Hareketler</string>
+    <string name="gestures_summary">Çift dokunma hareketi</string>
+    <string name="misc_title">Detaylı Özellikler</string>
+    <string name="misc_summary">Geliştirilmiş yeniden başlatma</string>
+    <string name="interfaces_title">Sistem arayüzü</string>
+    <string name="interfaces_summary">Saat • Batarya • İkonlar • Trafik göstergesi</string>
+    <string name="interfaces_style_title">Sistem stili</string>
+    <string name="interfaces_statusbar_title">Durum çubuğu</string>
+    <string name="interfaces_battery_title">Batarya</string>
+    <string name="buttons_title">Butonlar</string>
+    <string name="buttons_summary">Ses uyandırma • Oynatma Kontrolü</string>
+    <string name="quicksettings_title">Hızlı ayarlar</string>
+    <string name="quicksettings_summary">Parlaklık çubuğu • Otomatik parlaklık</string>
+    <string name="lockscreen_title">Kilit ekranı</string>
+    <string name="lockscreen_summary">Sürekli açık ekran • Medya resmi • Şarj bilgisi</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydır</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydır</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Gelişmiş yeniden başlatmayı etkinleştir</string>
+    <string name="global_actions_advanced_reboot_summary">Güç menüsünde kurtarma ve ön yükleyici seçeneklerini göster</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_custom">Cihazı uyandırmak veya uyutmak için ekranın herhangi bir yerine çift dokunun</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Uyutmak için kilit ekranına çift dokunun</string>
+    <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
+    <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
+    <string name="statusbar_items_summary">Durum çubuğu ögelerini etkinleştir/kapat</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Oynatma kontrolü</string>
+    <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Customization Categories/Fragment Titles -->
-    <string name="clocksettings_title">Clock Settings</string>
-    <string name="clocksettings_summary">Statusbar clock settings</string>
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="clocksettings_title">Saat ayarları</string>
+    <string name="clocksettings_summary">Durum çubuğu saat ayarları</string>
+    <string name="status_bar_clock_date_title">Saat ve Tarih</string>
+    <string name="status_bar_clock_date_summary">Durum çubuğu saati ve tarihini özelleştirin</string>
+    <string name="status_bar_clock_title">Saat ayarları</string>
+    <string name="status_bar_clock_show">Saati ve tarihi göster</string>
+    <string name="status_bar_clock_style_title">Saat stili</string>
+    <string name="status_bar_clock_style_right">Sağ</string>
+    <string name="status_bar_clock_style_center">Merkez</string>
+    <string name="status_bar_clock_style_left">Sol</string>
+    <string name="status_bar_date_title">Tarih ayarları</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
+    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="status_bar_am_pm_hidden">Gizli (varsayılan)</string>
+    <string name="clock_seconds_display">Saniyeleri göster</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatten önce özel tarihi göster</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı boyutu</string>
+    <string name="clock_date_display_normal">Normal font boyutu</string>
+    <string name="clock_date_style">Tarih stili</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java biçimi</string>
+    <string name="clock_date_format">Tarih biçimi</string>
+    <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Değer girin</string>
+    <string name="clock_date_right">Saatin sağında</string>
+    <string name="clock_date_left">Saatin solunda</string>
+    <string name="clock_date_position">Tarih konumu</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken fener aç</string>
+    <string name="torch_power_button_gesture_none">Devre dışı</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna çift tıklayarak fener açma (daha yavaş tek dokunma tepkisi), çift tıklama ile kamera açmayı devre dışı bırakır.</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun basın</string>
     <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="use_wallpaper_color_title">Use wallpaper color</string>
-    <string name="color_override_title">Accent color picker</string>
-    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use a custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="monet_engine_settings_title">Monet motoru</string>
+    <string name="monet_engine_settings_summary">Vurgu rengini, renkliliğini ve parlaklığını ayarlayın</string>
+    <string name="accurate_shades_title">Doğru renk tonları kullan</string>
+    <string name="use_wallpaper_color_title">Duvar kağıdı renklerini kullan</string>
+    <string name="color_override_title">Vurgu rengi seçici</string>
+    <string name="color_override_summary">Monet motoru tarafından seçilen renkleri geçersiz kılmak için özel bir vurgu rengi seçin</string>
+    <string name="chroma_factor_title">Renklilij</string>
+    <string name="linear_lightness_title">Özel parlaklık ölçeğini kullan</string>
+    <string name="white_luminance_title">Parlaklık</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">4G simgesi</string>
+    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini göster</string>
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Battery Customizations</string>
-    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_style_category_title">Batarya Özelleştirmesi</string>
+    <string name="battery_percent_title">Pil yüzdesi</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_icon_portrait">Dikey simge (varsayılan)</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="status_bar_battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_filled_circle">Daire (Dolu)</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Ses tuşuyla uyanma</string>
+    <string name="volume_rocker_wake_summary">Ses tuşlarına basarak cihazınızı uyandırın</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Çift dokunuş</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
+    <string name="doze_double_tap_summary">Çift dokunma ile bildirimleri göster</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_summary">Parlaklık kaydırıcısı görünürlüğü ve ayarları</string>
+    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_position_bottom_summary">Panelin altında parlaklık kaydırıcısını göster</string>
+    <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
+    <string name="qs_show_auto_brightness_summary">Parlaklık kaydırıcısının yanında otomatik parlaklık simgesini göster</string>
     <!-- Volume swap buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">Yeniden ata</string>
+    <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerini değiştir</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Dokunsal geribildirim</string>
+    <string name="back_gesture_haptic_summary">Geri hareketinde dokunsal tıklama efektini etkinleştirir</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
+    <string name="doze_on_charge_summary">Şarj olurken her zaman ortam ekranını göster</string>
     <!-- General strings -->
-    <string name="default_string">Default</string>
-    <string name="unit_seconds">Second(s)</string>
+    <string name="default_string">Varsayılan</string>
+    <string name="unit_seconds">Saniye(ler)</string>
     <!-- Lockscreen media art -->
-    <string name="lockscreen_media_art_category_title">Media art</string>
-    <string name="keygaurd_media_art_title">Show media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_media_art_category_title">Medya resmi</string>
+    <string name="keygaurd_media_art_title">Medya resmini göster</string>
+    <string name="keygaurd_media_art_summary">Medya resmini kilit ekranı arkaplanı olarak göster</string>
+    <string name="lockscreen_media_blur_title">Medya resmi bulanıklık seviyesi</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazı maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- Statusbar net monitor -->
-    <string name="statusbar_ntraffic">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_statusbar">Statusbar</string>
-    <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="statusbar_ntraffic">Ağ</string>
+    <string name="network_traffic_state_title">Ağ hızı</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ hızını göster</string>
+    <string name="network_traffic_location_title">Konum</string>
+    <string name="network_traffic_statusbar">Durum çubuğu</string>
+    <string name="network_traffic_qs_header">Hızlı ayarlar başlığı</string>
+    <string name="network_traffic_mode_title">Görüntü modu</string>
+    <string name="network_traffic_dynamic">Dinamik</string>
+    <string name="network_traffic_download">İndirme</string>
+    <string name="network_traffic_upload">Yükleme</string>
+    <string name="network_traffic_autohide_threshold_title">Otomatik gizleme sınırı</string>
+    <string name="network_traffic_refresh_interval_title">Yenileme aralığı</string>
     <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <string name="lockscreen_small_clock_title">Küçük saati kullanmaya zorla</string>
+    <string name="lockscreen_small_clock_summary">Bildirim olmadığında büyük saate geçmeyin</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
+    <string name="status_bar_toggle_brightness_summary">Durum çubuğunda kaydırarak parlaklığı ayarlayın</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons">Birleşik sinyal simgeleri</string>
+    <string name="combined_status_bar_signal_icons_summary">Durum çubuğunda birleşik sinyal simgelerini etkinleştir.\nSistem arayüzünün yeniden başlatılması gerekir</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Kilidi hızlıca aç</string>
+    <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
+    <string name="battery_stats_message">Pil geçmişi istatistiklerini sıfırla</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Rootlu hata ayıklama</string>
+    <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
-    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    <string name="other_controls_title">Diğer kontroller</string>
+    <string name="fullscreen_gestures_title">Tam ekran hareketleri</string>
+    <string name="fullscreen_gestures_summary">Gezinme çubuğu tuşunu ve klavye boşluğunu gizle</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
+    <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
+    <string name="short_label">Kısa</string>
+    <string name="long_label">Uzun</string>
 </resources>
