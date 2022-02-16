@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- xd. version -->
-    <string name="xd_revision">Semakan XD</string>
+    <string name="xd_revision">Revisi XD</string>
     <!-- AOSP Revision -->
-    <string name="aosp_revision">Semakan AOSP</string>
+    <string name="aosp_revision">Revisi AOSP</string>
     <!-- xd. Placeholder -->
     <string name="xd_title_placeholder">loremipsum</string>
     <string name="xd_summary_placeholder">loremipsum</string>
@@ -82,7 +82,7 @@
     <string name="xd_category_ui">Antaramuka pengguna</string>
     <string name="xd_category_screen">Skrin</string>
     <string name="xd_category_density">Kepadatan</string>
-    <string name="xd_category_gesture">Gerakan skrin</string>
+    <string name="xd_category_gesture">Gerakan isyarat skrin</string>
     <string name="xd_category_brightness">Kecerahan</string>
     <string name="xd_about_core_team_cat">Pembangun utama</string>
     <string name="xd_about_contributor_cat">Penyumbang</string>
