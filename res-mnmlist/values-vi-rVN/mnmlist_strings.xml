@@ -55,42 +55,42 @@
     <!-- Customization Categories/Fragment Titles -->
     <string name="clocksettings_title">Clock Settings</string>
     <string name="clocksettings_summary">Statusbar clock settings</string>
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
+    <string name="status_bar_clock_date_title">Ngày và giờ</string>
+    <string name="status_bar_clock_date_summary">Tùy chỉnh ngày và giờ trên thanh trạng thái</string>
+    <string name="status_bar_clock_title">Cài đặt đồng hồ</string>
+    <string name="status_bar_clock_show">Hiển thị ngày và giờ</string>
     <string name="status_bar_clock_style_title">Kiểu đồng hồ</string>
     <string name="status_bar_clock_style_right">Phải</string>
     <string name="status_bar_clock_style_center">Giữa</string>
     <string name="status_bar_clock_style_left">Trái</string>
     <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_title">Kiểu AM/PM</string>
     <string name="status_bar_am_pm_info">Đồng hồ dạng 24 giờ đã được bật</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+    <string name="status_bar_am_pm_small">Nhỏ</string>
+    <string name="status_bar_am_pm_hidden">Ẩn (mặc định)</string>
     <string name="clock_seconds_display">Hiển thị giây</string>
     <string name="clock_date_display">Date</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
+    <string name="clock_date_display_normal">Cỡ chứ vừa</string>
     <string name="clock_date_style">Date style</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_style_lowercase">Kí tự thường</string>
+    <string name="clock_date_style_uppercase">Kí tự in hoa</string>
     <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_format">Định dạng ngày tháng</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_right">Bên phải đồng hồ</string>
+    <string name="clock_date_left">Bên trái đồng hồ</string>
+    <string name="clock_date_position">Vị trí ngày</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_none">Đã tắt</string>
+    <string name="torch_power_button_gesture_dt">Bấm 2 lần nút nguồn (phản hồi nhấn 1 lần sẽ chậm hơn), Tắt nhấn 2 lần nút nguồn để bật máy ảnh.</string>
+    <string name="torch_power_button_gesture_lp">Giữ phím nguồn</string>
     <!-- Monet engine -->
     <string name="monet_engine_settings_title">Monet engine</string>
     <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
@@ -100,12 +100,12 @@
     <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
     <string name="chroma_factor_title">Colorfulness</string>
     <string name="linear_lightness_title">Use a custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="white_luminance_title">Độ sáng</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Biểu tượng 4G</string>
     <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G thay vì biểu tượng LTE</string>
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Battery Customizations</string>
+    <string name="battery_style_category_title">Kiểu biểu tượng pin</string>
     <string name="battery_percent_title">Phần trăm pin</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
@@ -126,7 +126,7 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">Chạm 2 lần vào màn hình</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="doze_double_tap_summary">Hiển thị thông báo bằng cách chạm hai lần vào màn hình</string>
     <!-- Brightness slider -->
     <string name="qs_show_brightness_title">Thanh độ sáng</string>
     <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
@@ -138,7 +138,7 @@
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_title">Rung phản hồi</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Luôn hiển thị khi sạc</string>
@@ -152,42 +152,42 @@
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_title">Hiển thị thông tin về sạc trên màn hình khóa</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
     <!-- Statusbar net monitor -->
     <string name="statusbar_ntraffic">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiển thị tốc độ mạng trên thanh trạng thái</string>
     <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_statusbar">Statusbar</string>
     <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_mode_title">Kiểu hiển thị</string>
     <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_download">Tải xuống</string>
+    <string name="network_traffic_upload">Tải lên</string>
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <string name="lockscreen_small_clock_title">Bắt buộc dùng đồng hồ nhỏ</string>
+    <string name="lockscreen_small_clock_summary">Không chuyển sang đồng hồ lớn khi không có thông báo</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Điều chỉnh độ sáng</string>
+    <string name="status_bar_toggle_brightness_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons">Combined signal icons</string>
     <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí các kí tự PIN ngẫu nhiên khi mở khóa thiết bị</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
     <string name="unlock_quick_unlock_control_summary">Mở khóa tức thì khi mà nhập đúng PIN/mật khẩu</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Đặt lại thống kê pin</string>
+    <string name="battery_stats_message">Dữ liệu sử dụng pin sẽ được thiệt lập lại</string>
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_summary_root">Cho phép chạy Android debugging dưới dạng root</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Other controls</string>
     <string name="fullscreen_gestures_title">Cử chỉ toàn màn hình</string>
