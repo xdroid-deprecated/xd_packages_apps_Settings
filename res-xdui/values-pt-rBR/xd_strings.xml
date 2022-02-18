@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- xd. version -->
+    <string name="xd_revision">XD Revisão</string>
+    <!-- AOSP Revision -->
+    <string name="aosp_revision">AOSP Revisão</string>
+    <!-- xd. Placeholder -->
+    <string name="xd_title_placeholder">loremipsum</string>
+    <string name="xd_summary_placeholder">loremipsum</string>
+    <!-- xd. fake toolbar -->
+    <string name="xd_firmware_info">Informação de firmware</string>
+    <string name="xd_hardware_info">Informação de hardware</string>
+    <string name="xd_about_phone">Sobre o dispositivo</string>
+    <string name="xd_about">Sobre xdroid</string>
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet_default">O que você está procurando?</string>
+    <string name="xd_dashboard_greet1">O que você está procurando?</string>
+    <string name="xd_dashboard_greet2">Procurando por algo?</string>
+    <string name="xd_dashboard_greet3">Precisa mudar alguma coisa?</string>
+    <string name="xd_dashboard_greet4">Procurar por algo?</string>
+    <string name="xd_dashboard_greet5">Precisa de alguma coisa?</string>
+    <string name="xd_dashboard_greet6">Vamos fazer algo legal</string>
+    <string name="xd_dashboard_greet7">Tem algo para mudar?</string>
+    <string name="xd_dashboard_greet8">Diga oi, para o mundo?</string>
+    <string name="xd_dashboard_greet9">Olá, bem-vindo à mnmlist</string>
+    <string name="xd_dashboard_greet10">Ajuste seu dispositivo aqui!</string>
+    <string name="xd_dashboard_greet11">Tentar encontrar algo?</string>
+    <string name="xd_dashboard_greet12">Ei, estou usando xdroid</string>
+    <string name="xd_dashboard_device">Sobre o dispositivo</string>
+    <string name="xd_dashboard_account">Conta</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Conectividade</string>
+    <string name="xd_dashboard_display">Tela</string>
+    <string name="xd_dashboard_battery">Bateria</string>
+    <string name="xd_dashboard_sound">Som</string>
+    <string name="xd_dashboard_apps">Apps</string>
+    <string name="xd_dashboard_notif">Notificações</string>
+    <string name="xd_dashboard_storage">Armazenamento</string>
+    <string name="xd_dashboard_privacy">Privacidade</string>
+    <string name="xd_dashboard_location">Localização</string>
+    <string name="xd_dashboard_security">Segurança</string>
+    <string name="xd_dashboard_accessibility">Acessibilidade</string>
+    <string name="xd_dashboard_system">Outros</string>
+    <string name="xd_dashboard_support">Suporte</string>
+    <!-- xd. mnmlist. -->
+    <string name="xd_dashboard_xzrypr">Mnmlist</string>
+    <string name="xd_dashboard_xzrypr_summary">Obtenha sua personalização favorita aqui</string>
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Informações sobre firmware deste dispositivo</string>
+    <string name="xd_hardware_info_summary">Informações sobre hardware deste dispositivo</string>
+    <string name="xd_device_owner">Nome do proprietário</string>
+    <string name="xd_legal_information_summary">Informações legais da licença</string>
+    <string name="xd_regulatory_summary">Informações regulamentares</string>
+    <string name="xd_wifi_saved">Redes salvas</string>
+    <string name="blurs_effect">Efeito de desfoque</string>
+    <string name="dark_ui_mode_summary">Ative o tema escuro nestes dispositivos</string>
+    <string name="xd_updater">Atualização do sistema</string>
+    <string name="xd_updater_summary">Toque aqui para verificar a atualização de firmware mais recente</string>
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Informação do proprietário</string>
+    <string name="xd_about_phone_information_cat">Informação do dispositivo</string>
+    <string name="xd_about_phone_legalregulator_cat">Informações legais e reguladoras</string>
+    <string name="xd_about_phone_network_cat">Informação de rede</string>
+    <string name="xd_firmware_version_cat">Versão do firmware</string>
+    <string name="xd_firmware_security_cat">Segurança de firmware</string>
+    <string name="xd_general_cat">Geral</string>
+    <string name="xd_category_ui">Interfaces do usuário</string>
+    <string name="xd_category_screen">Tela</string>
+    <string name="xd_category_density">Menor largura</string>
+    <string name="xd_category_gesture">Gestos de tela</string>
+    <string name="xd_category_brightness">Brilho</string>
+    <string name="xd_about_core_team_cat">Desenvolvedor principal</string>
+    <string name="xd_about_contributor_cat">Contribuidor</string>
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid é uma ROM personalizada do Android baseada em AOSP que está focada no simples e minimalismo, mantendo a suavidade e otimização fornecidas pela AOSP.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Fundador, Desenvolvedor Principal e Designer da IU</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">UI e UX Designer</string>
+    <string name="xd_about_contributor_rdclxvi">Royan AK</string>
+    <string name="xd_about_contributor_rdclxvi_role">Tradutor indonésio</string>
+    <string name="xd_about_contributor_iszon">Iszon</string>
+    <string name="xd_about_contributor_iszon_role">Tradutor polonês</string>
+    <string name="xd_about_contributor_vi">log1cs</string>
+    <string name="xd_about_contributor_vi_summary">Tradutor vietnamita</string>
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Nome do dispositivo</string>
+    <string name="xd_device_name_summary">Desconhecido</string>
+    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_chipset_type_summary">Desconhecido</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_gpu_summary">Desconhecido</string>
+    <string name="xd_camera_mp">Câmera</string>
+    <string name="xd_camera_mp_summary">Desconhecido</string>
+    <string name="xd_screen_type">Tela</string>
+    <string name="xd_screen_type_summary">Desconhecido</string>
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">Seus dispositivos não são oficialmente suportados!</string>
+    <string name="xd_build_maintained_summary">Mantido por %s</string>
+    <string name="xd_build_unmaintained_summary">Esta compilação não é mantida oficialmente</string>
+</resources>
