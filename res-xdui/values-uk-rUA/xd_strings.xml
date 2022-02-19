@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- xd. version -->
-    <string name="xd_revision">XD версія</string>
+    <string name="xd_revision">Версія XD</string>
     <!-- AOSP Revision -->
-    <string name="aosp_revision">AOSP версія</string>
+    <string name="aosp_revision">Версія AOSP</string>
     <!-- xd. Placeholder -->
     <string name="xd_title_placeholder">loremipsum</string>
     <string name="xd_summary_placeholder">loremipsum</string>
@@ -28,15 +28,15 @@
     <string name="xd_about_phone">Про телефон</string>
     <string name="xd_about">Про xdroid</string>
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet_default">Що ви шукаєте?</string>
-    <string name="xd_dashboard_greet1">Що ви шукаєте?</string>
-    <string name="xd_dashboard_greet2">Шукаєте щось?</string>
+    <string name="xd_dashboard_greet_default">Ви щось шукаєте?</string>
+    <string name="xd_dashboard_greet1">Ви щось шукаєте?</string>
+    <string name="xd_dashboard_greet2">Щось шукаєте?</string>
     <string name="xd_dashboard_greet3">Треба щось змінити?</string>
     <string name="xd_dashboard_greet4">Щось знайти?</string>
     <string name="xd_dashboard_greet5">Що-небудь потрібно?</string>
     <string name="xd_dashboard_greet6">Зробимо щось класне</string>
     <string name="xd_dashboard_greet7">Є щось, що можна змінити?</string>
-    <string name="xd_dashboard_greet8">Say hi, to the world?</string>
+    <string name="xd_dashboard_greet8">Сказати привіт світу?</string>
     <string name="xd_dashboard_greet9">Привіт, ласкаво просимо до mnmlist</string>
     <string name="xd_dashboard_greet10">Налаштуйте ваш пристрій тут!</string>
     <string name="xd_dashboard_greet11">Спробувати щось знайти?</string>
@@ -74,43 +74,43 @@
     <!-- xd. Preferences Category -->
     <string name="xd_about_phone_owner_cat">Інформація про власника</string>
     <string name="xd_about_phone_information_cat">Інформація про пристрій</string>
-    <string name="xd_about_phone_legalregulator_cat">Legal and Regulator information</string>
-    <string name="xd_about_phone_network_cat">Network information</string>
-    <string name="xd_firmware_version_cat">Firmware version</string>
-    <string name="xd_firmware_security_cat">Firmware security</string>
-    <string name="xd_general_cat">General</string>
-    <string name="xd_category_ui">User interfaces</string>
-    <string name="xd_category_screen">Screen</string>
-    <string name="xd_category_density">Density</string>
-    <string name="xd_category_gesture">Screen gestures</string>
-    <string name="xd_category_brightness">Brightness</string>
-    <string name="xd_about_core_team_cat">Core developer</string>
+    <string name="xd_about_phone_legalregulator_cat">Правова інформація та регламент</string>
+    <string name="xd_about_phone_network_cat">Інформація про мережу</string>
+    <string name="xd_firmware_version_cat">Версія прошивки</string>
+    <string name="xd_firmware_security_cat">Латка безпеки прошивки</string>
+    <string name="xd_general_cat">Основне</string>
+    <string name="xd_category_ui">Користувацький інтерфейс</string>
+    <string name="xd_category_screen">Екран</string>
+    <string name="xd_category_density">Щільність</string>
+    <string name="xd_category_gesture">Жести екрану</string>
+    <string name="xd_category_brightness">Яскравість</string>
+    <string name="xd_about_core_team_cat">Розробник ядра</string>
     <string name="xd_about_contributor_cat">Contributor</string>
     <!-- xd. About -->
-    <string name="xd_about_desc">xdroid is an AOSP-based custom Android ROM which is focusing on simple and minimalism while keeping the smoothness and optimization provided by AOSP.</string>
+    <string name="xd_about_desc">xdroid є користувацькою прошивкою на базі AOSP, яка фокусується на простому та мінімалістичному дизайні, зберігаючи згладжування та оптимізацію на основі AOSP.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
-    <string name="xd_about_core_xyzuan_role">Founder, Lead Developer and UI Designer</string>
+    <string name="xd_about_core_xyzuan_role">Засновник, головний розробник та UI дизайнер</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
-    <string name="xd_about_core_friction_role">UI and UX Designer</string>
+    <string name="xd_about_core_friction_role">UI та UX дизайнер</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
-    <string name="xd_about_contributor_rdclxvi_role">Indonesia Translator</string>
+    <string name="xd_about_contributor_rdclxvi_role">Індонезійський перекладач</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
-    <string name="xd_about_contributor_iszon_role">Polish Translator</string>
+    <string name="xd_about_contributor_iszon_role">Польський переклад</string>
     <string name="xd_about_contributor_vi">log1cs</string>
-    <string name="xd_about_contributor_vi_summary">Vietnamese Translator</string>
+    <string name="xd_about_contributor_vi_summary">В\'єтнамський переклад</string>
     <!-- xd. About Phone -->
-    <string name="xd_device_name">Device name</string>
-    <string name="xd_device_name_summary">Unknown</string>
-    <string name="xd_chipset_type">Chipset</string>
-    <string name="xd_chipset_type_summary">Unknown</string>
-    <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Unknown</string>
-    <string name="xd_camera_mp">Camera</string>
-    <string name="xd_camera_mp_summary">Unknown</string>
-    <string name="xd_screen_type">Screen</string>
-    <string name="xd_screen_type_summary">Unknown</string>
+    <string name="xd_device_name">Ім\'я пристрою</string>
+    <string name="xd_device_name_summary">Невідомо</string>
+    <string name="xd_chipset_type">Чипсет</string>
+    <string name="xd_chipset_type_summary">Невідомо</string>
+    <string name="xd_gpu">ГП</string>
+    <string name="xd_gpu_summary">Невідомо</string>
+    <string name="xd_camera_mp">Камера</string>
+    <string name="xd_camera_mp_summary">Невідомо</string>
+    <string name="xd_screen_type">Екран</string>
+    <string name="xd_screen_type_summary">Невідомо</string>
     <!-- xd. Build Status -->
-    <string name="xd_build_status">Your devices is not officially supported!</string>
-    <string name="xd_build_maintained_summary">Maintained by %s</string>
-    <string name="xd_build_unmaintained_summary">This build are not maintained officially</string>
+    <string name="xd_build_status">Ваш пристрій офіційно не підтримується!</string>
+    <string name="xd_build_maintained_summary">Супроводжує %s</string>
+    <string name="xd_build_unmaintained_summary">Ця збірка офіційно не підтримується</string>
 </resources>
