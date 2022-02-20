@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- xd. version -->
-    <string name="xd_revision">XD Revisão</string>
+    <string name="xd_revision">Revisão XD</string>
     <!-- AOSP Revision -->
-    <string name="aosp_revision">AOSP Revisão</string>
+    <string name="aosp_revision">Revisão AOSP</string>
     <!-- xd. Placeholder -->
     <string name="xd_title_placeholder">loremipsum</string>
     <string name="xd_summary_placeholder">loremipsum</string>
