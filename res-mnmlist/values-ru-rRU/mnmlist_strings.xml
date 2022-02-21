@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+     Copyright (C) 2022 xdroid & xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Dashboard -->
+    <string name="mnmlist_title">mnmlist</string>
+    <string name="mnmlist_dashboard_title">Что такое xdroid?</string>
+    <string name="xd_tap_about">Об xdroid</string>
+    <string name="xd_tap_about_summary">Нажмите здесь, чтобы узнать больше о xdroid</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="gestures_summary">Жест двойного нажатия • Системная навигация</string>
+    <string name="misc_title">Прочее</string>
+    <string name="misc_summary">Расширенная перезагрузка • Вибрация жеста назад</string>
+    <string name="interfaces_title">Интерфейс системы</string>
+    <string name="interfaces_summary"> Часы • Аккумулятор • Иконка • Сетевой трафик</string>
+    <string name="interfaces_style_title">Стиль системы</string>
+    <string name="interfaces_statusbar_title">Строка состояния</string>
+    <string name="interfaces_battery_title">Батарея</string>
+    <string name="buttons_title">Кнопки</string>
+    <string name="buttons_summary">Пробуждение кнопками громкости • Управление воспроизведением</string>
+    <string name="quicksettings_title">Панель быстрых настроек</string>
+    <string name="quicksettings_summary">Ползунок яркости • Автояркость</string>
+    <string name="lockscreen_title">Экран блокировки</string>
+    <string name="lockscreen_summary">Всегда на дисплее • Медиа Арт • Информация о зарядке</string>
+    <string name="three_finger_gesture">Жест тремя пальцами</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Показать опции для рекавери и загрузчика в меню кнопки питания</string>
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_custom">Дважды нажмите в любом месте на экране, чтобы разбудить или усыпить устройство</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Двойное касание для сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <string name="statusbar_items_summary">Включить/выключить элементы в строке состояния</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
+    <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_title">Настройки часов</string>
+    <string name="clocksettings_summary">Параметры часов в строке состояния</string>
+    <string name="status_bar_clock_date_title">Дата и время</string>
+    <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показывать дату и время</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_date_title">Настройки даты</string>
+    <string name="status_bar_am_pm_title">Стиль AM/PM</string>
+    <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Средний</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрыто (по умолчанию)</string>
+    <string name="clock_seconds_display">Показывать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Показывать настраиваемую дату перед часами</string>
+    <string name="clock_date_display_none">Не отображать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Средний</string>
+    <string name="clock_date_style_lowercase">Нижний регистр</string>
+    <string name="clock_date_style_uppercase">Верхний регистр</string>
+    <string name="clock_date_format_custom">Пользовательский Java-формат</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должно быть в формате даты прим. ММ/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от времени</string>
+    <string name="clock_date_position">Расположение даты</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включать фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (медленнее однократный отклик), отключает двойное нажатие по кнопке питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Настройки Monet</string>
+    <string name="monet_engine_settings_summary"> Регулировка цвета акцента, красоты и яркости</string>
+    <string name="accurate_shades_title">Использовать точные оттенки</string>
+    <string name="use_wallpaper_color_title">Использовать цвет обоев</string>
+    <string name="color_override_title">Выбор цвета акцента</string>
+    <string name="color_override_summary">Выберите пользовательский акцент, чтобы переопределить цвета, выбранные монет</string>
+    <string name="chroma_factor_title">Насыщенность</string>
+    <string name="linear_lightness_title">Использовать пользовательскую шкалу яркости</string>
+    <string name="white_luminance_title">Яркость</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показывать иконку 4G вместо LTE</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Настройки индикатора батареи</string>
+    <string name="battery_percent_title">Процент заряда батареи</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (заполненный)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытый</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не отображать (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробуждать телефон кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное касание</string>
+    <string name="doze_double_tap_title">Просмотр времени и уведомлений двойным касанием</string>
+    <string name="doze_double_tap_summary">Пульсирующие уведомления двойным касанием</string>
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">Ползунок яркости</string>
+    <string name="qs_show_brightness_summary">Видимость и настройки ползунка яркости</string>
+    <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
+    <string name="qs_brightness_position_bottom_summary">Отображать ползунок яркости в нижней части панели быстрых настроек</string>
+    <string name="qs_show_auto_brightness_title">Значок автояркости</string>
+    <string name="qs_show_auto_brightness_summary">Показать переключатель автояркости рядом с ползунком яркости</string>
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Поменять кнопки местами</string>
+    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Тактильный отклик</string>
+    <string name="back_gesture_haptic_summary">Включить эффект тактильной отдачи для жеста  «Назад»</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Режим Always on при зарядке</string>
+    <string name="doze_on_charge_summary">Показывать экран Doze во время зарядки</string>
+    <!-- General strings -->
+    <string name="default_string">По умолчанию</string>
+    <string name="unit_seconds">Секунд(ы)</string>
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Медиа обложка</string>
+    <string name="keygaurd_media_art_title">Показать обложку медиа</string>
+    <string name="keygaurd_media_art_summary">Показывать медиа обложку как фон экрана блокировки</string>
+    <string name="lockscreen_media_blur_title">Уровень размытия обложки</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать напряжение, ток зарядки и температуру аккумулятора на экране блокировки во время зарядки</string>
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Сеть</string>
+    <string name="network_traffic_state_title">Скорость сети</string>
+    <string name="network_traffic_state_summary">Показывать скорость сети в строке состояния</string>
+    <string name="network_traffic_location_title">Местоположение</string>
+    <string name="network_traffic_statusbar">Строка состояния</string>
+    <string name="network_traffic_qs_header">Быстрые настройки</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_dynamic">Динамический</string>
+    <string name="network_traffic_download">Загрузка</string>
+    <string name="network_traffic_upload">Выгрузка</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности</string>
+    <string name="network_traffic_refresh_interval_title">Интервал обновления</string>
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Маленькие часы</string>
+    <string name="lockscreen_small_clock_summary">Не переключаться на большие часы, когда нет уведомлений</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Регулировка яркости</string>
+    <string name="status_bar_toggle_brightness_summary">Изменять яркость, проводя по строке состояния</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Комбинированные значки сигнала</string>
+    <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сигнала в строке состояния.\nТребует перезапуска интерфейса</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешивать кнопки ввода PIN-кода при разблокировке устройства</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN-кода/пароля</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика использования батареи будет сброшена</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка суперпользователем</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с root правами</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Другое</string>
+    <string name="fullscreen_gestures_title">Полноэкранные жесты</string>
+    <string name="fullscreen_gestures_summary">Скрыть полосу панели навигации и отступ клавиатуры</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Длина полосы</string>
+    <string name="short_label">Короткая</string>
+    <string name="long_label">Длинная</string>
+    <!-- Ripple Effect on lockscreen -->
+    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
+</resources>
