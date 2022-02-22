@@ -33,19 +33,19 @@
     <string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Volume wake • Playback control</string>
     <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
+    <string name="quicksettings_summary">Thanh trượt độ sáng • Độ sáng tự động</string>
     <string name="lockscreen_title">Màn hình khóa</string>
     <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
     <string name="three_finger_gesture">Vuốt để chụp ảnh màn hình</string>
     <string name="three_finger_gesture_summary">Vuốt 3 ngón tay từ trên xuống dưới để chụp ảnh màn hình</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
     <string name="global_actions_advanced_reboot_summary">Hiển thị thêm mục khởi động lại vào recovery và bootloader</string>
     <!-- Display tap to wake custom summary -->
     <string name="tap_to_wake_summary_custom">Bấm hai lần vào bất kì vị trí nào trên màn hình để đánh thức thiết bị</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Nhấn đúp vào thanh trạng thái để tắt màn hình</string>
+    <string name="double_tap_sleep_gesture_summary">Nhấn 2 lần vào bất kì vị trí nào trên thanh trạng thái để tắt màn hình</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
@@ -54,7 +54,7 @@
     <string name="volume_button_music_control_summary">Khi màn hình tắt, giữ phím âm lượng để chuyển bài hát</string>
     <!-- Customization Categories/Fragment Titles -->
     <string name="clocksettings_title">Clock Settings</string>
-    <string name="clocksettings_summary">Statusbar clock settings</string>
+    <string name="clocksettings_summary">Cài đặt đồng hồ trên thanh trạng thái</string>
     <string name="status_bar_clock_date_title">Ngày và giờ</string>
     <string name="status_bar_clock_date_summary">Tùy chỉnh ngày và giờ trên thanh trạng thái</string>
     <string name="status_bar_clock_title">Cài đặt đồng hồ</string>
@@ -72,7 +72,7 @@
     <string name="clock_seconds_display">Hiển thị giây</string>
     <string name="clock_date_display">Date</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_none">Không hiển thị</string>
     <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
     <string name="clock_date_display_normal">Cỡ chứ vừa</string>
     <string name="clock_date_style">Date style</string>
@@ -159,7 +159,7 @@
     <string name="network_traffic_state_title">Tốc độ mạng</string>
     <string name="network_traffic_state_summary">Hiển thị tốc độ mạng trên thanh trạng thái</string>
     <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_statusbar">Statusbar</string>
+    <string name="network_traffic_statusbar">Thanh trạng thái</string>
     <string name="network_traffic_qs_header">QS header</string>
     <string name="network_traffic_mode_title">Kiểu hiển thị</string>
     <string name="network_traffic_dynamic">Dynamic</string>
