@@ -18,16 +18,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Double tap gesture • System navigation</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Advance reboot • Back haptic</string>
-    <string name="interfaces_title">System interfaces</string>
-    <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
-    <string name="interfaces_style_title">System style</string>
+    <string name="mnmlist_dashboard_title">Co je xdroid?</string>
+    <string name="xd_tap_about">O xdroidu</string>
+    <string name="xd_tap_about_summary">Klepnutím sem se dozvíte více o xdroidu</string>
+    <string name="gestures_title">Gesta</string>
+    <string name="gestures_summary">Gesto dvojitého poklepání • Systémová navigace</string>
+    <string name="misc_title">Ostatní</string>
+    <string name="misc_summary">Rozšířený restart • Vibrační odezva</string>
+    <string name="interfaces_title">Systémová rozhraní</string>
+    <string name="interfaces_summary"> Hodiny • Baterie • Ikony • Síťový provoz</string>
+    <string name="interfaces_style_title">Systémový styl</string>
     <string name="interfaces_statusbar_title">Statusbar</string>
     <string name="interfaces_battery_title">Battery</string>
     <string name="buttons_title">Buttons</string>
