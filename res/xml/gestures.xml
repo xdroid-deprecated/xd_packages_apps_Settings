@@ -123,6 +123,12 @@
             android:title="@string/gesture_prevent_ringing_screen_title"
             android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
             settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
+
+        <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_inverse"
+            android:title="@string/navigation_bar_inverse_title"
+            android:defaultValue="0"
+            settings:controller="com.xd.mnmlist.NavBarInversePreferenceController" />
     </PreferenceCategory>
 
 </PreferenceScreen>
