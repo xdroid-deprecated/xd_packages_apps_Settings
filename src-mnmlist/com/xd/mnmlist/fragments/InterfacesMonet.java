@@ -16,86 +16,109 @@
 
 package com.xd.mnmlist.fragments;
 
+import static android.os.UserHandle.USER_SYSTEM;
+
+import android.app.ActivityManagerNative;
+import android.app.UiModeManager;
 import android.content.ContentResolver;
+import android.content.Context;
+import android.content.om.IOverlayManager;
+import android.content.om.OverlayInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import android.os.UserHandle;
 import android.provider.Settings;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.IWindowManager;
+import android.view.View;
+import android.view.WindowManagerGlobal;
+import android.widget.Toast;
 
+import androidx.annotation.VisibleForTesting;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.Utils;
+import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.xd.mnmlist.colorpicker.ColorPickerPreference;
-import com.xd.mnmlist.preferences.CustomSeekBarPreference;
 
-import java.lang.Math;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-@SearchIndexable
-public class InterfacesMonet extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener {
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
+public class InterfacesMonet extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String WALLPAPER_KEY = "monet_engine_use_wallpaper_color";
-    private static final String COLOR_KEY = "monet_engine_color_override";
-    private static final String CHROMA_KEY = "monet_engine_chroma_factor";
+    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
 
-    SwitchPreference mUseWall;
-    ColorPickerPreference mColorOvr;
-    CustomSeekBarPreference mChroma;
+    private ColorPickerPreference mMonetColor;
+    private Context mContext;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
-        final ContentResolver resolver = getActivity().getContentResolver();
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.mnmlist_interfaces_monet);
 
-        mUseWall = findPreference(WALLPAPER_KEY);
-        mColorOvr = findPreference(COLOR_KEY);
-        String color = Settings.Secure.getString(resolver, COLOR_KEY);
-        boolean useWall = color == null || color.isEmpty();
-        mUseWall.setChecked(useWall);
-        mColorOvr.setEnabled(!useWall);
-        if (!useWall) mColorOvr.setNewPreviewColor(
-                ColorPickerPreference.convertToColorInt(color));
-        mUseWall.setOnPreferenceChangeListener(this);
-        mColorOvr.setOnPreferenceChangeListener(this);
+        mContext = getActivity();
 
-        mChroma = findPreference(CHROMA_KEY);
-        float chroma = Settings.Secure.getFloat(resolver, CHROMA_KEY, 1) * 100;
-        mChroma.setValue(Math.round(chroma));
-        mChroma.setOnPreferenceChangeListener(this);
+        final ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen screen = getPreferenceScreen();
+
+        mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
+        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
+        String hexColor = String.format("#%08x", (0xffffff & intColor));
+        mMonetColor.setNewPreviewColor(intColor);
+        mMonetColor.setSummary(hexColor);
+        mMonetColor.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsEvent.XD_SETTINGS;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        final ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mUseWall) {
-            boolean value = (Boolean) newValue;
-            mColorOvr.setEnabled(!value);
-            if (value) Settings.Secure.putString(resolver, COLOR_KEY, "");
-            return true;
-        } else if (preference == mColorOvr) {
-            int value = (Integer) newValue;
-            Settings.Secure.putString(resolver, COLOR_KEY,
-                    ColorPickerPreference.convertToRGB(value));
-            return true;
-        } else if (preference == mChroma) {
-            int value = (Integer) newValue;
-            Settings.Secure.putFloat(resolver, CHROMA_KEY, value / 100f);
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mMonetColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer
+                .parseInt(String.valueOf(newValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.Secure.putInt(resolver,
+                MONET_ENGINE_COLOR_OVERRIDE, intHex);
             return true;
         }
         return false;
     }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XD_SETTINGS;
-    }
-
+    /**
+     * For Search.
+     */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.mnmlist_interfaces_monet);
 }
