@@ -19,7 +19,7 @@
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <!-- qs brightness customization -->
-     <com.xd.mnmlist.preferences.SecureSettingMasterSwitchPreference
+     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
           android:key="qs_show_brightness"
           android:title="@string/qs_show_brightness_title"
           android:summary="@string/qs_show_brightness_summary"

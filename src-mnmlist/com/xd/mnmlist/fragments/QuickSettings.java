@@ -47,7 +47,7 @@ public class QuickSettings extends SettingsPreferenceFragment
     private static final String TAG = "Quick Settings";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
 
-    private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    private SecureSettingSwitchPreference mBrightnessSlider;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,7 +55,7 @@ public class QuickSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.mnmlist_quicksettings);
         PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
-        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
+        mBrightnessSlider = (SecureSettingSwitchPreference)
                 findPreference(BRIGHTNESS_SLIDER);
         mBrightnessSlider.setOnPreferenceChangeListener(this);
         boolean enabled = Settings.Secure.getInt(resolver,
