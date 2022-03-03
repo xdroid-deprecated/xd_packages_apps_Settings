@@ -85,4 +85,9 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:key="carrier_label"
+        android:fragment="com.xd.mnmlist.fragments.InterfacesCarrier"
+        android:title="@string/carrier_label_settings_title" />
+
 </PreferenceScreen>
