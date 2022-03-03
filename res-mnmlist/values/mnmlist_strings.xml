@@ -273,5 +273,9 @@
 
     <!-- Volume panel on left switch -->
     <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 
 </resources>
