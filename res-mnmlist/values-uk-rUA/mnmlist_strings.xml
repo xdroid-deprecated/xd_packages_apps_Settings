@@ -197,6 +197,6 @@
     <string name="short_label">Коротка</string>
     <string name="long_label">Довга</string>
     <!-- Ripple Effect on lockscreen -->
-    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
-    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
+    <string name="disable_fingerprint_ripple_effect_title">Вимкнути ефект пульсації</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Вимкнути ефект пульсації при розблокуванні</string>
 </resources>
