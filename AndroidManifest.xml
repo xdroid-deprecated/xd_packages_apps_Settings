@@ -50,7 +50,6 @@
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
     <uses-permission android:name="android.permission.BATTERY_STATS"/>
-    <uses-permission android:name="android.permission.RESET_BATTERY_STATS"/>
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.MOVE_PACKAGE" />
@@ -4001,10 +4000,6 @@
                     <action android:name="android.settings.panel.action.VOLUME" />
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
-                <intent-filter>
-                    <action android:name="android.settings.panel.action.APP_VOLUME" />
-                    <category android:name="android.intent.category.DEFAULT" />
-                </intent-filter>
         </activity>
 
         <activity android:name=".wifi.addappnetworks.AddAppNetworksActivity"
@@ -4276,16 +4271,14 @@
                 android:value="com.xd.mnmlist.Dashboard" />
         </activity>
 
-        <activity android:name="com.xd.mnmlist.fragments.MiscForceFullscreenActivity"
-                  android:label="@string/display_cutout_force_fullscreen_title"
-                  android:theme="@style/Theme.SubSettingsBase"
-                  android:enabled="true"
-                  android:exported="true"
-                  android:taskAffinity="com.android.settings"
-                  android:parentActivityName="Settings">
-            <intent-filter android:priority="70">
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
+        <!-- Face unlock -->
+        <activity android:name="com.android.settings.custom.biometrics.face.FaceEnrollActivity"
+            android:permission="com.android.settings.FACE_UNLOCK"
+            android:theme="@style/Transparent"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.intent.action.FACE_ENROLL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 

@@ -272,7 +272,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         // Update status bar color
         window.setStatusBarColor(color);
         // Update content background.
-        findViewById(R.id.settings_homepage_container).setBackgroundColor(color);
+        findViewById(R.id.xd_dashboard_container).setBackgroundColor(color);
     }
 
     private void showSuggestionFragment(boolean scrollNeeded) {
