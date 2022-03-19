@@ -18,185 +18,185 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dashboard -->
     <string name="mnmlist_title">mnmlist</string>
-    <string name="mnmlist_dashboard_title">What is xdroid?</string>
-    <string name="xd_tap_about">About xdroid</string>
-    <string name="xd_tap_about_summary">Tap here to know more about xdroid</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_summary">Double tap gesture • System navigation</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="misc_summary">Advance reboot • Back haptic</string>
-    <string name="interfaces_title">System interfaces</string>
-    <string name="interfaces_summary"> Clock • Battery • Icon • Net traffic</string>
-    <string name="interfaces_style_title">System style</string>
-    <string name="interfaces_statusbar_title">Statusbar</string>
-    <string name="interfaces_battery_title">Battery</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="buttons_summary">Volume wake • Playback control</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="quicksettings_summary">Brightness Slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="mnmlist_dashboard_title">Was ist xdroid?</string>
+    <string name="xd_tap_about">Über xdroid</string>
+    <string name="xd_tap_about_summary">Hier tippen, um mehr über xdroid zu erfahren</string>
+    <string name="gestures_title">Gesten</string>
+    <string name="gestures_summary">Geste mit Doppeltippen • Systemnavigation</string>
+    <string name="misc_title">Sonstiges</string>
+    <string name="misc_summary">Erweiterter Neustart • Zurück Haptik</string>
+    <string name="interfaces_title">Systemoberfläche</string>
+    <string name="interfaces_summary"> Uhr • Akku • Symbole • Netzwerkverkehr</string>
+    <string name="interfaces_style_title">Systemstil</string>
+    <string name="interfaces_statusbar_title">Statusleiste</string>
+    <string name="interfaces_battery_title">Akku</string>
+    <string name="buttons_title">Schaltflächen</string>
+    <string name="buttons_summary">Lautstärkeregler • Wiedergabesteuerung</string>
+    <string name="quicksettings_title">Schnelleinstellungen</string>
+    <string name="quicksettings_summary">Helligkeitsregler • Automatische Helligkeit</string>
+    <string name="lockscreen_title">Sperrbildschirm</string>
+    <string name="lockscreen_summary">Inaktivitätsbildschirm (AOD) • Medien-Coverbild • Ladeinformation</string>
+    <string name="three_finger_gesture">Drei-Finger-Screenshot</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten streichen, um einen Screenshot zu erstellen</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
+    <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Power-Menü anzeigen</string>
     <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Double-tap anywhere on the screen to wake or sleep device</string>
+    <string name="tap_to_wake_summary_custom">Tippe zweimal auf den Bildschirm, um das Gerät zu wecken oder zu sperren</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Doppeltippen für Standby (Dt2S)</string>
+    <string name="double_tap_sleep_gesture_summary">Statusleiste zweimal antippen, um das Gerät in den Standby-Modus zu versetzen</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
+    <string name="statusbar_items_title">Statusleisten Symbole</string>
+    <string name="statusbar_items_summary">Aktiviere/Deaktiviere Elemente in der Statusleiste</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Wiedergabesteuerung</string>
+    <string name="volume_button_music_control_summary">Wenn der Bildschirm ausgeschaltet ist, wird durch langes Drücken der Lautstärketasten der Musiktitel übersprungen</string>
     <!-- Customization Categories/Fragment Titles -->
-    <string name="clocksettings_title">Clock Settings</string>
-    <string name="clocksettings_summary">Statusbar clock settings</string>
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="clocksettings_title">Uhreinstellungen</string>
+    <string name="clocksettings_summary">Einstellungen zur Uhranzeige in der Statusleiste</string>
+    <string name="status_bar_clock_date_title">Uhrzeit und Datum</string>
+    <string name="status_bar_clock_date_summary">Anzeige von Uhr und Datum der Statusleiste anpassen</string>
+    <string name="status_bar_clock_title">Uhreinstellungen</string>
+    <string name="status_bar_clock_show">Uhrzeit und Datum anzeigen</string>
+    <string name="status_bar_clock_style_title">Position der Uhr</string>
+    <string name="status_bar_clock_style_right">Rechts</string>
+    <string name="status_bar_clock_style_center">Mitte</string>
+    <string name="status_bar_clock_style_left">Links</string>
+    <string name="status_bar_date_title">Datumseinstellungen</string>
+    <string name="status_bar_am_pm_title">AM/PM-Format</string>
+    <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="status_bar_am_pm_small">Klein</string>
+    <string name="status_bar_am_pm_hidden">Ausgeblendet (Standard)</string>
+    <string name="clock_seconds_display">Sekunden anzeigen</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Zeige benutzerdefiniertes Datum vor der Uhrzeit</string>
+    <string name="clock_date_display_none">Nicht anzeigen</string>
+    <string name="clock_date_display_small">Kleine Schriftgröße</string>
+    <string name="clock_date_display_normal">Normale Schriftgröße</string>
+    <string name="clock_date_style">Datums-Darstellung</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
+    <string name="clock_date_style_uppercase">Großbuchstaben</string>
+    <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
+    <string name="clock_date_format">Datumsformat</string>
+    <string name="clock_date_string_edittext_title">Muss im Datumsformat sein z. B. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
+    <string name="clock_date_right">Rechts neben der Uhrzeit</string>
+    <string name="clock_date_left">Links neben der Uhrzeit</string>
+    <string name="clock_date_position">Position des Datums</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Taschenlampe bei ausgeschaltetem Bildschirm</string>
+    <string name="torch_power_button_gesture_none">Deaktiviert</string>
+    <string name="torch_power_button_gesture_dt">Zweimal die Einschalttaste drücken (langsamere Reaktion auf Einzeltipp). Deaktiviert doppeltes Antippen für Kamera.</string>
+    <string name="torch_power_button_gesture_lp">Langes Drücken Einschalttaste</string>
     <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="use_wallpaper_color_title">Use wallpaper color</string>
-    <string name="color_override_title">Accent color picker</string>
-    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use a custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="monet_engine_settings_title">Monet Themensystem</string>
+    <string name="monet_engine_settings_summary"> Akzentfarbe, Farbigkeit und Helligkeit anpassen</string>
+    <string name="accurate_shades_title">Präzise Farbtöne verwenden</string>
+    <string name="use_wallpaper_color_title">Farben des Hintergrundbildes verwenden</string>
+    <string name="color_override_title">Akzentfarbauswahl</string>
+    <string name="color_override_summary">Wähle eine benutzerdefinierte Akzentfarbe, um die vom Monet-Themensystem gewählten Farben zu überschreiben</string>
+    <string name="chroma_factor_title">Farbigkeit</string>
+    <string name="linear_lightness_title">Eigene Helligkeitsstufe verwenden</string>
+    <string name="white_luminance_title">Helligkeit</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">4G Symbol</string>
+    <string name="show_fourg_icon_summary">4G Symbol anstelle von LTE anzeigen</string>
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Battery Customizations</string>
-    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_style_category_title">Anpassungen der Akku-Anzeige</string>
+    <string name="battery_percent_title">Akkuanzeige in Prozent</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_title">Stil des Akkusymbols</string>
+    <string name="status_bar_battery_style_icon_portrait">Symbol Hochformat (Standard)</string>
+    <string name="status_bar_battery_style_circle">Kreis</string>
+    <string name="status_bar_battery_style_dotted_circle">Kreis (gepunktet)</string>
+    <string name="status_bar_battery_style_filled_circle">Kreis (ausgefüllt)</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_hidden">Ausgeblendet</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">Akkustand</string>
+    <string name="status_bar_battery_percentage_default">Ausgeblendet (Standard)</string>
+    <string name="status_bar_battery_percentage_text_inside">Innerhalb des Symbols</string>
+    <string name="status_bar_battery_percentage_text_next">Neben dem Symbol</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Lautstärketasten wecken das Gerät</string>
+    <string name="volume_rocker_wake_summary">Das Gerät wird durch Drücken der Lautstärketasten aufgeweckt</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Doppeltes Tippen</string>
+    <string name="doze_double_tap_title">Doppeltippen für schnellen Blick auf das Smartphone-Display</string>
+    <string name="doze_double_tap_summary">Benachrichtigungen durch zweimaliges Tippen anzeigen</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_show_brightness_title">Helligkeitsregler</string>
+    <string name="qs_show_brightness_summary">Helligkeitsregler Sichtbarkeit und Einstellungen</string>
+    <string name="qs_brightness_position_bottom_title">Helligkeitsregler unten</string>
+    <string name="qs_brightness_position_bottom_summary">Den Helligkeitsregler unten in den Schnelleinstellungen anzeigen</string>
+    <string name="qs_show_auto_brightness_title">Symbol für Auto-Helligkeit</string>
+    <string name="qs_show_auto_brightness_summary">Zeige einen Auto-Helligkeitsschalter neben dem Helligkeitsregler</string>
     <!-- Volume swap buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">Umkehren</string>
+    <string name="swap_volume_buttons_summary">Belegung der Lautstärketasten umkehren, wenn der Bildschirm gedreht wird</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Haptische Rückmeldung</string>
+    <string name="back_gesture_haptic_summary">Haptischen Tick-Effekt bei Rückwärtsgesten aktivieren</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Bildschirm beim Laden aktiv lassen</string>
+    <string name="doze_on_charge_summary">Inaktivitätsbildschirm beim Laden immer anzeigen</string>
     <!-- General strings -->
-    <string name="default_string">Default</string>
-    <string name="unit_seconds">Second(s)</string>
+    <string name="default_string">Standard</string>
+    <string name="unit_seconds">Sekunde(n)</string>
     <!-- Lockscreen media art -->
-    <string name="lockscreen_media_art_category_title">Media art</string>
-    <string name="keygaurd_media_art_title">Show media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_media_art_category_title">Medien-Coverbild</string>
+    <string name="keygaurd_media_art_title">Medien-Cover anzeigen</string>
+    <string name="keygaurd_media_art_summary">Medien-Coverbild als Sperrbildschirm-Hintergrund anzeigen</string>
+    <string name="lockscreen_media_blur_title">Coverbild Unschärfe-Effekt</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Ladeinformationen auf dem Sperrbildschirm</string>
+    <string name="lockscreen_battery_info_summary">Zeige maximal ermittelte Ladespannung, Ladestrom und Akkutemperatur auf dem Sperrbildschirm während des Ladens an</string>
     <!-- Statusbar net monitor -->
-    <string name="statusbar_ntraffic">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_statusbar">Statusbar</string>
-    <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="statusbar_ntraffic">Netzwerk</string>
+    <string name="network_traffic_state_title">Netzwerkgeschwindigkeit</string>
+    <string name="network_traffic_state_summary">Netzwerkgeschwindigkeit in der Statusleiste anzeigen</string>
+    <string name="network_traffic_location_title">Position</string>
+    <string name="network_traffic_statusbar">Statusleiste</string>
+    <string name="network_traffic_qs_header">Kopfzeile Schnelleinstellungen</string>
+    <string name="network_traffic_mode_title">Anzeigemodus</string>
+    <string name="network_traffic_dynamic">Dynamisch</string>
     <string name="network_traffic_download">Download</string>
     <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_autohide_threshold_title">Anzeige-Schwellenwert</string>
+    <string name="network_traffic_refresh_interval_title">Aktualisierungs-Intervall</string>
     <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Force small clock</string>
-    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
+    <string name="lockscreen_small_clock_title">Erzwinge kleine Uhr</string>
+    <string name="lockscreen_small_clock_summary">Nicht zur großen Uhransicht wechseln, wenn keine Benachrichtigungen vorhanden sind</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
+    <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons">Kombinierte Signalsymbole</string>
+    <string name="combined_status_bar_signal_icons_summary">Aktiviere kombinierte Signalsymbole in der Statusleiste.\nBenötigt einen SystemUI-Neustart</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Zufälliges PIN-Layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch das PIN-Layout zufällig neu wählen</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wurde</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Statistik zurücksetzen</string>
+    <string name="battery_stats_message">Statistiken zum Akkuverbrauch werden zurückgesetzt</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Debugging als root</string>
+    <string name="adb_enable_summary_root">Erlaube das Ausführen von Android Debugging als root</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
-    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    <string name="other_controls_title">Weitere Steuerelemente</string>
+    <string name="fullscreen_gestures_title">Gesten im Vollbildmodus</string>
+    <string name="fullscreen_gestures_summary">Navigationsleisten-Pille und Tastaturbereich ausblenden</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
+    <string name="gesture_navbar_length_title">Länge der angedeuteten Navigationsleiste</string>
+    <string name="short_label">Kurz</string>
+    <string name="long_label">Lang</string>
     <!-- Ripple Effect on lockscreen -->
-    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
-    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
+    <string name="disable_fingerprint_ripple_effect_title">Welleneffekt deaktivieren</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Welleneffekt beim Entsperren deaktivieren</string>
 </resources>
