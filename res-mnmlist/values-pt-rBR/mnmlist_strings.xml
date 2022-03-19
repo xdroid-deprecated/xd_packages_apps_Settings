@@ -197,6 +197,6 @@
     <string name="short_label">Curto</string>
     <string name="long_label">Longo</string>
     <!-- Ripple Effect on lockscreen -->
-    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
-    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
+    <string name="disable_fingerprint_ripple_effect_title">Desativar efeito de ondulação </string>
+    <string name="disable_fingerprint_ripple_effect_summary">Desativar efeito cascata no desbloqueio</string>
 </resources>
