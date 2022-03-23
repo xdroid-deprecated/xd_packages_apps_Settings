@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- xd. version -->
+    <string name="xd_revision">XD 版本</string>
+
+    <!-- AOSP Revision -->
+    <string name="aosp_revision">AOSP 版本</string>
+
+    <!-- xd. fake toolbar -->
+    <string name="xd_firmware_info">固件信息</string>
+    <string name="xd_hardware_info">硬件信息</string>
+    <string name="xd_about_phone">关于手机</string>
+    <string name="xd_about">关于xdroid</string>
+
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet_default">你在找什么？</string>
+    <string name="xd_dashboard_greet1">你在找什么？</string>
+    <string name="xd_dashboard_greet2">在找什么吗？</string>
+    <string name="xd_dashboard_greet3">需要改变什么吗？</string>
+    <string name="xd_dashboard_greet4">寻找什么？</string>
+    <string name="xd_dashboard_greet5">需要什么吗？</string>
+    <string name="xd_dashboard_greet6">让我们做点酷的事</string>
+    <string name="xd_dashboard_greet7">有什么需要改变的吗？</string>
+    <string name="xd_dashboard_greet8">向世界问好？</string>
+    <string name="xd_dashboard_greet9">嗨，欢迎来到mnmlist</string>
+    <string name="xd_dashboard_greet10">在这里调整你的设备！</string>
+    <string name="xd_dashboard_greet11">想找点什么吗？</string>
+    <string name="xd_dashboard_greet12">嘿，我在用xdroid</string>
+    <string name="xd_dashboard_device">关于手机</string>
+    <string name="xd_dashboard_account">账户</string>
+    <string name="xd_dashboard_network">网络和互联网</string>
+    <string name="xd_dashboard_conectivity">已连接的设备</string>    
+    <string name="xd_dashboard_display">显示</string>
+    <string name="xd_dashboard_battery">电池</string>
+    <string name="xd_dashboard_sound">声音</string>
+    <string name="xd_dashboard_apps">应用</string>
+    <string name="xd_dashboard_notif">通知</string>
+    <string name="xd_dashboard_storage">储存</string>
+    <string name="xd_dashboard_privacy">隐私</string>    
+    <string name="xd_dashboard_location">位置信息</string>
+    <string name="xd_dashboard_security">安全</string>
+    <string name="xd_dashboard_accessibility">无障碍</string>
+    <string name="xd_dashboard_system">系统</string>    
+    <string name="xd_dashboard_support">支持</string>
+
+    <!-- xd. mnmlist. -->
+    <string name="xd_dashboard_xzrypr">Xdroid设置</string>
+    <string name="xd_dashboard_xzrypr_summary">在这里获得您最喜欢的定制</string>
+
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">固件信息</string>
+    <string name="xd_hardware_info_summary">型号和硬件</string>
+    <string name="xd_device_owner">设备名称</string>
+    <string name="xd_legal_information_summary">许可法律信息</string>
+    <string name="xd_regulatory_summary">监管信息</string>
+    <string name="xd_wifi_saved">保存的网络</string>
+    <string name="blurs_effect">模糊效果</string>
+    <string name="dark_ui_mode_summary">在此设备中启用深色主题</string>
+    <string name="xd_updater">系统更新</string>
+    <string name="xd_updater_summary">点击此处查看最新的最新固件更新</string>
+
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">设备名称</string>
+    <string name="xd_about_phone_information_cat">设备信息</string>
+    <string name="xd_about_phone_legalregulator_cat">法律和监管信息</string>
+    <string name="xd_about_phone_network_cat">网络信息</string>    
+    <string name="xd_firmware_version_cat">固件版本</string>
+    <string name="xd_firmware_security_cat">固件安全</string>
+    <string name="xd_general_cat">设备标识符</string>
+    <string name="xd_category_ui">用户界面</string>    
+    <string name="xd_category_screen">屏幕</string>
+    <string name="xd_category_density">Density</string>
+    <string name="xd_category_gesture">屏幕手势</string>
+    <string name="xd_category_brightness">亮度</string>
+    <string name="xd_about_core_team_cat">核心开发者</string>
+    <string name="xd_about_contributor_cat">贡献者</string>
+
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid是一款基于AOSP的定制Android ROM，在保持AOSP提供的流畅性和优化性的同时，专注于简单和极简。</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">创始人、首席开发者和UI设计师</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">UI和UX设计</string>
+    <string name="xd_about_contributor_rdclxvi">Royan AK</string>
+    <string name="xd_about_contributor_rdclxvi_role">印度尼西亚翻译</string>
+    <string name="xd_about_contributor_iszon">Iszon</string>
+    <string name="xd_about_contributor_iszon_role">波兰语翻译</string>
+    <string name="xd_about_contributor_vi">log1cs</string>
+    <string name="xd_about_contributor_vi_summary">越南语翻译</string>
+
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">设备名称</string>
+    <string name="xd_chipset_type">CPU</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_camera_mp">相机</string>
+    <string name="xd_screen_type">屏幕</string>
+
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">您的设备不受官方支持！</string>
+    <string name="xd_build_maintained_summary">维护者：%s</string>
+    <string name="xd_build_unmaintained_summary">这个构建没有正式维护</string>
+    
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux状态</string>
+    <string name="selinux_status_disabled">关闭</string>
+    <string name="selinux_status_permissive">宽容</string>
+    <string name="selinux_status_enforcing">强制</string>
+
+</resources>
