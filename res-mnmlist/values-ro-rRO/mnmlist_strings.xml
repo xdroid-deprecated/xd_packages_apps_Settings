@@ -175,7 +175,7 @@
     <string name="status_bar_toggle_brightness_summary">Reglați luminozitatea prin alunecarea peste bara de stare</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons">Combinare pictograme de semnal</string>
-    <string name="combined_status_bar_signal_icons_summary">Activează combinația de pictograme de semnal în bara de stare.\nNecesită o repornire a interfeței sistemului</string>
+    <string name="combined_status_bar_signal_icons_summary">Activează combinarea pictogramelor de semnal în bara de stare.\nNecesită o repornire a interfeței sistemului</string>
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>
     <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a ecranului de PIN atunci când se deblochează dispozitivul</string>
