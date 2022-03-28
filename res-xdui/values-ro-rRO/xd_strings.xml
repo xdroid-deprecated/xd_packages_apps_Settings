@@ -28,18 +28,18 @@
     <string name="xd_about_phone">Despre telefon</string>
     <string name="xd_about">Despre xdroid</string>
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet_default">Ce anume căutați?</string>
-    <string name="xd_dashboard_greet1">Ce anume căutați?</string>
+    <string name="xd_dashboard_greet_default">Ce cauți?</string>
+    <string name="xd_dashboard_greet1">Ce cauți?</string>
     <string name="xd_dashboard_greet2">Cauți ceva?</string>
     <string name="xd_dashboard_greet3">Vrei să schimbi ceva?</string>
-    <string name="xd_dashboard_greet4">Căutați ceva?</string>
-    <string name="xd_dashboard_greet5">Aveți nevoie de ceva?</string>
+    <string name="xd_dashboard_greet4">Cauți ceva?</string>
+    <string name="xd_dashboard_greet5">Ai nevoie de ceva?</string>
     <string name="xd_dashboard_greet6">Hai să facem ceva mișto</string>
-    <string name="xd_dashboard_greet7">Aveți ceva de schimbat?</string>
-    <string name="xd_dashboard_greet8">Salut, lumii?</string>
+    <string name="xd_dashboard_greet7">Ai ceva de schimbat?</string>
+    <string name="xd_dashboard_greet8">Salut</string>
     <string name="xd_dashboard_greet9">Bună, bine ați venit la mnmlist</string>
     <string name="xd_dashboard_greet10">Ajustează-ți dispozitivul aici!</string>
-    <string name="xd_dashboard_greet11">Încercați să găsiți ceva?</string>
+    <string name="xd_dashboard_greet11">Încerci să găsești ceva?</string>
     <string name="xd_dashboard_greet12">Hei, eu folosesc xdroid</string>
     <string name="xd_dashboard_device">Despre telefon</string>
     <string name="xd_dashboard_account">Parole și conturi</string>
