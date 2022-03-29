@@ -63,7 +63,7 @@
     <!-- xd. Preferences -->
     <string name="xd_firmware_info_summary">Informații despre firmware în acest telefon</string>
     <string name="xd_hardware_info_summary">Informaţii despre hardware în acest telefon</string>
-    <string name="xd_device_owner">Nume proprietar</string>
+    <string name="xd_device_owner">Nume proprietar/dispozitiv</string>
     <string name="xd_legal_information_summary">Informații legale privind licențele</string>
     <string name="xd_regulatory_summary">Informaţii de reglementare</string>
     <string name="xd_wifi_saved">Rețea salvată</string>
