@@ -59,7 +59,7 @@ public class Interfaces extends SettingsPreferenceFragment
 
         mNetworkTraffic = (SystemSettingMasterSwitchPreference)
                 findPreference(KEY_NETWORK_TRAFFIC);
-        enabled = Settings.System.getIntForUser(resolver,
+        boolean enabled = Settings.System.getIntForUser(resolver,
                 KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
         mNetworkTraffic.setChecked(enabled);
         mNetworkTraffic.setOnPreferenceChangeListener(this);
