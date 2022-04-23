@@ -43,4 +43,10 @@
           android:summary="@string/ignore_window_secure_summary"
           android:defaultValue="false"/>
 
+     <com.xd.mnmlist.preferences.GlobalSettingSwitchPreference
+          android:key="pm_downgrade_allowed"
+          android:title="@string/app_downgrade_title"
+          android:summary="@string/app_downgrade_summary"
+          android:defaultValue="false"/>
+
 </PreferenceScreen>
