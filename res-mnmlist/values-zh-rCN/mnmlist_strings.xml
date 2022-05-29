@@ -35,7 +35,7 @@
     <string name="quicksettings_title">控制中心</string>
     <string name="quicksettings_summary">亮度滑块 • 自动亮度</string>
     <string name="lockscreen_title">锁定屏幕</string>
-    <string name="lockscreen_summary">始终显示 • 专辑封面 • 充电信息</string>
+    <string name="lockscreen_summary">息屏显示 • 媒体封面 • 充电信息</string>
     <string name="three_finger_gesture">三指截屏</string>
     <string name="three_finger_gesture_summary">三指同时下滑来截图</string>
     <!-- Global Actions -->
