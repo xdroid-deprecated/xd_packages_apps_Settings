@@ -19,25 +19,19 @@
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <!-- qs brightness customization -->
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
           android:key="qs_show_brightness"
           android:title="@string/qs_show_brightness_title"
           android:summary="@string/qs_show_brightness_summary"
           android:defaultValue="true" />
-     
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+
+    <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
           android:key="qs_brightness_position_bottom"
           android:title="@string/qs_brightness_position_bottom_title"
           android:summary="@string/qs_brightness_position_bottom_summary"
           android:defaultValue="true" />
 
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
-          android:key="qqs_show_brightness"
-          android:title="@string/quick_qs_brightness_slider_title"
-          android:summary="@string/quick_qs_brightness_slider_summary"
-          android:defaultValue="false" />
-
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+    <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
           android:key="qs_show_auto_brightness_button"
           android:title="@string/qs_show_auto_brightness_title"
           android:summary="@string/qs_show_auto_brightness_summary"
