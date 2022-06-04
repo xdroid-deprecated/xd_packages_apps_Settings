@@ -116,6 +116,7 @@
     <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="use_wallpaper_color_title">Use wallpaper color</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
