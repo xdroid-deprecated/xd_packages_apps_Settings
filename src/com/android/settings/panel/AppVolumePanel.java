@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 Project Kaleidoscope
+ * Copyright (C) 2022 The Kaleidoscope Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -59,7 +59,7 @@ public class AppVolumePanel implements PanelContent {
 
     @Override
     public Intent getSeeMoreIntent() {
-        return new Intent(Settings.ACTION_SOUND_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        return new Intent(Settings.ACTION_SOUND_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK); 
     }
 
 }

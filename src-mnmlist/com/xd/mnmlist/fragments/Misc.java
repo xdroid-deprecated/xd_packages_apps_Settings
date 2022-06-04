@@ -16,10 +16,29 @@
  */
 package com.xd.mnmlist.fragments;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.Context;
+import android.content.ContentResolver;
+import android.content.DialogInterface;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.provider.Settings;
+import android.text.TextUtils;
+import android.widget.Toast;
 import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,11 +48,25 @@ import java.util.List;
 
 public class Misc extends SettingsPreferenceFragment {
 
+    private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
+    private Preference mShowCutoutForce;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.mnmlist_misc);
+
+        final ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefSet = getPreferenceScreen();
+        Context mContext = getActivity().getApplicationContext();
+
+        final String displayCutout =
+                mContext.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
+        mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
+        if (TextUtils.isEmpty(displayCutout)) {
+            prefSet.removePreference(mShowCutoutForce);
+        }
     }
 
     @Override

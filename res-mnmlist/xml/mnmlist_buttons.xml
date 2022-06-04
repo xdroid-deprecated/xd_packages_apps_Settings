@@ -18,6 +18,12 @@
      android:title="@string/buttons_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Volume panel to left -->
+    <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:defaultValue="false"/>
+
     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:title="@string/volume_button_music_control_title"
