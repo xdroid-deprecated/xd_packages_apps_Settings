@@ -30,13 +30,6 @@
           android:summary="@string/lockscreen_battery_info_summary"
           android:defaultValue="true" />
 
-     <!-- AOD on charge -->
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
-          android:key="doze_on_charge"
-          android:defaultValue="false"
-          android:title="@string/doze_on_charge_title"
-          android:summary="@string/doze_on_charge_summary" />
-
      <PreferenceCategory
           android:key="lockscreen_media_art_options"
           android:title="@string/lockscreen_media_art_category_title"
