@@ -37,41 +37,22 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.xd.mnmlist.preferences.SecureSettingMasterSwitchPreference;
-import com.xd.mnmlist.preferences.SecureSettingSwitchPreference;
-import com.xd.mnmlist.preferences.SystemSettingMasterSwitchPreference;
-
 public class QuickSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Quick Settings";
-    private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
-
-    private SecureSettingMasterSwitchPreference mBrightnessSlider;
-
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.mnmlist_quicksettings);
         PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
-        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
-                findPreference(BRIGHTNESS_SLIDER);
-        mBrightnessSlider.setOnPreferenceChangeListener(this);
-        boolean enabled = Settings.Secure.getInt(resolver,
-                BRIGHTNESS_SLIDER, 1) == 1;
-        mBrightnessSlider.setChecked(enabled);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mBrightnessSlider) {
-            Boolean value = (Boolean) newValue;
-            Settings.Secure.putInt(resolver,
-                    BRIGHTNESS_SLIDER, value ? 1 : 0);
-            return true;
-        }
         return false;
     }
 

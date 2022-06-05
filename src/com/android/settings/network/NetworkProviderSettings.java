@@ -19,6 +19,8 @@ package com.android.settings.network;
 import static android.net.wifi.WifiConfiguration.NetworkSelectionStatus.NETWORK_SELECTION_ENABLED;
 import static android.os.UserManager.DISALLOW_CONFIG_WIFI;
 
+import static com.android.settings.Settings.WifiSettingsActivity;
+
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
@@ -41,10 +43,12 @@ import android.util.FeatureFlagUtils;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
@@ -90,6 +94,9 @@ import com.android.wifitrackerlib.WifiEntry;
 import com.android.wifitrackerlib.WifiEntry.ConnectCallback;
 import com.android.wifitrackerlib.WifiPickerTracker;
 
+import com.google.android.setupcompat.util.WizardManagerHelper;
+import com.google.android.setupdesign.GlifPreferenceLayout;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -131,7 +138,7 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
     @VisibleForTesting
     static final String PREF_KEY_FIRST_ACCESS_POINTS = "first_access_points";
     private static final String PREF_KEY_ACCESS_POINTS = "access_points";
-    private static final String PREF_KEY_CONFIGURE_WIFI_SETTINGS = "configure_wifi_settings";
+    private static final String PREF_KEY_CONFIGURE_NETWORK_SETTINGS = "configure_network_settings";
     private static final String PREF_KEY_SAVED_NETWORKS = "saved_networks";
     @VisibleForTesting
     static final String PREF_KEY_DATA_USAGE = "non_carrier_data_usage";
@@ -160,6 +167,8 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
 
     // Enable the Next button when a Wi-Fi network is connected.
     private boolean mEnableNextOnConnection;
+
+    private boolean mIsInSetupWizard;
 
     // This string extra specifies a network to open the connect dialog on, so the user can enter
     // network credentials.  This is used by quick settings for secured networks, among other
@@ -263,15 +272,24 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
             return;
         }
 
+        mWifiManager = activity.getSystemService(WifiManager.class);
+
+        if (mIsInSetupWizard) {
+            GlifPreferenceLayout layout = (GlifPreferenceLayout) view;
+            layout.setDividerInsets(Integer.MAX_VALUE, 0);
+
+            layout.setIcon(getContext().getDrawable(R.drawable.ic_network_setup));
+            layout.setHeaderText(R.string.provider_internet_settings);
+
+            return;
+        }
+
         setPinnedHeaderView(R.layout.progress_header);
         setProgressBarVisible(false);
 
-        mWifiManager = activity.getSystemService(WifiManager.class);
         if (mWifiManager != null) {
             setLoading(true, false);
             mIsViewLoading = true;
-            getView().postDelayed(mRemoveLoadingRunnable,
-                    mWifiManager.isWifiEnabled() ? 1000 : 100);
         }
     }
 
@@ -287,6 +305,20 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         addPreferences();
 
         mIsRestricted = isUiRestricted();
+
+        final Intent intent = this.getIntent();
+        mIsInSetupWizard = WizardManagerHelper.isAnySetupWizard(intent);
+    }
+
+    @Override
+    public RecyclerView onCreateRecyclerView(LayoutInflater inflater, ViewGroup parent,
+            Bundle savedInstanceState) {
+        if (mIsInSetupWizard) {
+            GlifPreferenceLayout layout = (GlifPreferenceLayout) parent;
+            return layout.onCreateRecyclerView(inflater, parent, savedInstanceState);
+        } else {
+            return super.onCreateRecyclerView(inflater, parent, savedInstanceState);
+        }
     }
 
     private void addPreferences() {
@@ -297,7 +329,7 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
         mConnectedWifiEntryPreferenceCategory = findPreference(PREF_KEY_CONNECTED_ACCESS_POINTS);
         mFirstWifiEntryPreferenceCategory = findPreference(PREF_KEY_FIRST_ACCESS_POINTS);
         mWifiEntryPreferenceCategory = findPreference(PREF_KEY_ACCESS_POINTS);
-        mConfigureWifiSettingsPreference = findPreference(PREF_KEY_CONFIGURE_WIFI_SETTINGS);
+        mConfigureWifiSettingsPreference = findPreference(PREF_KEY_CONFIGURE_NETWORK_SETTINGS);
         mSavedNetworksPreference = findPreference(PREF_KEY_SAVED_NETWORKS);
         mAddWifiNetworkPreference = new AddWifiNetworkPreference(getPrefContext());
         mDataUsagePreference = findPreference(PREF_KEY_DATA_USAGE);
@@ -388,7 +420,12 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
                 }
             }
         };
-        setHasOptionsMenu(true);
+        if (mIsInSetupWizard) {
+            mConfigureWifiSettingsPreference.setVisible(false);
+            mDataUsagePreference.setVisible(false);
+        } else {
+            setHasOptionsMenu(true);
+        }
 
         if (savedInstanceState != null) {
             mDialogMode = savedInstanceState.getInt(SAVE_DIALOG_MODE);
@@ -418,6 +455,10 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
     @Override
     public void onStart() {
         super.onStart();
+        if (mIsViewLoading) {
+            final long delayMillis = mWifiManager.isWifiEnabled() ? 1000 : 100;
+            getView().postDelayed(mRemoveLoadingRunnable, delayMillis);
+        }
         if (mIsRestricted) {
             restrictUi();
             return;
@@ -465,7 +506,9 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
 
     @Override
     public void onDestroy() {
-        mAirplaneModeEnabler.close();
+        if (mAirplaneModeEnabler != null) {
+            mAirplaneModeEnabler.close();
+        }
         super.onDestroy();
     }
 
@@ -882,7 +925,9 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
 
                 if (mClickedConnect) {
                     mClickedConnect = false;
-                    scrollToPreference(connectedWifiPreferenceCategory);
+                    if (!mIsInSetupWizard) {
+                        scrollToPreference(connectedWifiPreferenceCategory);
+                    }
                 }
             }
         } else {
@@ -1007,10 +1052,12 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
 
     @VisibleForTesting
     void setAdditionalSettingsSummaries() {
-        mConfigureWifiSettingsPreference.setSummary(getString(
-                isWifiWakeupEnabled()
-                        ? R.string.wifi_configure_settings_preference_summary_wakeup_on
-                        : R.string.wifi_configure_settings_preference_summary_wakeup_off));
+        if (!mIsInSetupWizard) {
+            mConfigureWifiSettingsPreference.setSummary(getString(
+                    isWifiWakeupEnabled()
+                            ? R.string.wifi_configure_settings_preference_summary_wakeup_on
+                            : R.string.wifi_configure_settings_preference_summary_wakeup_off));
+        }
 
         final int numSavedNetworks = mWifiPickerTracker.getNumSavedNetworks();
         final int numSavedSubscriptions = mWifiPickerTracker.getNumSavedSubscriptions();
@@ -1060,7 +1107,9 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
     }
 
     protected void setProgressBarVisible(boolean visible) {
-        showPinnedHeader(visible);
+        if (!mIsInSetupWizard) {
+            showPinnedHeader(visible);
+        }
     }
 
     @VisibleForTesting
@@ -1135,7 +1184,8 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
     @Override
     public void onScan(WifiDialog2 dialog, String ssid) {
         // Launch QR code scanner to join a network.
-        startActivityForResult(WifiDppUtils.getEnrolleeQrCodeScannerIntent(ssid),
+        startActivityForResult(
+                WifiDppUtils.getEnrolleeQrCodeScannerIntent(dialog.getContext(), ssid),
                 REQUEST_CODE_WIFI_DPP_ENROLLEE_QR_CODE_SCANNER);
     }
 
@@ -1173,6 +1223,7 @@ public class NetworkProviderSettings extends RestrictedSettingsFragment
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.network_provider_settings) {
+
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     final List<String> keys = super.getNonIndexableKeys(context);

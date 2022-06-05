@@ -16,6 +16,7 @@
 
 package com.android.settings.privacy;
 
+import android.os.Bundle;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 
@@ -26,6 +27,9 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +46,23 @@ public class PrivacyDashboardFragment extends DashboardFragment {
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.TOP_LEVEL_PRIVACY;
+    }
+
+    @Override
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        final PreferenceScreen screen = getPreferenceScreen();
+        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
+            Preference pref = getPreferenceScreen().getPreference(i);
+            if (pref.isVisible() && pref.getTitle() != null && 
+                pref.getLayoutResource() != R.layout.preference_category_material && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_top && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_mid && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_bot && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_sin) {
+                pref.setLayoutResource(R.layout.xd_pref_card_mid);
+            }
+        }
     }
 
     @Override

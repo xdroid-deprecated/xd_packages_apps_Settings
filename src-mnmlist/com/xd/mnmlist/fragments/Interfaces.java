@@ -58,6 +58,10 @@ public class Interfaces extends SettingsPreferenceFragment
     //private static final int BATTERY_PERCENT_SHOW_OUTSIDE = 2;
     private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
+    private static final String LOCATION_DEVICE_CONFIG = "location_indicators_enabled";
+    private static final String LOCATION_INDICATOR = "enable_location_privacy_indicator";
+    private static final String CAMERA_DEVICE_CONFIG = "camera_indicators_enabled";
+    private static final String CAMERA_INDICATOR = "enable_camera_privacy_indicator";
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -117,6 +121,20 @@ public class Interfaces extends SettingsPreferenceFragment
                 KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
         mNetworkTraffic.setChecked(enabled);
         mNetworkTraffic.setOnPreferenceChangeListener(this);
+
+        SecureSettingSwitchPreference locationIndicator = findPreference(LOCATION_INDICATOR);
+        def = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                LOCATION_DEVICE_CONFIG, false);
+        locationIndicator.setDefaultValue(def);
+        locationIndicator.setChecked(Settings.Secure.getInt(resolver,
+                LOCATION_INDICATOR, def ? 1 : 0) == 1);
+
+        SecureSettingSwitchPreference cameraIndicator = findPreference(CAMERA_INDICATOR);
+        def = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                CAMERA_DEVICE_CONFIG, false);
+        cameraIndicator.setDefaultValue(def);
+        cameraIndicator.setChecked(Settings.Secure.getInt(resolver,
+                CAMERA_INDICATOR, def ? 1 : 0) == 1);
     }
 
     @Override

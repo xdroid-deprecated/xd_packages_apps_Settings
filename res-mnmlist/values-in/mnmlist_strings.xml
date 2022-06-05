@@ -167,9 +167,6 @@
     <string name="network_traffic_upload">Unggah</string>
     <string name="network_traffic_autohide_threshold_title">Otomatis sembunyikan pada ambang batas</string>
     <string name="network_traffic_refresh_interval_title">Selang waktu penyegaran</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Paksa kecil jam layar kunci</string>
-    <string name="lockscreen_small_clock_summary">Jangan beralih ke jam besar saat tidak ada notifikasi</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Kontrol kecerahan</string>
     <string name="status_bar_toggle_brightness_summary">Sesuaikan kecerahan dengan menggeser di bilah status</string>

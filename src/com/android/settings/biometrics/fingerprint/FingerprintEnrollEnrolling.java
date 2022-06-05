@@ -18,6 +18,7 @@ package com.android.settings.biometrics.fingerprint;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
+import android.annotation.IntDef;
 import android.annotation.Nullable;
 import android.app.Dialog;
 import android.app.settings.SettingsEnums;
@@ -46,7 +47,6 @@ import android.view.animation.Interpolator;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import androidx.annotation.IntDef;
 import androidx.appcompat.app.AlertDialog;
 
 import com.android.settings.R;
@@ -110,6 +110,7 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
     private FingerprintManager mFingerprintManager;
     private boolean mCanAssumeUdfps;
+    private static boolean sCanAssumeSidefps;
     @Nullable private ProgressBar mProgressBar;
     private ObjectAnimator mProgressAnim;
     private TextView mDescriptionText;
@@ -138,6 +139,7 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
         final List<FingerprintSensorPropertiesInternal> props =
                 mFingerprintManager.getSensorPropertiesInternal();
         mCanAssumeUdfps = props.size() == 1 && props.get(0).isAnyUdfpsType();
+        sCanAssumeSidefps = props.size() == 1 && props.get(0).isAnySidefpsType();
 
         mAccessibilityManager = getSystemService(AccessibilityManager.class);
         mIsAccessibilityEnabled = mAccessibilityManager.isEnabled();
@@ -158,7 +160,7 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
         mIsSetupWizard = WizardManagerHelper.isAnySetupWizard(getIntent());
         if (mCanAssumeUdfps) {
-            updateTitleAndDescriptionForUdfps();
+            updateTitleAndDescription();
         } else {
             setHeaderText(R.string.security_settings_fingerprint_enroll_repeat_title);
         }
@@ -567,6 +569,7 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
     private final Animator.AnimatorListener mProgressAnimationListener =
             new Animator.AnimatorListener() {
+
                 @Override
                 public void onAnimationStart(Animator animation) { }
 
@@ -637,9 +640,16 @@ public class FingerprintEnrollEnrolling extends BiometricsEnrollEnrolling {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
+            final boolean isFrontFacingFps = getResources().getBoolean(
+                    R.bool.config_is_front_facing_fps);
+            final String fpsLocation = getString(sCanAssumeSidefps
+                    ? R.string.fingerprint_enroll_touch_dialog_message_side : isFrontFacingFps
+                            ? R.string.fingerprint_enroll_touch_dialog_message_front
+                            : R.string.fingerprint_enroll_touch_dialog_message_rear);
+
             AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             builder.setTitle(R.string.security_settings_fingerprint_enroll_touch_dialog_title)
-                    .setMessage(R.string.security_settings_fingerprint_enroll_touch_dialog_message)
+                    .setMessage(fpsLocation)
                     .setPositiveButton(R.string.security_settings_fingerprint_enroll_dialog_ok,
                             new DialogInterface.OnClickListener() {
                                 @Override

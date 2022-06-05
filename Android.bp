@@ -47,12 +47,12 @@ android_library {
     resource_dirs: ["res",
                     "res-xdui",
                     "res-mnmlist",
-                    "res-pixel",
     ],
 
     srcs: ["src/**/*.java",
            "src-xdui/**/*.java",
            "src-mnmlist/**/*.java",
+           "src-mnmlist/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.xdroid.mnmlist",
@@ -85,12 +85,14 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
-        "SettingsGoogle-lib",
         "xd.xdui-preference",
+        "windowExtLib",
+        "accountfeatureprovidergoogle",
+        "columbus-settingsgoogle",
         "faceunlock_framework",
+        "accountfeatureprovidergoogle",
+        "gamemode-settingsgoogle",
     ],
-    manifest: "AndroidManifest.xml",
-    additional_manifests: ["SettingsGoogle-Manifest.xml"],
 
     libs: [
         "telephony-common",
@@ -118,6 +120,10 @@ android_app {
     ],
     static_libs: ["Settings-core"],
     uses_libs: ["org.apache.http.legacy"],
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
     resource_dirs: [],
     optimize: {
         proguard_flags_files: ["proguard.flags"],
@@ -127,6 +133,11 @@ android_app {
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
+}
+
+android_library_import {
+    name: "windowExtLib",
+    aars: ["libs/window_ext_lib.aar"],
 }
 
 filegroup {
@@ -145,4 +156,22 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+java_import {
+    name: "accountfeatureprovidergoogle",
+    jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "gamemode-settingsgoogle",
+    jars: ["libs/gamemode.jar"],
+    sdk_version: "current",
 }

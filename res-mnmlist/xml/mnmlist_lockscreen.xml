@@ -19,12 +19,6 @@
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
-          android:key="lockscreen_small_clock"
-          android:title="@string/lockscreen_small_clock_title"
-          android:summary="@string/lockscreen_small_clock_summary"
-          android:defaultValue="false" />
-
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
         android:key="disable_ripple_effect"
         android:title="@string/disable_fingerprint_ripple_effect_title"
         android:summary="@string/disable_fingerprint_ripple_effect_summary"
@@ -35,13 +29,6 @@
           android:title="@string/lockscreen_battery_info_title"
           android:summary="@string/lockscreen_battery_info_summary"
           android:defaultValue="true" />
-
-     <!-- AOD on charge -->
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
-          android:key="doze_on_charge"
-          android:defaultValue="false"
-          android:title="@string/doze_on_charge_title"
-          android:summary="@string/doze_on_charge_summary" />
 
      <PreferenceCategory
           android:key="lockscreen_media_art_options"
@@ -65,5 +52,24 @@
                settings:units="dp"/>
      
     </PreferenceCategory>
+
+    <!-- Always available -->
+    <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:defaultValue="true"/>
+     
+     <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        android:key="secure_lockscreen_qs_disabled"
+        android:title="@string/disable_qs_title"
+        android:summary="@string/disable_qs_summary"
+        android:defaultValue="false" />
+
+     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_power_menu_disabled"
+        android:title="@string/lockscreen_power_menu_disabled_title"
+        android:summary="@string/lockscreen_power_menu_disabled_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

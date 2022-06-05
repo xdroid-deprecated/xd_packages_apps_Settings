@@ -46,11 +46,17 @@ public class SystemDashboardFragment extends DashboardFragment {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
-        // We do not want to display an advanced button if only one setting is hidden
-        if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
-            screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
+        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
+            Preference pref = getPreferenceScreen().getPreference(i);
+            if (pref.isVisible() && pref.getTitle() != null && 
+                pref.getLayoutResource() != R.layout.preference_category_material && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_top && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_mid && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_bot && 
+                pref.getLayoutResource() != R.layout.xd_pref_card_sin) {
+                pref.setLayoutResource(R.layout.xd_pref_card_mid);
+            }
         }
-
         showRestrictionDialog();
     }
 
@@ -81,19 +87,6 @@ public class SystemDashboardFragment extends DashboardFragment {
     @Override
     public int getHelpResource() {
         return R.string.help_url_system_dashboard;
-    }
-
-    private int getVisiblePreferenceCount(PreferenceGroup group) {
-        int visibleCount = 0;
-        for (int i = 0; i < group.getPreferenceCount(); i++) {
-            final Preference preference = group.getPreference(i);
-            if (preference instanceof PreferenceGroup) {
-                visibleCount += getVisiblePreferenceCount((PreferenceGroup) preference);
-            } else if (preference.isVisible()) {
-                visibleCount++;
-            }
-        }
-        return visibleCount;
     }
 
     /**

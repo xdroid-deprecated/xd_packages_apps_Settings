@@ -18,12 +18,12 @@
      android:title="@string/interfaces_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <!-- Monet
+     <!-- Monet -->
      <Preference
-          android:key="monet_settings"
-          android:title="@string/monet_engine_settings_title"
-          android:summary="@string/monet_engine_settings_summary"
-          android:fragment="com.xd.mnmlist.fragments.InterfacesMonet" />  -->
+          android:key="monet_engine"
+          android:title="@string/monet_engine_title"
+          android:summary="@string/monet_engine_summary"
+          android:fragment="com.xd.mnmlist.fragments.InterfacesMonet" />
 
      <PreferenceCategory
           android:title="@string/interfaces_statusbar_title">
@@ -62,6 +62,27 @@
                android:title="@string/show_fourg_icon_title"
                android:summary="@string/show_fourg_icon_summary"
                android:defaultValue="true"/>
+
+          <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+               android:key="roaming_indicator_icon"
+               android:title="@string/roaming_indicator_icon_title"
+               android:summary="@string/roaming_indicator_icon_summary"
+               android:defaultValue="true"/>
+
+          <!-- Location privacy indicator -->
+          <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+               android:key="enable_location_privacy_indicator"
+               android:title="@string/location_privacy_indicator_title"
+               android:summaryOn="@string/location_privacy_indicator_summary_on"
+               android:summaryOff="@string/location_privacy_indicator_summary_off"
+               android:defaultValue="true" />
+
+          <!-- Camera/mic privacy indicator -->
+          <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+               android:key="enable_camera_privacy_indicator"
+               android:title="@string/mic_camera_privacy_indicator_title"
+               android:summary="@string/mic_camera_privacy_indicator_summary"
+               android:defaultValue="true" />
 
 	     <Preference
                android:key="systemui_tuner_statusbar"
