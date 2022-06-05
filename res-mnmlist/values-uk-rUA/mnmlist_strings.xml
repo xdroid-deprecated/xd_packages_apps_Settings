@@ -41,11 +41,12 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
     <string name="global_actions_advanced_reboot_summary">Показувати параметри відновлення і завантажувача в меню живлення</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">Подвійний дотик у будь-якому місці екрану для пробудження пристрою</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Торкніться для сну</string>
+    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
     <string name="double_tap_sleep_gesture_summary">Подвійним проникненням залізте в анус Шалкова Дениса Юрійовича</string>
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Значки фашистів</string>
     <string name="statusbar_items_summary">Увімкнути/вимкнути сміття у смітниках</string>
@@ -91,16 +92,18 @@
     <string name="torch_power_button_gesture_none">Вимкнено</string>
     <string name="torch_power_button_gesture_dt">Подвійне натискання кнопки живлення (при натисканні на кнопку) вимикає подвійне натискання для запуску камери.</string>
     <string name="torch_power_button_gesture_lp">Довге натискання кнопки живлення</string>
-    <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Налаштування Monet</string>
-    <string name="monet_engine_settings_summary"> Налаштувати колір акценту, колірність та яскравість</string>
-    <string name="accurate_shades_title">Використовувати точні відтінки</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_engine_summary">Customize monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
     <string name="use_wallpaper_color_title">Використовувати колір шпалер</string>
-    <string name="color_override_title">Вибір кольору акценту</string>
-    <string name="color_override_summary">Виберіть користувацький колір акценту, щоб змінити кольори обрані Monet Engine</string>
-    <string name="chroma_factor_title">Барвистість</string>
-    <string name="linear_lightness_title">Використовувати свою шкалу яскравості</string>
-    <string name="white_luminance_title">Яскравість</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Показувати значок 4G замість LTE в рядку стану</string>
@@ -167,9 +170,6 @@
     <string name="network_traffic_upload">Вивантажити</string>
     <string name="network_traffic_autohide_threshold_title">Автоматичне приховування індикатора мережевої активності</string>
     <string name="network_traffic_refresh_interval_title">Інтервал оновлення</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">Примусово використовувати маленький годинник</string>
-    <string name="lockscreen_small_clock_summary">Не показувати великий годинник, якщо немає сповіщень</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Регулювання яскравості</string>
     <string name="status_bar_toggle_brightness_summary">Регулювати яскравість екрану рухом пальця по панелі статусу</string>
@@ -199,4 +199,43 @@
     <!-- Ripple Effect on lockscreen -->
     <string name="disable_fingerprint_ripple_effect_title">Вимкнути ефект пульсації</string>
     <string name="disable_fingerprint_ripple_effect_summary">Вимкнути ефект пульсації при розблокуванні</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Strings for per-app volume -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- QS Tile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
+    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location access indicator</string>
+    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
+    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 </resources>
