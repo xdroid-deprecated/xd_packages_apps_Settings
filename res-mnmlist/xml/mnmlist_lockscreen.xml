@@ -19,12 +19,6 @@
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
      <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
-          android:key="lockscreen_small_clock"
-          android:title="@string/lockscreen_small_clock_title"
-          android:summary="@string/lockscreen_small_clock_summary"
-          android:defaultValue="false" />
-
-     <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
         android:key="disable_ripple_effect"
         android:title="@string/disable_fingerprint_ripple_effect_title"
         android:summary="@string/disable_fingerprint_ripple_effect_summary"
