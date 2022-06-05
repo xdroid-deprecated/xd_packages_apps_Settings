@@ -41,11 +41,12 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">启用高级重启</string>
     <string name="global_actions_advanced_reboot_summary">在电源菜单中显示恢复模式和引导模式选项</string>
-    <!-- Display tap to wake custom summary -->
-    <string name="tap_to_wake_summary_custom">双击屏幕上的任意位置以唤醒或休眠设备</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">双击以睡眠</string>
+    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
     <string name="double_tap_sleep_gesture_summary">双击状态栏的任何位置来使屏幕休眠</string>
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">状态栏图标</string>
     <string name="statusbar_items_summary">启用/禁用状态栏图标</string>
@@ -91,16 +92,18 @@
     <string name="torch_power_button_gesture_none">禁用</string>
     <string name="torch_power_button_gesture_dt">双击电源按钮 (较慢的单击响应)，禁用双击启动相机</string>
     <string name="torch_power_button_gesture_lp">长按电源键</string>
-    <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet 引擎</string>
-    <string name="monet_engine_settings_summary"> 调整强调色、饱和度和亮度</string>
-    <string name="accurate_shades_title">使用精确色彩</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_engine_summary">Customize monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
     <string name="use_wallpaper_color_title">使用壁纸颜色</string>
-    <string name="color_override_title">颜色选择器</string>
-    <string name="color_override_summary">选择一个自定义的强调色来覆盖由Monet引擎选择的颜色</string>
-    <string name="chroma_factor_title">饱和度</string>
-    <string name="linear_lightness_title">使用自定义亮度等级</string>
-    <string name="white_luminance_title">亮度</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 图标</string>
     <string name="show_fourg_icon_summary">在信号图标上显示 4G 以替代 LTE</string>
@@ -167,9 +170,6 @@
     <string name="network_traffic_upload">上传</string>
     <string name="network_traffic_autohide_threshold_title">自动隐藏阈值 (Kb/s)</string>
     <string name="network_traffic_refresh_interval_title">刷新间隔</string>
-    <!-- Keyguard force small clock -->
-    <string name="lockscreen_small_clock_title">强制使用小时钟</string>
-    <string name="lockscreen_small_clock_summary">没有通知时不要切换到大时钟</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">亮度控制</string>
     <string name="status_bar_toggle_brightness_summary">通过在状态栏上滑动来调整亮度</string>
@@ -199,4 +199,43 @@
     <!-- Ripple Effect on lockscreen -->
     <string name="disable_fingerprint_ripple_effect_title">禁用涟漪特效</string>
     <string name="disable_fingerprint_ripple_effect_summary">解锁时禁用涟漪特效</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Strings for per-app volume -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- QS Tile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
+    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location access indicator</string>
+    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
+    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 </resources>
