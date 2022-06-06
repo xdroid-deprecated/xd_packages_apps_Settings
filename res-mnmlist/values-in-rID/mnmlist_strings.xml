@@ -33,32 +33,32 @@
     <string name="buttons_title">Tombol</string>
     <string name="buttons_summary">Volume bangun • Kontrol pemutaran</string>
     <string name="quicksettings_title">Setelan Cepat</string>
-    <string name="quicksettings_summary">Penggeser Kecerahan • Kecerahan otomatis</string>
-    <string name="lockscreen_title">Layar Kunci</string>
+    <string name="quicksettings_summary">Penggeser kecerahan • Kecerahan otomatis</string>
+    <string name="lockscreen_title">Layar kunci</string>
     <string name="lockscreen_summary">Layar selalu aktif • Seni Media • Info pengisian daya</string>
-    <string name="three_finger_gesture">Usap untuk menangkap layar</string>
-    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode recovery dan bootloader di menu daya</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Ketuk dua kali bilah status untuk tidur</string>
     <string name="double_tap_sleep_gesture_summary">Ketuk dua kali pada bilah status untuk mematikan layar</string>
     <!-- Double Tap to Sleep Lockscreen -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali layar kunci untuk tidur</string>
+    <string name="double_tap_sleep_lockscreen_summary">Ketuk dua kali di mana saja pada layar kunci untuk mematikan layar</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Item bilah status</string>
     <string name="statusbar_items_summary">Aktifkan/matikan item di bilah status</string>
     <!-- Volume rocker music control -->
-    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama pada tombol volume akan melewati trek musik</string>
     <!-- Customization Categories/Fragment Titles -->
-    <string name="clocksettings_title">Pengaturan Jam</string>
-    <string name="clocksettings_summary">Pengaturan jam bilah status</string>
+    <string name="clocksettings_title">Setelan Jam</string>
+    <string name="clocksettings_summary">Setelan jam bilah status</string>
     <string name="status_bar_clock_date_title">Jam dan Tanggal</string>
     <string name="status_bar_clock_date_summary">Sesuaikan jam dan tanggal bilah status Anda</string>
-    <string name="status_bar_clock_title">Pengaturan jam</string>
+    <string name="status_bar_clock_title">Setelan jam</string>
     <string name="status_bar_clock_show">Tampilkan jam dan tanggal</string>
     <string name="status_bar_clock_style_title">Gaya jam</string>
     <string name="status_bar_clock_style_right">Kanan</string>
@@ -94,15 +94,15 @@
     <string name="torch_power_button_gesture_lp">Tekan lama tombol daya</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Mesin Monet</string>
+    <string name="monet_engine_summary">Sesuaikan parameter monet</string>
+    <string name="monet_engine_custom_color_title">Gunakan warna kustom</string>
+    <string name="monet_engine_custom_color_summary">Gunakan warna kustom untuk mesin monet alih-alih warna wallpaper</string>
+    <string name="monet_engine_color_override_title">Warna kustom</string>
+    <string name="monet_engine_white_luminance_user_title">Pencahayaan putih</string>
+    <string name="monet_engine_accurate_shades_title">Gunakan nuansa yang akurat</string>
+    <string name="monet_engine_chroma_factor_title">Faktor kroma</string>
+    <string name="monet_engine_linear_lightness_title">Gunakan cahaya linier</string>
     <string name="use_wallpaper_color_title">Gunakan warna Wallpaper</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ikon 4G</string>
@@ -131,12 +131,12 @@
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Slider kecerahan</string>
-    <string name="qs_show_brightness_summary">Visibilitas dan pengaturan slider kecerahan</string>
-    <string name="qs_brightness_position_bottom_title">Slider kecerahan di bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di bagian bawah QS</string>
+    <string name="qs_show_brightness_title">Penggeser kecerahan</string>
+    <string name="qs_show_brightness_summary">Visibilitas dan pengaturan penggeser kecerahan</string>
+    <string name="qs_brightness_position_bottom_title">Penggeser kecerahan di bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan penggeser kecerahan di bagian bawah Setelan Cepat</string>
     <string name="qs_show_auto_brightness_title">Ikon Kecerahan Otomatis</string>
-    <string name="qs_show_auto_brightness_summary">Tampilkan tombol kecerahan otomatis di dekat slider kecerahan</string>
+    <string name="qs_show_auto_brightness_summary">Tampilkan tombol kecerahan otomatis di dekat penggeser kecerahan</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Reorientasi</string>
     <string name="swap_volume_buttons_summary">Tukar tombol volume ketika layar diputar</string>
@@ -191,51 +191,60 @@
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Kontrol lainnya</string>
     <string name="fullscreen_gestures_title">Gestur layar penuh</string>
-    <string name="fullscreen_gestures_summary">Sembunyikan pil bilah navigasi dan ruang keyboard</string>
+    <string name="fullscreen_gestures_summary">Sembunyikan gestur bilah navigasi dan ruang keyboard</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Panjang pil</string>
+    <string name="gesture_navbar_length_title">Panjang gestur bilah navigasi</string>
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
     <!-- Ripple Effect on lockscreen -->
     <string name="disable_fingerprint_ripple_effect_title">Matikan efek riak</string>
     <string name="disable_fingerprint_ripple_effect_summary">Matikan efek riak saat membuka kunci</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
     <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <string name="app_volume">Volume aplikasi</string>
+    <string name="app_volume_title">Kontrol volume per-aplikasi</string>
+    <string name="app_volume_summary">Tambahkan tombol volume per-aplikasi ke dalam dialog volume</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_layout_title">Balikkan tata letak bilah navigasi</string>
     <!-- QS Tile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
-    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <string name="qstile_requires_unlocking_title">Ubin Setelan Cepat yang aman memerlukan pembukaan kunci</string>
+    <string name="qstile_requires_unlocking_summary">Ubin Setelan Cepat berikut memerlukan pembukaan kunci sebelum Anda dapat mengaksesnya dari layar kunci:\nMode pesawat, data seluler, bluetooth, penghemat data, penghemat baterai, mode kerja, rotasi, NFC, hotspot, tethering USB, dan lokasi</string>
     <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
-    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <string name="disable_qs_title">Sembunyikan Setelan Cepat di layar kunci aman</string>
+    <string name="disable_qs_summary">Menyembunyikan Setelan Cepat jika perangkat terkunci. Tidak menonaktifkan bayangan notifikasi</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_power_menu_disabled_title">Nonaktifkan menu daya saat layar terkunci</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ini hanya akan menonaktifkan menu daya pada layar kunci aman</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Tampilkan panel volume di kiri</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan jarak notch</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
+    <string name="search">Cari</string>
+    <string name="search_apps">Cari aplikasi</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location access indicator</string>
-    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
-    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <string name="mic_camera_privacy_indicator_title">Indikator privasi mikrofon dan kamera</string>
+    <string name="mic_camera_privacy_indicator_summary">Tampilkan indikator terpisah saat aplikasi apa pun menggunakan mikrofon atau kamera</string>
+    <string name="location_privacy_indicator_title">Indikator akses lokasi</string>
+    <string name="location_privacy_indicator_summary_on">Tampilkan lokasi di chip privasi</string>
+    <string name="location_privacy_indicator_summary_off">Tampilkan lokasi di ikon bilah status</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Indikator Roaming</string>
+    <string name="roaming_indicator_icon_summary">Tampilkan indikator roaming di ikon sinyal saat dalam mode roaming</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Ruang Game</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Abaikan bendera pengaman jendela</string>
+    <string name="ignore_window_secure_summary">Ini menghapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Biasanya, aplikasi khusus diganti dengan area hitam dalam rekaman. Ini bisa nyaman dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi. Setelah mengubah sakelar ini, Anda mungkin perlu memulai ulang aplikasi agar perubahan diterapkan.</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Izinkan penurunan versi aplikasi</string>
+    <string name="app_downgrade_summary">Ini memungkinkan Anda untuk menurunkan versi aplikasi. Perhatikan bahwa ini dapat menyebabkan crash dan kerusakan data.</string>
 </resources>
