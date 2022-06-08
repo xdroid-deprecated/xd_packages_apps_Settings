@@ -229,9 +229,9 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
     
-    <!-- Ripple Effect on lockscreen -->    
-    <string name="disable_fingerprint_ripple_effect_title">Disable Ripple effect</string>
-    <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
