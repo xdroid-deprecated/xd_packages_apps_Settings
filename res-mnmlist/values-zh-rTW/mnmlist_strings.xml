@@ -32,9 +32,9 @@
     <string name="interfaces_battery_title">電量</string>
     <string name="buttons_title">按鍵</string>
     <string name="buttons_summary">音量鍵喚醒 • 播放控制</string>
-    <string name="quicksettings_title">Quick settings</string>
-    <string name="quicksettings_summary">Brightness slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="quicksettings_title">快速設定</string>
+    <string name="quicksettings_summary">亮度滑塊 • 自動亮度</string>
+    <string name="lockscreen_title">螢幕鎖定</string>
     <string name="lockscreen_summary">Always on display • 專輯封面 • 充電資訊</string>
     <string name="three_finger_gesture">滑動以擷取螢幕</string>
     <string name="three_finger_gesture_summary">三指下滑即可擷取螢幕畫面</string>
@@ -42,11 +42,11 @@
     <string name="global_actions_advanced_reboot_title">啟用進階重啟</string>
     <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
+    <string name="double_tap_sleep_gesture_title">輕觸兩下狀態列即可裝置休眠</string>
     <string name="double_tap_sleep_gesture_summary">輕觸兩下狀態列擊可讓裝置進入休眠</string>
     <!-- Double Tap to Sleep Lockscreen -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">輕觸兩下鎖定畫面即可休眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">輕觸兩下鎖定畫面上的任意位置以鎖定</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">狀態列項目</string>
     <string name="statusbar_items_summary">啟用/禁用狀態列圖示</string>
@@ -94,15 +94,15 @@
     <string name="torch_power_button_gesture_lp">按住電源鍵</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet 引擎</string>
+    <string name="monet_engine_summary">自訂 Monet 設定</string>
+    <string name="monet_engine_custom_color_title">使用自訂顏色</string>
+    <string name="monet_engine_custom_color_summary">使用自訂色彩而非桌布取色</string>
+    <string name="monet_engine_color_override_title">自訂色彩</string>
+    <string name="monet_engine_white_luminance_user_title">Monet引擎的亮度</string>
+    <string name="monet_engine_accurate_shades_title">使用更精準的色調</string>
+    <string name="monet_engine_chroma_factor_title">顏色濃度</string>
+    <string name="monet_engine_linear_lightness_title">使用線性亮度</string>
     <string name="use_wallpaper_color_title">使用桌布色彩</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 圖示</string>
@@ -196,55 +196,62 @@
     <string name="gesture_navbar_length_title">導航列的小橫條長度</string>
     <string name="short_label">短</string>
     <string name="long_label">長</string>
-    <!-- Ripple Effect on lockscreen -->
-    <string name="disable_fingerprint_ripple_effect_title">禁用波紋效果</string>
-    <string name="disable_fingerprint_ripple_effect_summary">解鎖時禁用波紋效果</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊連接</string>
     <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <string name="app_volume">應用程式音量</string>
+    <string name="app_volume_title">個別應用程式音量</string>
+    <string name="app_volume_summary">在音量面板將應用程式的音量分別顯示</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_layout_title">反轉導航列佈局</string>
     <!-- QS Tile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
-    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <string name="qstile_requires_unlocking_title">需解鎖才允許使用部分快速設定圖塊</string>
+    <string name="qstile_requires_unlocking_summary">以下圖塊需要解鎖才能從鎖定屏幕操控它們：\n飛航模式、行動數據、藍牙、數據節省模式、節約耗電量、工作模式、自動旋轉、NFC、無線基地台、USB 網絡共用和定位</string>
     <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
-    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <string name="disable_qs_title">在安全鎖定畫面上停用快速設定</string>
+    <string name="disable_qs_summary">裝置鎖定時停用快速設定，通知仍然會照常顯示</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_power_menu_disabled_title">停用鎖定螢幕上的電源選單</string>
+    <string name="lockscreen_power_menu_disabled_summary">這只會在有鎖定機制的鎖定畫面上停用電源選單</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">在左側顯示音量面板</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略螢幕瀏海、挖孔等區域</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">使用浮動螢幕旋轉按鈕</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="auto_brightness_one_shot_title">直接調整亮度 (無淡入淡出)</string>
+    <string name="auto_brightness_one_shot_summary">亮度只會在螢幕開啟後自動調整一次</string>
+    <string name="search">搜尋</string>
+    <string name="search_apps">搜尋應用程式</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location access indicator</string>
-    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
-    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <string name="mic_camera_privacy_indicator_title">麥克風和攝像頭的隱私指示器</string>
+    <string name="mic_camera_privacy_indicator_summary">當應用程式在使用麥克風或相機時顯示圖示</string>
+    <string name="location_privacy_indicator_title">位置讀取指示器</string>
+    <string name="location_privacy_indicator_summary_on">顯示讀取位置指示器</string>
+    <string name="location_privacy_indicator_summary_off">在狀態列上顯示定位圖示</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">行動網路漫遊指示器</string>
+    <string name="roaming_indicator_icon_summary">在漫遊模式下顯示訊號圖示中的漫遊指示符號</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">遊戲空間</string>
+    <string name="game_space_summary">增強您的遊戲體驗</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">忽略某些應用禁止用戶擷取整個螢幕的功能標識</string>
+    <string name="ignore_window_secure_summary">這將刪除所有應用程序的螢幕截圖和螢幕記錄限制。通常，特殊應用程序會替換為記錄中的黑色區域。 在某些情況下這可能很方便，但可能會導致隱私洩露。更改此切換後，您可能需要重新啟動應用程序才能使更改生效。</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="app_downgrade_title">允許應用降級</string>
+    <string name="app_downgrade_summary">這允許您降級應用程序。請注意，這可能會導致崩潰和數據損壞。</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋防誤觸偵測</string>
+    <string name="pocket_judge_summary">當裝置在口袋中時阻止螢幕和按鈕輸入</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
 </resources>
