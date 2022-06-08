@@ -196,9 +196,9 @@
     <string name="gesture_navbar_length_title">Panjang gestur bilah navigasi</string>
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
-    <!-- Ripple Effect on lockscreen -->
-    <string name="disable_fingerprint_ripple_effect_title">Matikan efek riak</string>
-    <string name="disable_fingerprint_ripple_effect_summary">Matikan efek riak saat membuka kunci</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
@@ -247,4 +247,11 @@
     <!-- Application downgrade -->
     <string name="app_downgrade_title">Izinkan penurunan versi aplikasi</string>
     <string name="app_downgrade_summary">Ini memungkinkan Anda untuk menurunkan versi aplikasi. Perhatikan bahwa ini dapat menyebabkan crash dan kerusakan data.</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi saku</string>
+    <string name="pocket_judge_summary">Blokir sentuh tombol dan layar saat perangkat berada dalam saku</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
 </resources>
