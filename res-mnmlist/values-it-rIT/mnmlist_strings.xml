@@ -87,6 +87,10 @@
     <string name="clock_date_right">A destra dell\'orario</string>
     <string name="clock_date_left">A sinistra dell\'orario</string>
     <string name="clock_date_position">Posizione della data</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Attiva/Disattiva la torcia quando lo schermo è spento</string>
     <string name="torch_power_button_gesture_none">Disattivato</string>
@@ -254,4 +258,10 @@
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
     <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 </resources>
