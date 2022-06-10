@@ -102,15 +102,10 @@
     <string name="xd_about_contributor_vi_summary">Вьетнамский переводчик</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Имя устройства</string>
-    <string name="xd_device_name_summary">Неизвестно</string>
     <string name="xd_chipset_type">Процессор</string>
-    <string name="xd_chipset_type_summary">Неизвестно</string>
     <string name="xd_gpu">Графический процессор</string>
-    <string name="xd_gpu_summary">Неизвестно</string>
     <string name="xd_camera_mp">Камера</string>
-    <string name="xd_camera_mp_summary">Неизвестно</string>
     <string name="xd_screen_type">Экран</string>
-    <string name="xd_screen_type_summary">Неизвестно</string>
     <!-- xd. Build Status -->
     <string name="xd_build_status">Your device is not officially supported!</string>
     <string name="xd_build_maintained_summary">Поддерживается %s</string>
