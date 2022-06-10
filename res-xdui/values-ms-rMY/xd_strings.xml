@@ -102,15 +102,10 @@
     <string name="xd_about_contributor_vi_summary">Penterjemah Vietnam</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama peranti</string>
-    <string name="xd_device_name_summary">Tidak diketahui</string>
     <string name="xd_chipset_type">Cipset</string>
-    <string name="xd_chipset_type_summary">Tidak diketahui</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Tidak diketahui</string>
     <string name="xd_camera_mp">Kamera</string>
-    <string name="xd_camera_mp_summary">Tidak diketahui</string>
     <string name="xd_screen_type">Skrin</string>
-    <string name="xd_screen_type_summary">Tidak diketahui</string>
     <!-- xd. Build Status -->
     <string name="xd_build_status">Your device is not officially supported!</string>
     <string name="xd_build_maintained_summary">Diselenggara oleh %s</string>
