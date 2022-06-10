@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+     Copyright (C) 2022 xdroid & xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Dashboard -->
+    <string name="mnmlist_title">mnmlist</string>
+    <string name="mnmlist_dashboard_title">Apa itu xdroid?</string>
+    <string name="xd_tap_about">Mengenai xdroid</string>
+    <string name="xd_tap_about_summary">Ketik di sini untuk mengetahui lebih lanjut tentang xdroid</string>
+    <string name="gestures_title">Gerak isyarat</string>
+    <string name="gestures_summary">Gerak isyarat ketik dua kali • Navigasi sistem</string>
+    <string name="misc_title">Pelbagai</string>
+    <string name="misc_summary">Lanjutan but semula • Haptik belakang</string>
+    <string name="interfaces_title">Antaramuka sistem</string>
+    <string name="interfaces_summary">Jam • Bateri • Ikon • Jaringan trafik</string>
+    <string name="interfaces_style_title">Gaya sistem</string>
+    <string name="interfaces_statusbar_title">Bar status</string>
+    <string name="interfaces_battery_title">Bateri</string>
+    <string name="buttons_title">Butang</string>
+    <string name="buttons_summary">Kelantangan bangun • Kawalan main balik</string>
+    <string name="quicksettings_title">Quick settings</string>
+    <string name="quicksettings_summary">Brightness slider • Auto brightness</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="lockscreen_summary">Sentiasa di paparan • Seni rupa media • Maklumat pengecasan</string>
+    <string name="three_finger_gesture">Leret untuk tangkapan skrin</string>
+    <string name="three_finger_gesture_summary">Leret kebawah dengan tiga jari untuk mengambil tangkapan skrin</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Hidupkan lanjutan mula semula</string>
+    <string name="global_actions_advanced_reboot_summary">Tunjukkan pilihan untuk mod pemulihan dan pemuat but dalam menu kuasa</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Ketik dua kali di mana-mana pada bar status untuk menidurkan peranti</string>
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Item bar status</string>
+    <string name="statusbar_items_summary">Hidupkan/Matikan item di bar status</string>
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Kawalan main balik</string>
+    <string name="volume_button_music_control_summary">Apabila skrin dimatikan, menekan lama kekunci kelantangan akan melangkau trek muzik</string>
+    <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_title">Tetapan jam</string>
+    <string name="clocksettings_summary">Tetapan jam bar status</string>
+    <string name="status_bar_clock_date_title">Jam dan Tarikh</string>
+    <string name="status_bar_clock_date_summary">Sesuaikan jam dan tarikh bar status anda</string>
+    <string name="status_bar_clock_title">Tetapan jam</string>
+    <string name="status_bar_clock_show">Tunjukkan jam dan tarikh</string>
+    <string name="status_bar_clock_style_title">Gaya jam</string>
+    <string name="status_bar_clock_style_right">Kanan</string>
+    <string name="status_bar_clock_style_center">Tengah</string>
+    <string name="status_bar_clock_style_left">Kiri</string>
+    <string name="status_bar_date_title">Tetapan tarikh</string>
+    <string name="status_bar_am_pm_title">Gaya AM/PM</string>
+    <string name="status_bar_am_pm_info">Kiraan 24 jam dihidupkan</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Kecil</string>
+    <string name="status_bar_am_pm_hidden">Tersembunyi (lalai)</string>
+    <string name="clock_seconds_display">Tunjukkan saat</string>
+    <string name="clock_date_display">Tarikh</string>
+    <string name="clock_date_display_summary">Paparkan tarikh tersuai sebelum jam</string>
+    <string name="clock_date_display_none">Jangan tunjuk</string>
+    <string name="clock_date_display_small">Saiz fon kecil</string>
+    <string name="clock_date_display_normal">Saiz fon biasa</string>
+    <string name="clock_date_style">Gaya tarikh</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Huruf kecil</string>
+    <string name="clock_date_style_uppercase">Huruf besar</string>
+    <string name="clock_date_format_custom">Format java tersuai</string>
+    <string name="clock_date_format">Format tarikh</string>
+    <string name="clock_date_string_edittext_title">Mesti berada di dalam FormatTarikh contohnya. BB/hh/tt</string>
+    <string name="clock_date_string_edittext_summary">Masukkan string</string>
+    <string name="clock_date_right">Pada kanan masa</string>
+    <string name="clock_date_left">Pada kiri masa</string>
+    <string name="clock_date_position">Posisi tarikh</string>
+    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Togol lampu apabila skrin dimatikan</string>
+    <string name="torch_power_button_gesture_none">Dimatikan</string>
+    <string name="torch_power_button_gesture_dt">Ketik dua kali butang kuasa (respon satu ketikan yang perlahan), Mematikan ketik dua kali butang kuasa untuk kamera.</string>
+    <string name="torch_power_button_gesture_lp">Tekan lama butang kuasa</string>
+    <!-- Monet Engine -->
+    <string name="monet_category">Monet</string>
+    <string name="monet_engine_title">Monet engine</string>
+    <string name="monet_engine_summary">Customize monet parameters</string>
+    <string name="monet_engine_custom_color_title">Use custom color</string>
+    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
+    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_white_luminance_user_title">White luminance</string>
+    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
+    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="use_wallpaper_color_title">Gunakan warna kertas dinding</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Ikon 4G</string>
+    <string name="show_fourg_icon_summary">Paparkan ikon 4G di isyarat ikon disebalik LTE</string>
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Penyesuaian bateri</string>
+    <string name="battery_percent_title">Peratus bateri</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Gaya bateri</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon potret (lalai)</string>
+    <string name="status_bar_battery_style_circle">Bulatan</string>
+    <string name="status_bar_battery_style_dotted_circle">Bulatan (Titik)</string>
+    <string name="status_bar_battery_style_filled_circle">Bulat (Diisi)</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Tersembunyi</string>
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Peratus bateri</string>
+    <string name="status_bar_battery_percentage_default">Tersembunyi (lalai)</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Sebelah ikon</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Bangun kelantangan</string>
+    <string name="volume_rocker_wake_summary">Bangunkan peranti anda dengan menekan kekunci kelantangan</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketik dua kali</string>
+    <string name="doze_double_tap_title">Ketik dua kali untuk menyemak telefon</string>
+    <string name="doze_double_tap_summary">Pemberitahuan berkelip dengan ketik dua kali</string>
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">Peluncur kecerahan</string>
+    <string name="qs_show_brightness_summary">Keterlihatan dan tetapan peluncur kecerahan</string>
+    <string name="qs_brightness_position_bottom_title">Peluncur kecerahan bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tunjukkan peluncur kecerahan di bawah QS</string>
+    <string name="qs_show_auto_brightness_title">Ikon kecerahan auto</string>
+    <string name="qs_show_auto_brightness_summary">Tunjukkan togol kecerahan auto berhampiran peluncur kecerahan</string>
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Mengorientasikan semula</string>
+    <string name="swap_volume_buttons_summary">Tukar butang kelantangan semasa skrin diputar</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Maklum balas haptik</string>
+    <string name="back_gesture_haptic_summary">Dayakan kesan haptik pada gerak isyarat belakang</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sentiasa hidup apabila mengecas</string>
+    <string name="doze_on_charge_summary">Tunjukkan skrin lelap sepanjang masa semasa mengecas</string>
+    <!-- General strings -->
+    <string name="default_string">Lalai</string>
+    <string name="unit_seconds">Saat(s)</string>
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Seni rupa media</string>
+    <string name="keygaurd_media_art_title">Tunjukkan seni rupa media</string>
+    <string name="keygaurd_media_art_summary">Paparkan seni rupa media sebagai latar belakang skrin kunci</string>
+    <string name="lockscreen_media_blur_title">Tahap kabur seni rupa media</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Maklumat pengecasan skrin kunci</string>
+    <string name="lockscreen_battery_info_summary">Paparkan pengecas yang dicadangkan semasa dan voltan maksimum serta suhu bateri pada skrin kunci semasa mengecas</string>
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Rangkaian</string>
+    <string name="network_traffic_state_title">Kelajuan rangkaian</string>
+    <string name="network_traffic_state_summary">Lihat kelajuan rangkaian di bar status</string>
+    <string name="network_traffic_location_title">Lokasi</string>
+    <string name="network_traffic_statusbar">Bar status</string>
+    <string name="network_traffic_qs_header">Bahagian atas QS</string>
+    <string name="network_traffic_mode_title">Mod Paparan</string>
+    <string name="network_traffic_dynamic">Dinamik</string>
+    <string name="network_traffic_download">Muat turun</string>
+    <string name="network_traffic_upload">Muat naik</string>
+    <string name="network_traffic_autohide_threshold_title">Ambang auto-sorok</string>
+    <string name="network_traffic_refresh_interval_title">Selang muat semula</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Kawalan kecerahan</string>
+    <string name="status_bar_toggle_brightness_summary">Laraskan kecerahan dengan menluncurkan disepanjang bar status</string>
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Gabungan ikon signal</string>
+    <string name="combined_status_bar_signal_icons_summary">Dayakan ikon isyarat gabungan dalam bar status.\nMemerlukan permulaan semula SistemUI</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Campurkan susunan</string>
+    <string name="unlock_scramble_pin_layout_summary">Campurkan susunan PIN apabila membuka kunci peranti</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka kunci pantas</string>
+    <string name="unlock_quick_unlock_control_summary">Buka kunci secara automatik apabila PIN/kata kunci yang betul dimasukan</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Tetapkan semula statistik</string>
+    <string name="battery_stats_message">Sejarah statistik bateri akan di set semula</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Penyahpepijatan secara root</string>
+    <string name="adb_enable_summary_root">Benarkan menjalankan penyahpepijatan Android sebagai root</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Kawalan lain</string>
+    <string name="fullscreen_gestures_title">Gerakan isyarat skrin penuh</string>
+    <string name="fullscreen_gestures_summary">Sembunyikan pil navbar dan ruang papan kekunci</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Panjang pil</string>
+    <string name="short_label">Pendek</string>
+    <string name="long_label">Panjang</string>
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <!-- Strings for per-app volume -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <!-- QS Tile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
+    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
+    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <!-- Volume panel on left switch -->
+    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location access indicator</string>
+    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
+    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- Application downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <!-- Unlock FPS for specific games -->
+    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <!-- Unlimited google photos storage -->
+    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2021 xdroid, xyzprjkt
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- xd. version -->
+    <string name="xd_revision">Revisi XD</string>
+    <!-- AOSP Revision -->
+    <string name="aosp_revision">Revisi AOSP</string>
+    <!-- xd. Placeholder -->
+    <string name="xd_title_placeholder">loremipsum</string>
+    <string name="xd_summary_placeholder">loremipsum</string>
+    <!-- xd. fake toolbar -->
+    <string name="xd_firmware_info">Mengenai perisian</string>
+    <string name="xd_hardware_info">Mengenai perkakasan</string>
+    <string name="xd_about_phone">Mengenai telefon</string>
+    <string name="xd_about">Mengenai xdroid</string>
+    <!-- xd. Dashboard -->
+    <string name="xd_dashboard_greet_default">Apakah yang sedang anda cari?</string>
+    <string name="xd_dashboard_greet1">Apakah yang anda sedang cari?</string>
+    <string name="xd_dashboard_greet2">Mencari sesuatu?</string>
+    <string name="xd_dashboard_greet3">Perlu mengubah apa-apa?</string>
+    <string name="xd_dashboard_greet4">Mencari sesuatu?</string>
+    <string name="xd_dashboard_greet5">Perlukan apa-apa?</string>
+    <string name="xd_dashboard_greet6">Mari lakukan sesuatu yang menarik</string>
+    <string name="xd_dashboard_greet7">Ada sesuatu perlu diubah?</string>
+    <string name="xd_dashboard_greet8">Katakan hai, kepada dunia?</string>
+    <string name="xd_dashboard_greet9">Hai, selamat datang ke mnmlist</string>
+    <string name="xd_dashboard_greet10">Ubahsuai peranti anda disini!</string>
+    <string name="xd_dashboard_greet11">Mencari sesuatu?</string>
+    <string name="xd_dashboard_greet12">Hai disana, saya menggunakan xdroid</string>
+    <string name="xd_dashboard_device">Mengenai telefon</string>
+    <string name="xd_dashboard_account">Akaun</string>
+    <string name="xd_dashboard_network">Internet</string>
+    <string name="xd_dashboard_conectivity">Sambungan</string>
+    <string name="xd_dashboard_display">Paparan</string>
+    <string name="xd_dashboard_battery">Bateri</string>
+    <string name="xd_dashboard_sound">Suara</string>
+    <string name="xd_dashboard_apps">Aplikasi</string>
+    <string name="xd_dashboard_notif">Notifikasi</string>
+    <string name="xd_dashboard_storage">Ruang penyimpanan</string>
+    <string name="xd_dashboard_privacy">Privasi</string>
+    <string name="xd_dashboard_location">Lokasi</string>
+    <string name="xd_dashboard_security">Keselamatan</string>
+    <string name="xd_dashboard_accessibility">Pencapaian</string>
+    <string name="xd_dashboard_system">Lain-lain</string>
+    <string name="xd_dashboard_support">Sokong</string>
+    <!-- xd. mnmlist. -->
+    <string name="xd_dashboard_xzrypr">Mnmlist</string>
+    <string name="xd_dashboard_xzrypr_summary">Dapatkan penyesuaian kegemaran anda disini</string>
+    <!-- xd. Preferences -->
+    <string name="xd_firmware_info_summary">Maklumat tentang perisian dalam telefon ini</string>
+    <string name="xd_hardware_info_summary">Maklumat tentang perkakasan dalam telefon ini</string>
+    <string name="xd_device_owner">Nama pemilik</string>
+    <string name="xd_legal_information_summary">Maklumat undang-undang lesen</string>
+    <string name="xd_regulatory_summary">Maklumat kawal selia</string>
+    <string name="xd_wifi_saved">Rangkaian yang disimpan</string>
+    <string name="blurs_effect">Kesan kabur</string>
+    <string name="dark_ui_mode_summary">Hidupkan Tema Gelap di peranti ini</string>
+    <string name="xd_updater">Kemas kini sistem</string>
+    <string name="xd_updater_summary">Ketik disini untuk menyemak kemas kini perisian yang terkini</string>
+    <!-- xd. Preferences Category -->
+    <string name="xd_about_phone_owner_cat">Maklumat pemilik</string>
+    <string name="xd_about_phone_information_cat">Mengenai peranti</string>
+    <string name="xd_about_phone_legalregulator_cat">Maklumat Undang-undang dan Pengawal Selia</string>
+    <string name="xd_about_phone_network_cat">Mengenai rangkaian</string>
+    <string name="xd_firmware_version_cat">Versi perisian</string>
+    <string name="xd_firmware_security_cat">Keselamatan perisian</string>
+    <string name="xd_general_cat">Umum</string>
+    <string name="xd_category_ui">Antaramuka pengguna</string>
+    <string name="xd_category_screen">Skrin</string>
+    <string name="xd_category_density">Kepadatan</string>
+    <string name="xd_category_gesture">Gerakan isyarat skrin</string>
+    <string name="xd_category_brightness">Kecerahan</string>
+    <string name="xd_about_core_team_cat">Pembangun utama</string>
+    <string name="xd_about_contributor_cat">Penyumbang</string>
+    <!-- xd. About -->
+    <string name="xd_about_desc">xdroid adalah ROM Android tersuai yang berasaskan AOSP yang memfokuskan keringkasan dan minimalis sambil mengekalkan kelancaran dan pengoptimuman yang disediakan oleh AOSP.</string>
+    <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
+    <string name="xd_about_core_xyzuan_role">Pengasas, Pembangun Utama dan Pereka UI</string>
+    <string name="xd_about_core_friction">Firman Yanuar</string>
+    <string name="xd_about_core_friction_role">Pereka UI dan UX</string>
+    <string name="xd_about_core_eky">Eky Zakariah</string>
+    <string name="xd_about_core_eky_role">Frontend Developer</string>
+    <string name="xd_about_contributor_rdclxvi">Royan AK</string>
+    <string name="xd_about_contributor_rdclxvi_role">Penterjemah Indonesia</string>
+    <string name="xd_about_contributor_iszon">Iszon</string>
+    <string name="xd_about_contributor_iszon_role">Penterjemah Polish</string>
+    <string name="xd_about_contributor_vi">log1cs</string>
+    <string name="xd_about_contributor_vi_summary">Penterjemah Vietnam</string>
+    <!-- xd. About Phone -->
+    <string name="xd_device_name">Nama peranti</string>
+    <string name="xd_chipset_type">Cipset</string>
+    <string name="xd_gpu">GPU</string>
+    <string name="xd_camera_mp">Kamera</string>
+    <string name="xd_screen_type">Skrin</string>
+    <!-- xd. Build Status -->
+    <string name="xd_build_status">Your device is not officially supported!</string>
+    <string name="xd_build_maintained_summary">Diselenggara oleh %s</string>
+    <string name="xd_build_unmaintained_summary">Binaan ini tidak diselenggara secara rasmi</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <!-- Game -->
+    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
+    <string name="game_dashboard_always_on_title">Game Dashboard</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
+    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <!-- Columbus -->
+    <string name="columbus_title">@string/columbus_name</string>
+    <string name="columbus_gesture_detected">Quick Tap detected!</string>
+    <string name="columbus_gesture_enrollment_complete">Done</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
+    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
+    <string name="columbus_gesture_enrollment_try_it">Try it</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
+    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
+    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
+    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
+    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
+    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
+    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
+    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
+    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
+    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
+    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
+    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
+    <string name="columbus_name">Quick Tap</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
+    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
+    <string name="columbus_setting_action_assistant_value">assistant</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
+    <string name="columbus_setting_action_launch_title">Open app</string>
+    <string name="columbus_setting_action_launch_value">launch</string>
+    <string name="columbus_setting_action_notification_title">Show notifications</string>
+    <string name="columbus_setting_action_notification_value">notifications</string>
+    <string name="columbus_setting_action_open_app_title">Open app</string>
+    <string name="columbus_setting_action_overview_title">See recent apps</string>
+    <string name="columbus_setting_action_overview_value">overview</string>
+    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
+    <string name="columbus_setting_action_play_pause_value">media</string>
+    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
+    <string name="columbus_setting_action_screenshot_value">screenshot</string>
+    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
+    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
+    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
+    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
+    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
+    <string name="columbus_summary">%1$s / %2$s</string>
+</resources>
