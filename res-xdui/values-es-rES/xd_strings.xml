@@ -102,15 +102,10 @@
     <string name="xd_about_contributor_vi_summary">Traductor al Vietnamita</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nombre del dispositivo</string>
-    <string name="xd_device_name_summary">Desconocido</string>
     <string name="xd_chipset_type">Chipset</string>
-    <string name="xd_chipset_type_summary">Desconocido</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_gpu_summary">Desconocido</string>
     <string name="xd_camera_mp">Cámara</string>
-    <string name="xd_camera_mp_summary">Unknown</string>
     <string name="xd_screen_type">Pantalla</string>
-    <string name="xd_screen_type_summary">Desconocido</string>
     <!-- xd. Build Status -->
     <string name="xd_build_status">Your device is not officially supported!</string>
     <string name="xd_build_maintained_summary">Mantenido por %s</string>
