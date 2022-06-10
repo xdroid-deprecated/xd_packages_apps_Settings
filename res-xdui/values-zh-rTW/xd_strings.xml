@@ -102,15 +102,10 @@
     <string name="xd_about_contributor_vi_summary">越南语翻译者</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">裝置名稱</string>
-    <string name="xd_device_name_summary">未知</string>
     <string name="xd_chipset_type">芯片</string>
-    <string name="xd_chipset_type_summary">未知</string>
     <string name="xd_gpu">圖形處理器</string>
-    <string name="xd_gpu_summary">未知</string>
     <string name="xd_camera_mp">相機</string>
-    <string name="xd_camera_mp_summary">未知</string>
     <string name="xd_screen_type">螢幕</string>
-    <string name="xd_screen_type_summary">未知</string>
     <!-- xd. Build Status -->
     <string name="xd_build_status">您的設備不受官方支持！</string>
     <string name="xd_build_maintained_summary">維護者%s</string>
