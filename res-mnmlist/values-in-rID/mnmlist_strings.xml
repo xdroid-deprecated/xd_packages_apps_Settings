@@ -87,10 +87,10 @@
     <string name="clock_date_right">Waktu kanan</string>
     <string name="clock_date_left">Waktu kiri</string>
     <string name="clock_date_position">Posisi tanggal</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_title">Sembunyikan jam otomatis</string>
+    <string name="status_bar_clock_auto_hide_summary">Sembunyikan dan tampilkan jam pada interval waktu yang teratur</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Sembunyikan durasi</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Tampilkan durasi</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Tombol senter saat layar mati</string>
     <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
@@ -201,8 +201,8 @@
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efek riak</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Tampilkan efek riak saat membuka kunci dengan sidik jari</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
@@ -255,13 +255,16 @@
     <string name="pocket_judge_title">Deteksi saku</string>
     <string name="pocket_judge_summary">Blokir sentuh tombol dan layar saat perangkat berada dalam saku</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
-    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_title">Perkiraan sisa baterai</string>
+    <string name="qs_show_battery_estimate_summary_on">Tampilkan perkiraan baterai di Setelan Cepat</string>
+    <string name="qs_show_battery_estimate_summary_off">Sembunyikan perkiraan baterai di Setelan Cepat</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Buka kunci FPS yang lebih tinggi dalam game</string>
+    <string name="use_games_spoof_summary">Palsukan perangkat Anda sebagai model yang berbeda untuk game tertentu agar dapat membuka FPS yang lebih tinggi</string>
     <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
+    <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
+    <string name="data_disabled_icon_summary">Menampilkan tanda seruan di sebelah bar sinyal saat data dinonaktifkan</string>
 </resources>
