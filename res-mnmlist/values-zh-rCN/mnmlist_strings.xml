@@ -87,10 +87,10 @@
     <string name="clock_date_right">位于时间右侧</string>
     <string name="clock_date_left">位于时间左侧</string>
     <string name="clock_date_position">日期位置</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_title">自动隐藏时间</string>
+    <string name="status_bar_clock_auto_hide_summary">定期隐藏和显示时钟以节省状态栏空间</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">关闭屏幕时开启手电筒</string>
     <string name="torch_power_button_gesture_none">禁用</string>
@@ -201,8 +201,8 @@
     <string name="short_label">短</string>
     <string name="long_label">长</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接到上游连接</string>
@@ -256,12 +256,15 @@
     <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
-    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_summary_on">在快速设置中隐藏电池估计值</string>
+    <string name="qs_show_battery_estimate_summary_off">在快速设置中隐藏电池估计值</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">在游戏中解锁更高的 FPS</string>
+    <string name="use_games_spoof_summary">将您的设备伪装成特定游戏的不同型号以解锁更高的 FPS</string>
     <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">无限照片存储</string>
+    <string name="use_photos_spoof_summary">将您的设备伪装成 Pixel XL for Google Photos 应用，仅提供无限存储空间进行备份</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
 </resources>
