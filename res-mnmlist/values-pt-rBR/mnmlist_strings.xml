@@ -32,9 +32,9 @@
     <string name="interfaces_battery_title">Bateria</string>
     <string name="buttons_title">Botões</string>
     <string name="buttons_summary">Acordar por volume • Controle de reprodução</string>
-    <string name="quicksettings_title">Quick settings</string>
-    <string name="quicksettings_summary">Brightness slider • Auto brightness</string>
-    <string name="lockscreen_title">Lock screen</string>
+    <string name="quicksettings_title">Configurações rápidas</string>
+    <string name="quicksettings_summary">Controle de brilho • Brilho automático</string>
+    <string name="lockscreen_title">Tela de bloqueio</string>
     <string name="lockscreen_summary">Sempre em exibição • Arte de mídia • Informações sobre a carga</string>
     <string name="three_finger_gesture">Deslize para a captura de tela</string>
     <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para fazer uma captura de tela</string>
@@ -42,10 +42,10 @@
     <string name="global_actions_advanced_reboot_title">Ativar reinicialização avançada</string>
     <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader no menu de energia</string>
     <!-- Double Tap to Sleep Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Dê um duplo toque na barra de status para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duas vezes em qualquer lugar na barra de status para colocar o dispositivo em suspensão</string>
     <!-- Double Tap to Sleep Lockscreen -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para desligar</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Itens da barra de status</string>
@@ -103,8 +103,8 @@
     <string name="monet_engine_custom_color_title">Use custom color</string>
     <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
     <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_white_luminance_user_title">Tonalidade clara</string>
+    <string name="monet_engine_accurate_shades_title">Usar tons precisos</string>
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
     <string name="use_wallpaper_color_title">Usar cores do papel de parede</string>
