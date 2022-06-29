@@ -93,7 +93,7 @@
     <string name="xd_about_core_friction">Firman Yanuar</string>
     <string name="xd_about_core_friction_role">UI e UX Designer</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
-    <string name="xd_about_core_eky_role">Frontend Developer</string>
+    <string name="xd_about_core_eky_role">Desenvolvedor front-end</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
     <string name="xd_about_contributor_rdclxvi_role">Tradutor indonésio</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
@@ -107,16 +107,16 @@
     <string name="xd_camera_mp">Câmera</string>
     <string name="xd_screen_type">Tela</string>
     <!-- xd. Build Status -->
-    <string name="xd_build_status">Your device is not officially supported!</string>
+    <string name="xd_build_status">Dispositivo não é suportado!</string>
     <string name="xd_build_maintained_summary">Mantido por %s</string>
     <string name="xd_build_unmaintained_summary">Esta compilação não é mantida oficialmente</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
