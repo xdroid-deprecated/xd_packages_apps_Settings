@@ -46,7 +46,7 @@
     <string name="double_tap_sleep_gesture_summary">Toque duas vezes em qualquer lugar na barra de status para colocar o dispositivo em suspensão</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para desligar</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para desligar a tela</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Itens da barra de status</string>
     <string name="statusbar_items_summary">Habilitar/Desabilitar itens na barra de status</string>
@@ -87,10 +87,10 @@
     <string name="clock_date_right">A direita do relógio</string>
     <string name="clock_date_left">À esquerda do relógio</string>
     <string name="clock_date_position">Posição da data</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_auto_hide_title">Ocultar relógio automaticamente</string>
+    <string name="status_bar_clock_auto_hide_summary">Ocultar e mostrar o relógio em intervalos regulares de tempo</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Esconder Duração</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Mostrar duração</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Ligar/Desligar a lanterna quando a tela estiver apagada</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
@@ -98,15 +98,15 @@
     <string name="torch_power_button_gesture_lp">Pressione e segure o botão de desligar</string>
     <!-- Monet Engine -->
     <string name="monet_category">Monet</string>
-    <string name="monet_engine_title">Monet engine</string>
-    <string name="monet_engine_summary">Customize monet parameters</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
+    <string name="monet_engine_title">Tema Monet</string>
+    <string name="monet_engine_summary">Personalize os parâmetros do tema Monet</string>
+    <string name="monet_engine_custom_color_title">Usar uma cor personalizada</string>
+    <string name="monet_engine_custom_color_summary">Usar cor personalizada para o motor de temas Monet em vez de cores do papel de parede</string>
+    <string name="monet_engine_color_override_title">Cor personalizada</string>
     <string name="monet_engine_white_luminance_user_title">Tonalidade clara</string>
     <string name="monet_engine_accurate_shades_title">Usar tons precisos</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_chroma_factor_title">Coloração</string>
+    <string name="monet_engine_linear_lightness_title">Usar luminosidade linear</string>
     <string name="use_wallpaper_color_title">Usar cores do papel de parede</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Icone 4G</string>
@@ -201,70 +201,70 @@
     <string name="short_label">Curto</string>
     <string name="long_label">Longo</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efeito ondulação</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar animação ao desbloquear com impressão digital</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019 para conexões VPN de alta velocidade</string>
     <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+    <string name="app_volume">Volume do aplicativo</string>
+    <string name="app_volume_title">Controle de volume por aplicativo</string>
+    <string name="app_volume_summary">Mostrar controle de volume por aplicativo na caixa de diálogo de volume</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+    <string name="navbar_invert_layout_title">Inverter o layout da barra de navegação</string>
     <!-- QS Tile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
-    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <string name="qstile_requires_unlocking_title">Secure QS na tela de bloqueio</string>
+    <string name="qstile_requires_unlocking_summary">Os seguintes blocos no painel de configurações rápidas requerem o desbloqueio antes de poder ativar/desativar a partir da tela de bloqueio:\nModo Avião, Dados Móveis, NFC, Ponto de Acesso WiFi, Compartilhamento de Internet por USB e Localização</string>
     <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
-    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <string name="disable_qs_title">Ocultar painel de Configurações Rápidas na tela de bloqueio</string>
+    <string name="disable_qs_summary">Oculta as configurações rápidas quando o dispositivo está bloqueado. Isso não desativa a aba de notificações</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_power_menu_disabled_title">Desativar o menu de energia na tela de bloqueio</string>
+    <string name="lockscreen_power_menu_disabled_summary">Esta opção só irá desativar o menu de energia na tela de bloqueio</string>
     <!-- Volume panel on left switch -->
-    <string name="volume_panel_on_left_title">Show volume panel on left</string>
+    <string name="volume_panel_on_left_title">Mostrar painel de volume à esquerda</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">Habilitar botão de rotação flutuante</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="auto_brightness_one_shot_title">Ajustar ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+    <string name="search">Buscar</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location access indicator</string>
-    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
-    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <string name="mic_camera_privacy_indicator_title">Indicador de privacidade do microfone e da câmera</string>
+    <string name="mic_camera_privacy_indicator_summary">Mostrar indicador de privacidade quando um aplicativo usar o microfone ou câmera</string>
+    <string name="location_privacy_indicator_title">Indicador de privacidade de localização</string>
+    <string name="location_privacy_indicator_summary_on">Mostrar localização no chip de privacidade</string>
+    <string name="location_privacy_indicator_summary_off">Mostrar a localização nos ícones da barra de status</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Indicador de Roaming</string>
+    <string name="roaming_indicator_icon_summary">Exibir o indicador de roaming no ícone de sinal quando em modo de roaming</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Espaço de Jogo</string>
+    <string name="game_space_summary">Melhore sua experiência em jogos</string>
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
+    <string name="ignore_window_secure_summary">Isso remove as restrições de captura de tela e gravação de tela para todos os aplicativos. Normalmente, aplicativos protegidos não permitem e emitem uma tela preta nos registros. Remover essa restrição pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. Após alterar este botão, você pode precisar reiniciar o aplicativo para que a alteração tenha efeito.</string>
     <!-- Application downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+    <string name="app_downgrade_title">Permitir downgrade de aplicativo</string>
+    <string name="app_downgrade_summary">Isso permite que você retorne para uma versão mais antiga de um aplicativo sem precisar remover o atual. Note que isso pode levar a travamentos e perda de dados.</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Detecção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
-    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_title">Estimativa de tempo da bateria</string>
+    <string name="qs_show_battery_estimate_summary_on">Mostrar tempo da bateria no QS</string>
+    <string name="qs_show_battery_estimate_summary_off">Ocultar tempo da bateria no QS</string>
     <!-- Unlock FPS for specific games -->
-    <string name="use_games_spoof_title">Unlock higher FPS in games</string>
-    <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="use_games_spoof_title">Desbloquear máximo de FPS nos jogos</string>
+    <string name="use_games_spoof_summary">Mascarar seu dispositivo como um modelo diferente para desbloquear mais FPS nos jogos</string>
     <!-- Unlimited google photos storage -->
-    <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_title">Armazenamento de fotos ilimitado</string>
+    <string name="use_photos_spoof_summary">Mascarar seu dispositivo como Pixel XL para ter acesso ilimitado ao armazenamento de backup no Google Fotos</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Mostrar ícone de dados desativados</string>
+    <string name="data_disabled_icon_summary">Exibir um X junto do ícone de rede quando os dados estiverem desativados</string>
 </resources>
