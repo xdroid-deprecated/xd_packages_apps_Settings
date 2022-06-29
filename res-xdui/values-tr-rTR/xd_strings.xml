@@ -93,7 +93,7 @@
     <string name="xd_about_core_friction">Firman Yanuar</string>
     <string name="xd_about_core_friction_role">Arayüz ve Kullanıcı Deneyimi Tasarımcısı</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
-    <string name="xd_about_core_eky_role">Frontend Developer</string>
+    <string name="xd_about_core_eky_role">Önyüz Geliştirici</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
     <string name="xd_about_contributor_rdclxvi_role">Endonezce Çevirmeni</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
@@ -107,100 +107,100 @@
     <string name="xd_camera_mp">Kamera</string>
     <string name="xd_screen_type">Ekran</string>
     <!-- xd. Build Status -->
-    <string name="xd_build_status">Your device is not officially supported!</string>
+    <string name="xd_build_status">Cihazınız resmi olarak desteklenmiyor!</string>
     <string name="xd_build_maintained_summary">Bakım %s tarafından yapılmıştır</string>
     <string name="xd_build_unmaintained_summary">Bu yapı resmi değil</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status_disabled">Devre dışı</string>
+    <string name="selinux_status_permissive">Permissive (Serbest)</string>
+    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Tabletinizin ön tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Cihazınızın ön tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Telefonunuzun ön tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Tabletinizin arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Cihazınızın arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonunuzun arka tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Tabletinizin yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Cihazınızın yan tarafındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Tabletinizin önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Cihazınızın önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Telefonunuzun önündeki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Tabletinizin arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Cihazınızın arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Telefonunuzun arkasındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Tabletinizin yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Cihazınızın yan tarafındaki sensöre dokunun.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Telefonunuzun yan tarafındaki sensöre dokunun.</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Zil sesi &amp; bildirim sesini birleştir</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_reset">Kullanım verisi temizlensin mi?</string>
+    <string name="battery_stats_message">Pil kullanım verisi kaybedilecek</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">Bugün %1$s</string>
     <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <string name="game_dashboard_always_on_summary">Oyunlarda Oyun Menüsü kısayolunu göster</string>
+    <string name="game_dashboard_always_on_title">Oyun Menüsü</string>
+    <string name="game_dashboard_dnd_rule_name">Oyun</string>
+    <string name="game_dashboard_dnd_summary">Oyun oynarken yalnızca önemli kişilerden ve uygulamalardan bildirim alın</string>
+    <string name="game_dashboard_dnd_title">Oyunlar için Rahatsız Etme</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
-    <string name="columbus_gesture_detected">Quick Tap detected!</string>
-    <string name="columbus_gesture_enrollment_complete">Done</string>
-    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
-    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
-    <string name="columbus_gesture_enrollment_try_it">Try it</string>
-    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
-    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
-    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
-    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
-    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
-    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
-    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
-    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
-    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
-    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
-    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
-    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
-    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
-    <string name="columbus_name">Quick Tap</string>
-    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
-    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
-    <string name="columbus_setting_action_assistant_value">assistant</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
-    <string name="columbus_setting_action_launch_title">Open app</string>
-    <string name="columbus_setting_action_launch_value">launch</string>
-    <string name="columbus_setting_action_notification_title">Show notifications</string>
-    <string name="columbus_setting_action_notification_value">notifications</string>
-    <string name="columbus_setting_action_open_app_title">Open app</string>
-    <string name="columbus_setting_action_overview_title">See recent apps</string>
-    <string name="columbus_setting_action_overview_value">overview</string>
-    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
-    <string name="columbus_setting_action_play_pause_value">media</string>
-    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
-    <string name="columbus_setting_action_screenshot_value">screenshot</string>
-    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
-    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
-    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
-    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
-    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
+    <string name="columbus_gesture_detected">Hızlı dokunma algılandı!</string>
+    <string name="columbus_gesture_enrollment_complete">Bitti</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Şimdi değil</string>
+    <string name="columbus_gesture_enrollment_settings">Ayarlar\'a gidin</string>
+    <string name="columbus_gesture_enrollment_try_it">Deneyin</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Lütfen gerçekleştirilecek bir eylem seçin</string>
+    <string name="columbus_gesture_training_action_text">Hızlı Dokunma\'yı kullandığınızda ne olacağını seçin. Bunu daha sonra ayarlardan değiştirebilirsiniz.</string>
+    <string name="columbus_gesture_training_action_title">Hızlı Dokunma seçeneği seçin</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">… 2 çift dokunmadan 1\'i algılandı</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Bunu bir kez daha deneyelim. Telefonunuzun arkasına hızlıca iki kez dokunun.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Güzel!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">… 2 çift dokunmadan 2\'si algılandı</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">Hızlı Dokunma\'yı kullanmaya başlamaya hazırsınız</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">Anladın!</string>
+    <string name="columbus_gesture_training_enrolling_text">Telefonunuzun arkasına hızlıca iki kez dokunun.</string>
+    <string name="columbus_gesture_training_enrolling_title">Hızlı Dokunma\'yı deneyin</string>
+    <string name="columbus_gesture_training_finished_text">Hızlı Dokunma\'yı kullanmak için gereken dokunma gücünü değiştirmek için Ayarlar\'a gidin.</string>
+    <string name="columbus_gesture_training_finished_title">Hızlı Dokunma\'yı ayarladınız</string>
+    <string name="columbus_gesture_training_intro_text_accidental">Cihazınızın arkasına iki kez dokundunuz, bu da Asistanınızı hareket halindeyken kullanmanıza olanak tanır. Bu hareketi Ayarlar\'da özelleştirebilirsiniz.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Çift dokunuşla ekran görüntüsü alın, bildirimleri gösterin veya başka bir eylem başlatın.</string>
+    <string name="columbus_gesture_training_intro_title">Hızlı eylemler için Hızlı Dokunma</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Lütfen açmak için bir uygulama seçin</string>
+    <string name="columbus_gesture_training_launch_text">Hızlı Dokunma\'yı kullandığınızda açmak istediğiniz uygulamayı seçin.</string>
+    <string name="columbus_gesture_training_launch_title">Açılacak uygulamayı seçin</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s kısayol ayarları</string>
+    <string name="columbus_launch_settings_activity_title">Hızlı Dokunma ayarları</string>
+    <string name="columbus_name">Hızlı Dokunma</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s ayarları</string>
+    <string name="columbus_setting_action_assistant_title">Dijital asistanınıza erişin</string>
+    <string name="columbus_setting_action_assistant_value">asistan</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">Hiçbir uygulama seçilmedi</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">Uygulama yüklenmedi</string>
+    <string name="columbus_setting_action_launch_title">Uygulamayı aç</string>
+    <string name="columbus_setting_action_launch_value">başlat</string>
+    <string name="columbus_setting_action_notification_title">Bildirimleri göster</string>
+    <string name="columbus_setting_action_notification_value">bildirimler</string>
+    <string name="columbus_setting_action_open_app_title">Uygulamayı aç</string>
+    <string name="columbus_setting_action_overview_title">Son uygulamaları görün</string>
+    <string name="columbus_setting_action_overview_value">genel görünüm</string>
+    <string name="columbus_setting_action_play_pause_title">Medyayı oynatın veya duraklatın</string>
+    <string name="columbus_setting_action_play_pause_value">medya</string>
+    <string name="columbus_setting_action_screenshot_title">Ekran görüntüsü al</string>
+    <string name="columbus_setting_action_screenshot_value">ekran görüntüsü</string>
+    <string name="columbus_setting_actions_title">Telefonun arkasına iki kez dokunun</string>
+    <string name="columbus_setting_additional_settings_title">Hızlı Dokunma gücü</string>
+    <string name="columbus_setting_app_selection_help_text">Telefonunuzun arkasına iki kez dokunduğunuzda açılacak bir uygulama seçin. Uygulamayı kaldırırsanız, farklı bir uygulama seçene kadar Hızlı Dokunma kapanır.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Hızlı Dokunma\'yı kullanarak bu uygulamayı açtığınızda ne olacağını seçin.</string>
+    <string name="columbus_setting_enable_switch_title">Hızlı Dokunma\'yı kullan</string>
+    <string name="columbus_setting_sensitivity_title">Daha güçlü dokunmalar gerektir</string>
     <string name="columbus_summary">%1$s / %2$s</string>
 </resources>
