@@ -265,6 +265,6 @@
     <string name="use_photos_spoof_title">无限照片存储</string>
     <string name="use_photos_spoof_summary">将您的设备伪装成 Pixel XL for Google Photos 应用，仅提供无限存储空间进行备份</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">显示禁用数据图标</string>
+    <string name="data_disabled_icon_summary">停用数据连接时，显示信号图标旁的“×”图标</string>
 </resources>
