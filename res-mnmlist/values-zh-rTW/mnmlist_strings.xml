@@ -265,6 +265,6 @@
     <string name="use_photos_spoof_title">無限相簿儲存空間</string>
     <string name="use_photos_spoof_summary">針對Google相簿將您的裝置偽裝成 Pixel XL 來取得無限相簿儲存空間</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">顯示關閉行動網路的圖示</string>
+    <string name="data_disabled_icon_summary">當數據停用時，不顯示圖示旁邊的「！」圖示</string>
 </resources>
