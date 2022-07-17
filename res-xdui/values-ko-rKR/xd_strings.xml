@@ -16,191 +16,191 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- xd. version -->
-    <string name="xd_revision">XD revision</string>
+    <string name="xd_revision">XD 리비전</string>
     <!-- AOSP Revision -->
-    <string name="aosp_revision">AOSP revision</string>
+    <string name="aosp_revision">AOSP 리비전</string>
     <!-- xd. Placeholder -->
     <string name="xd_title_placeholder">loremipsum</string>
     <string name="xd_summary_placeholder">loremipsum</string>
     <!-- xd. fake toolbar -->
-    <string name="xd_firmware_info">Firmware information</string>
-    <string name="xd_hardware_info">Hardware information</string>
-    <string name="xd_about_phone">About phone</string>
-    <string name="xd_about">About xdroid</string>
+    <string name="xd_firmware_info">펌웨어 정보</string>
+    <string name="xd_hardware_info">하드웨어 정보</string>
+    <string name="xd_about_phone">휴대전화 정보</string>
+    <string name="xd_about">xdroid에 관하여</string>
     <!-- xd. Dashboard -->
-    <string name="xd_dashboard_greet_default">What are you looking for?</string>
-    <string name="xd_dashboard_greet1">What are you looking for?</string>
-    <string name="xd_dashboard_greet2">Looking for something?</string>
-    <string name="xd_dashboard_greet3">Need to change anything?</string>
-    <string name="xd_dashboard_greet4">Search for something?</string>
-    <string name="xd_dashboard_greet5">Need anything?</string>
-    <string name="xd_dashboard_greet6">Let\'s do something cool</string>
-    <string name="xd_dashboard_greet7">Got something to change?</string>
-    <string name="xd_dashboard_greet8">Say hi, to the world?</string>
-    <string name="xd_dashboard_greet9">Hi, welcome to mnmlist</string>
-    <string name="xd_dashboard_greet10">Tweak your device here!</string>
-    <string name="xd_dashboard_greet11">Try to find something?</string>
-    <string name="xd_dashboard_greet12">Hey, There i\'am using xdroid</string>
-    <string name="xd_dashboard_device">About phone</string>
-    <string name="xd_dashboard_account">Account</string>
-    <string name="xd_dashboard_network">Internet</string>
-    <string name="xd_dashboard_conectivity">Connectivity</string>
-    <string name="xd_dashboard_display">Display</string>
-    <string name="xd_dashboard_battery">Battery</string>
-    <string name="xd_dashboard_sound">Sound</string>
-    <string name="xd_dashboard_apps">Apps</string>
-    <string name="xd_dashboard_notif">Notifications</string>
-    <string name="xd_dashboard_storage">Storage</string>
-    <string name="xd_dashboard_privacy">Privacy</string>
-    <string name="xd_dashboard_location">Location</string>
-    <string name="xd_dashboard_security">Security</string>
-    <string name="xd_dashboard_accessibility">Accessibility</string>
-    <string name="xd_dashboard_system">Other</string>
-    <string name="xd_dashboard_support">Support</string>
+    <string name="xd_dashboard_greet_default">무엇을 찾고 계신가요?</string>
+    <string name="xd_dashboard_greet1">무엇을 찾고 계신가요?</string>
+    <string name="xd_dashboard_greet2">뭔가 찾고 계세요?</string>
+    <string name="xd_dashboard_greet3">무엇이든 바꾸셔야 하나요?</string>
+    <string name="xd_dashboard_greet4">무엇을 찾고있나요?</string>
+    <string name="xd_dashboard_greet5">무언가 필요하신가요?</string>
+    <string name="xd_dashboard_greet6">뭔가 멋진걸 해봅시다</string>
+    <string name="xd_dashboard_greet7">뭔가 바꿀것이 생겼나요?</string>
+    <string name="xd_dashboard_greet8">세상에 안녕, 이라고 말하시겠어요?</string>
+    <string name="xd_dashboard_greet9">mmmlist에 오신걸 환영합니다</string>
+    <string name="xd_dashboard_greet10">당신의 기기를 여기서 트윅하세요!</string>
+    <string name="xd_dashboard_greet11">뭔가 찾으시고 있나요?</string>
+    <string name="xd_dashboard_greet12">거기, 나 xdroid 쓰고 있어</string>
+    <string name="xd_dashboard_device">휴대전화 정보</string>
+    <string name="xd_dashboard_account">계정</string>
+    <string name="xd_dashboard_network">인터넷</string>
+    <string name="xd_dashboard_conectivity">연결성</string>
+    <string name="xd_dashboard_display">디스플레이</string>
+    <string name="xd_dashboard_battery">배터리</string>
+    <string name="xd_dashboard_sound">소리</string>
+    <string name="xd_dashboard_apps">앱</string>
+    <string name="xd_dashboard_notif">알림</string>
+    <string name="xd_dashboard_storage">저장소</string>
+    <string name="xd_dashboard_privacy">개인정보</string>
+    <string name="xd_dashboard_location">위치</string>
+    <string name="xd_dashboard_security">보안</string>
+    <string name="xd_dashboard_accessibility">접근성</string>
+    <string name="xd_dashboard_system">기타</string>
+    <string name="xd_dashboard_support">지원</string>
     <!-- xd. mnmlist. -->
     <string name="xd_dashboard_xzrypr">Mnmlist</string>
-    <string name="xd_dashboard_xzrypr_summary">Get your favorite customization here</string>
+    <string name="xd_dashboard_xzrypr_summary">당신이 즐겨찾는 커스텀을 여기서 찾으세요</string>
     <!-- xd. Preferences -->
-    <string name="xd_firmware_info_summary">Information about firmware in this phone</string>
-    <string name="xd_hardware_info_summary">Information about hardware in this phone</string>
-    <string name="xd_device_owner">Owner name</string>
-    <string name="xd_legal_information_summary">License legal information</string>
-    <string name="xd_regulatory_summary">Regulatory information</string>
-    <string name="xd_wifi_saved">Saved network</string>
-    <string name="blurs_effect">Blur effect</string>
-    <string name="dark_ui_mode_summary">Enable Dark Theme in this devices</string>
-    <string name="xd_updater">System update</string>
-    <string name="xd_updater_summary">Tap here to check latest latest firmware update</string>
+    <string name="xd_firmware_info_summary">이 폰의 펌웨어에 대하여</string>
+    <string name="xd_hardware_info_summary">이 폰의 하드웨어에 대하여</string>
+    <string name="xd_device_owner">소유자 이름</string>
+    <string name="xd_legal_information_summary">라이선스 법률 정보</string>
+    <string name="xd_regulatory_summary">규정 정보</string>
+    <string name="xd_wifi_saved">저장된 네트워크</string>
+    <string name="blurs_effect">블러 효과</string>
+    <string name="dark_ui_mode_summary">이 기기에 다크모드 활성화</string>
+    <string name="xd_updater">시스템 업데이트</string>
+    <string name="xd_updater_summary">여기를 탭하여 최신 펌웨어를 확인하세요</string>
     <!-- xd. Preferences Category -->
-    <string name="xd_about_phone_owner_cat">Owner information</string>
-    <string name="xd_about_phone_information_cat">Device information</string>
-    <string name="xd_about_phone_legalregulator_cat">Legal and Regulator information</string>
-    <string name="xd_about_phone_network_cat">Network information</string>
-    <string name="xd_firmware_version_cat">Firmware version</string>
-    <string name="xd_firmware_security_cat">Firmware security</string>
-    <string name="xd_general_cat">General</string>
-    <string name="xd_category_ui">User interfaces</string>
-    <string name="xd_category_screen">Screen</string>
-    <string name="xd_category_density">Density</string>
-    <string name="xd_category_gesture">Screen gestures</string>
-    <string name="xd_category_brightness">Brightness</string>
-    <string name="xd_about_core_team_cat">Core developer</string>
-    <string name="xd_about_contributor_cat">Contributor</string>
+    <string name="xd_about_phone_owner_cat">소유자 정보</string>
+    <string name="xd_about_phone_information_cat">기기 정보</string>
+    <string name="xd_about_phone_legalregulator_cat">법 및 규정 정보</string>
+    <string name="xd_about_phone_network_cat">네트워크 정보</string>
+    <string name="xd_firmware_version_cat">펌웨어 버전</string>
+    <string name="xd_firmware_security_cat">펌웨어 보안</string>
+    <string name="xd_general_cat">일반</string>
+    <string name="xd_category_ui">사용자 인터페이스</string>
+    <string name="xd_category_screen">화면</string>
+    <string name="xd_category_density">밀도</string>
+    <string name="xd_category_gesture">화면 제스처</string>
+    <string name="xd_category_brightness">밝기</string>
+    <string name="xd_about_core_team_cat">핵심 개발자</string>
+    <string name="xd_about_contributor_cat">기여자</string>
     <!-- xd. About -->
-    <string name="xd_about_desc">xdroid is an AOSP-based custom Android ROM which is focusing on simple and minimalism while keeping the smoothness and optimization provided by AOSP.</string>
+    <string name="xd_about_desc">xdroid 는 AOSP 기반 커스텀 안드로이드 롬으로 AOSP의 부드러움과 최적화를 유지하면서 간단함과 미니멀리즘에 집중합니다.</string>
     <string name="xd_about_core_xyzuan">Jody Yuantoro</string>
-    <string name="xd_about_core_xyzuan_role">Founder, Lead Developer and UI Designer</string>
+    <string name="xd_about_core_xyzuan_role">창립자, 주 개발자 및 UI 디자이너</string>
     <string name="xd_about_core_friction">Firman Yanuar</string>
-    <string name="xd_about_core_friction_role">UI and UX Designer</string>
+    <string name="xd_about_core_friction_role">UI 및 UX 디자이너</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
-    <string name="xd_about_core_eky_role">Frontend Developer</string>
+    <string name="xd_about_core_eky_role">프론트앤드 개발자</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
-    <string name="xd_about_contributor_rdclxvi_role">Indonesia Translator</string>
+    <string name="xd_about_contributor_rdclxvi_role">인도네시아 번역자</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
-    <string name="xd_about_contributor_iszon_role">Polish Translator</string>
+    <string name="xd_about_contributor_iszon_role">폴란드어 번역자</string>
     <string name="xd_about_contributor_vi">log1cs</string>
-    <string name="xd_about_contributor_vi_summary">Vietnamese Translator</string>
+    <string name="xd_about_contributor_vi_summary">베트남 번역자</string>
     <!-- xd. About Phone -->
-    <string name="xd_device_name">Device name</string>
-    <string name="xd_chipset_type">Chipset</string>
+    <string name="xd_device_name">기기 이름</string>
+    <string name="xd_chipset_type">칩셋</string>
     <string name="xd_gpu">GPU</string>
-    <string name="xd_camera_mp">Camera</string>
-    <string name="xd_screen_type">Screen</string>
+    <string name="xd_camera_mp">카메라</string>
+    <string name="xd_screen_type">화면</string>
     <!-- xd. Build Status -->
-    <string name="xd_build_status">Your device is not officially supported!</string>
-    <string name="xd_build_maintained_summary">Maintained by %s</string>
-    <string name="xd_build_unmaintained_summary">This build are not maintained officially</string>
+    <string name="xd_build_status">공식 지원되지 않는 기기입니다!</string>
+    <string name="xd_build_maintained_summary">%s에 의해 유지됨</string>
+    <string name="xd_build_unmaintained_summary">이 빌드는 공식적으로 유지되지 않습니다</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">SELinux 상태</string>
+    <string name="selinux_status_disabled">사용 안 함</string>
+    <string name="selinux_status_permissive">권한</string>
+    <string name="selinux_status_enforcing">시행 (Enforcing)</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">태블릿 전면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">기기 앞면에 지문 센서가 위치하여 있습니다</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">휴대 전화 앞면에서 지문 센서를 찾습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">태블릿 뒷면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">기기 뒷면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">기기의 뒷면에 지문인식 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">태블릿 옆면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">기기 옆면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">휴대전화 옆면에 지문 센서가 있습니다.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">태블릿 앞면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">기기 앞면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">휴대전화 앞에 있는 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">태블릿 뒷면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">기기 뒷면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">기기의 뒷면에 있는 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">태블릿 옆면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">기기 옆면에 있는 지문 센서를 누르세요.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">휴대전화 옆면에 있는 센서를 누르세요.</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">벨소리 &amp; 알림 음량 동기화</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_reset">사용 기록을 초기화할까요?</string>
+    <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다.</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="duration_less_than_one_minute">1분 미만</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">오늘 %1$s</string>
     <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <string name="game_dashboard_always_on_summary">인게임에서 게임 대시보드 숏컷 보이기</string>
+    <string name="game_dashboard_always_on_title">게임 대시보드</string>
+    <string name="game_dashboard_dnd_rule_name">게이밍</string>
+    <string name="game_dashboard_dnd_summary">게임을 하는 동안 중요한 사람이나 앱의 알림만 받기</string>
+    <string name="game_dashboard_dnd_title">게임 방해금지모드</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
-    <string name="columbus_gesture_detected">Quick Tap detected!</string>
-    <string name="columbus_gesture_enrollment_complete">Done</string>
-    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
-    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
-    <string name="columbus_gesture_enrollment_try_it">Try it</string>
-    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
-    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
-    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
-    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
-    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
-    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
-    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
-    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
-    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
-    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
-    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
-    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
-    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
-    <string name="columbus_name">Quick Tap</string>
-    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
-    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
-    <string name="columbus_setting_action_assistant_value">assistant</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
-    <string name="columbus_setting_action_launch_title">Open app</string>
-    <string name="columbus_setting_action_launch_value">launch</string>
-    <string name="columbus_setting_action_notification_title">Show notifications</string>
-    <string name="columbus_setting_action_notification_value">notifications</string>
-    <string name="columbus_setting_action_open_app_title">Open app</string>
-    <string name="columbus_setting_action_overview_title">See recent apps</string>
-    <string name="columbus_setting_action_overview_value">overview</string>
-    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
-    <string name="columbus_setting_action_play_pause_value">media</string>
-    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
-    <string name="columbus_setting_action_screenshot_value">screenshot</string>
-    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
-    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
-    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
-    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
-    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
+    <string name="columbus_gesture_detected">퀵 탭 확인!</string>
+    <string name="columbus_gesture_enrollment_complete">완료</string>
+    <string name="columbus_gesture_enrollment_do_it_later">나중에</string>
+    <string name="columbus_gesture_enrollment_settings">설정으로 이동</string>
+    <string name="columbus_gesture_enrollment_try_it">시도해보세요</string>
+    <string name="columbus_gesture_training_action_no_selection_error">실행할 동작을 선택하세요.</string>
+    <string name="columbus_gesture_training_action_text">퀵 탭을 사용할 때 어떤 동작을 할 지 고르세요. 나중에 설정에서 변경 할 수 있습니다.</string>
+    <string name="columbus_gesture_training_action_title">퀵 탭 설정을 고르세요.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">2번 중 1번째 더블 탭이 감지됐습니다.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">한 번 더 시도해보세요. 빠르게 폰 뒷쪽을 두 번 탭하세요.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">좋아요!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">2번 중 2번째 더블 탭이 감지됐습니다.</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">퀵 탭을 사용할 준비가 되었습니다.</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">잘 했습니다!</string>
+    <string name="columbus_gesture_training_enrolling_text">빠르게 폰 뒷쪽을 두 번 탭하세요.</string>
+    <string name="columbus_gesture_training_enrolling_title">퀵 탭을 사용해보세요.</string>
+    <string name="columbus_gesture_training_finished_text">설정에 가시면 퀵 탭의 탭 강도를 변경할 수 있습니다</string>
+    <string name="columbus_gesture_training_finished_title">퀵 탭 설정을 완료했습니다.</string>
+    <string name="columbus_gesture_training_intro_text_accidental">방금 단말기 뒷면을 두 번 탭했습니다. 이는 어시스턴트를 사용할 수 있도록 허가합니다. 설정에서 이 제스처를 커스텀할 수 있습니다.</string>
+    <string name="columbus_gesture_training_intro_text_suw">두 번 탭하여 스크린샷을 찍고, 알림을 표시하고, 또는 다른 행동을 시작합니다.</string>
+    <string name="columbus_gesture_training_intro_title">빠른 행동을 위해 퀵 탭하세요.</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">실행할 앱을 고르세요.</string>
+    <string name="columbus_gesture_training_launch_text">퀵 탭을 사용할 때 열고 싶은 앱을 고르세요.</string>
+    <string name="columbus_gesture_training_launch_title">실행할 앱을 고르세요.</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s 바로가기 설정</string>
+    <string name="columbus_launch_settings_activity_title">퀵 탭 설정</string>
+    <string name="columbus_name">퀵 탭</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s 설정</string>
+    <string name="columbus_setting_action_assistant_title">어시스턴트 실행</string>
+    <string name="columbus_setting_action_assistant_value">어시스턴트</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">선택된 앱이 없습니다</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">앱이 설치되지 않았습니다</string>
+    <string name="columbus_setting_action_launch_title">앱 실행</string>
+    <string name="columbus_setting_action_launch_value">시작</string>
+    <string name="columbus_setting_action_notification_title">알림 표시</string>
+    <string name="columbus_setting_action_notification_value">알림</string>
+    <string name="columbus_setting_action_open_app_title">앱 실행</string>
+    <string name="columbus_setting_action_overview_title">최근 앱 보기</string>
+    <string name="columbus_setting_action_overview_value">개요</string>
+    <string name="columbus_setting_action_play_pause_title">미디어 재생/일시 정지</string>
+    <string name="columbus_setting_action_play_pause_value">미디어</string>
+    <string name="columbus_setting_action_screenshot_title">스크린샷 찍기</string>
+    <string name="columbus_setting_action_screenshot_value">스크린샷</string>
+    <string name="columbus_setting_actions_title">단말기 뒷쪽을 두번 탭</string>
+    <string name="columbus_setting_additional_settings_title">퀵 탭 강도</string>
+    <string name="columbus_setting_app_selection_help_text">단말기 뒷쪽을 두 번 탭해서 실행할 앱을 고르세요. 만약 삭제된 앱이라면, 다른 앱을 선택할 때까지 퀵 탭이 꺼집니다.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">퀵 탭으로 이 앱을 열 때 어떤 동작을 할지 고르세요.</string>
+    <string name="columbus_setting_enable_switch_title">퀵 탭 사용</string>
+    <string name="columbus_setting_sensitivity_title">더 강한 탭 필요</string>
     <string name="columbus_summary">%1$s / %2$s</string>
 </resources>
