@@ -264,4 +264,7 @@
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Penyimpanan Google Foto tanpa batas</string>
     <string name="use_photos_spoof_summary">Palsukan perangkat Anda sebagai Pixel XL untuk aplikasi Google Foto hanya untuk menyediakan penyimpanan tidak terbatas untuk cadangan</string>
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Tampilkan jenis Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Menampilkan jenis Wi-Fi di indikator sinyal Wi-Fi</string>
 </resources>
