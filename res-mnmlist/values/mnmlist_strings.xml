@@ -155,6 +155,10 @@
     <string name="back_gesture_haptic_title">Back gesture haptic</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
     <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
