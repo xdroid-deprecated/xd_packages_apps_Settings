@@ -267,4 +267,7 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">顯示關閉行動網路的圖示</string>
     <string name="data_disabled_icon_summary">當數據停用時，不顯示圖示旁邊的「！」圖示</string>
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Show Wi-Fi type icon</string>
+    <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
 </resources>
