@@ -109,7 +109,7 @@
     <!-- xd. Build Status -->
     <string name="xd_build_status">Perangkat Anda tidak didukung secara resmi!</string>
     <string name="xd_build_maintained_summary">Dikelola oleh %s</string>
-    <string name="xd_build_unmaintained_summary">Bangunan ini tidak dikelola secara resmi</string>
+    <string name="xd_build_unmaintained_summary">Build ini tidak dikelola secara resmi</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>
