@@ -94,6 +94,10 @@
     <string name="xd_about_core_friction_role">Arayüz ve Kullanıcı Deneyimi Tasarımcısı</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
     <string name="xd_about_core_eky_role">Önyüz Geliştirici</string>
+    <string name="xd_about_core_waxaranai">Waxaranai</string>
+    <string name="xd_about_core_waxaranai_role">Backend Developer</string>
+    <string name="xd_about_core_basokuahenakrasanya">Ardika Gymnastiyar</string>
+    <string name="xd_about_core_basokuahenakrasanya_role">Project Manager</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
     <string name="xd_about_contributor_rdclxvi_role">Endonezce Çevirmeni</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
