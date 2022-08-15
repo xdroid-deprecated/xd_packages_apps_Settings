@@ -94,6 +94,10 @@
     <string name="xd_about_core_friction_role">用户界面（UI）和用户体验（UX）设计师</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
     <string name="xd_about_core_eky_role">前端开发者</string>
+    <string name="xd_about_core_waxaranai">Waxaranai</string>
+    <string name="xd_about_core_waxaranai_role">Backend Developer</string>
+    <string name="xd_about_core_basokuahenakrasanya">Ardika Gymnastiyar</string>
+    <string name="xd_about_core_basokuahenakrasanya_role">Project Manager</string>
     <string name="xd_about_contributor_rdclxvi">Royan AK</string>
     <string name="xd_about_contributor_rdclxvi_role">印度尼西亚翻译者</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
