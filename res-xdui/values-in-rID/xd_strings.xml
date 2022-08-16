@@ -93,13 +93,13 @@
     <string name="xd_about_core_friction">Firman Yanuar</string>
     <string name="xd_about_core_friction_role">Desainer UI dan UX</string>
     <string name="xd_about_core_eky">Eky Zakariah</string>
-    <string name="xd_about_core_eky_role">Pengembang front end</string>
+    <string name="xd_about_core_eky_role">Pengembang Frontend</string>
     <string name="xd_about_core_waxaranai">Waxaranai</string>
-    <string name="xd_about_core_waxaranai_role">Backend Developer</string>
+    <string name="xd_about_core_waxaranai_role">Pengembang Backend</string>
     <string name="xd_about_core_basokuahenakrasanya">Ardika Gymnastiyar</string>
-    <string name="xd_about_core_basokuahenakrasanya_role">Project Manager</string>
+    <string name="xd_about_core_basokuahenakrasanya_role">Manajer Proyek</string>
     <string name="xd_about_contributor_rdclxvi">Royan Karim</string>
-    <string name="xd_about_contributor_rdclxvi_role">Penerjemah Indonesia</string>
+    <string name="xd_about_contributor_rdclxvi_role">Penerjemah fitur ke Bahasa Indonesia</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
     <string name="xd_about_contributor_iszon_role">Penerjemah Polandia</string>
     <string name="xd_about_contributor_vi">log1cs</string>
