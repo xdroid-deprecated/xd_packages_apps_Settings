@@ -101,9 +101,9 @@
     <string name="xd_about_contributor_rdclxvi">Royan Karim</string>
     <string name="xd_about_contributor_rdclxvi_role">Penerjemah fitur ke Bahasa Indonesia</string>
     <string name="xd_about_contributor_iszon">Iszon</string>
-    <string name="xd_about_contributor_iszon_role">Penerjemah Polandia</string>
+    <string name="xd_about_contributor_iszon_role">Penerjemah fitur ke Bahasa Polandia</string>
     <string name="xd_about_contributor_vi">log1cs</string>
-    <string name="xd_about_contributor_vi_summary">Penerjemah Vietnam</string>
+    <string name="xd_about_contributor_vi_summary">Penerjemah fitur ke Bahasa Vietnam</string>
     <!-- xd. About Phone -->
     <string name="xd_device_name">Nama perangkat</string>
     <string name="xd_chipset_type">Chipset</string>
