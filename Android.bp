@@ -55,7 +55,7 @@ android_library {
                     "res-mnmlist",
     ],
 
-    aaptflags: ["--extra-packages com.xdroid.mnmlist",
+    aaptflags: ["--extra-packages com.xd.mnmlist",
     ],
 
     static_libs: [
