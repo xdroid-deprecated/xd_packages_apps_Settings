@@ -33,6 +33,12 @@
         
           </Preference>
 
+          <Preference
+               android:key="battery_settings"
+               android:fragment="com.xd.mnmlist.fragments.StatusBarBattery"
+               android:title="@string/battery_style_title"
+               android:summary="@string/battery_style_summary" />
+	  
           <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
                android:key="show_fourg_icon"
                android:title="@string/show_fourg_icon_title"
