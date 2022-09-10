@@ -22,7 +22,6 @@ import android.net.wifi.SoftApConfiguration;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.SystemProperties;
 import android.provider.Settings;
 import android.text.SpannedString;
 
@@ -45,8 +44,6 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         LifecycleObserver,
         OnSaveInstanceState,
         OnCreate {
-
-    private static final String KEY_MARKET_NAME_PROP = "ro.product.marketname";
     private static final String KEY_PENDING_DEVICE_NAME = "key_pending_device_name";
     @VisibleForTesting
     static final int RES_SHOW_DEVICE_NAME_BOOL = R.bool.config_show_device_name;
@@ -79,11 +76,11 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     }
 
     private void initializeDeviceName() {
-        String deviceName = Settings.Global.getString(mContext.getContentResolver(),
+        mDeviceName = Settings.Global.getString(mContext.getContentResolver(),
                 Settings.Global.DEVICE_NAME);
-        if (deviceName == null)
-            deviceName = Build.MODEL;
-        mDeviceName = SystemProperties.get(KEY_MARKET_NAME_PROP, deviceName);
+        if (mDeviceName == null) {
+            mDeviceName = Build.MODEL;
+        }
     }
 
     @Override
