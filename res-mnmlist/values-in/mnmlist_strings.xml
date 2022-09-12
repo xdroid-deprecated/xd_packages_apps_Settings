@@ -38,6 +38,9 @@
     <string name="lockscreen_summary">Layar selalu aktif • Seni Media • Info pengisian daya</string>
     <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
+    <!-- mnmlist Summary -->
+    <string name="show_mnmlist_summary_title">Ringkasan mnmlist di dashboard</string>
+    <string name="show_mnmlist_summary_summary">Tampilkan ringkasan pengaturan mnmlist di dasbor utama</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
     <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk mode recovery dan bootloader di menu daya</string>

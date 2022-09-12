@@ -38,6 +38,10 @@
     <string name="quicksettings_summary">Brightness slider • Auto brightness</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="lockscreen_summary">Always on display • Media Art • Charge info</string>
+    
+    <!-- mnmlist Summary -->
+    <string name="show_mnmlist_summary_title">Mnmlist summary in dashboard</string>
+    <string name="show_mnmlist_summary_summary">Show mnmlist summary preference in main dashboard</string>
 
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Double tap statusbar to sleep</string>
