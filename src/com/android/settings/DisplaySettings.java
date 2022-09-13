@@ -34,6 +34,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
+import androidx.preference.Preference;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,12 +55,36 @@ public class DisplaySettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.display_settings;
+        return R.xml.xd_display_settings;
     }
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        initPreferenceCard();
+    }
+
+    private void initPreferenceCard(){
+
+        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
+            Preference pref = getPreferenceScreen().getPreference(i);
+            if (pref.isVisible() && pref.getTitle() != null && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_sin && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot && 
+                pref.getLayoutResource() != R.layout.xd_dashboard_pref_mid &&
+                !pref.getKey().equals("display_category") &&
+                !pref.getKey().equals("lockscreen_category") && 
+                !pref.getKey().equals("rotate_category") &&
+                !pref.getKey().equals("other_category") ) {
+                pref.setLayoutResource(R.layout.xd_dashboard_pref_mid);
+            }
+        }
     }
 
     @Override
@@ -86,7 +112,7 @@ public class DisplaySettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.display_settings) {
+            new BaseSearchIndexProvider(R.xml.xd_display_settings) {
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(

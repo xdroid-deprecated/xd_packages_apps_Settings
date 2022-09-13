@@ -65,6 +65,11 @@
     <string name="xd_dashboard_wellbeing">Digital wellbeing</string>
     <string name="xd_dashboard_support">Support</string>
 
+    <!-- xd. Display Settings -->
+    <string name="xd_display_screen_cat">Screen</string>
+    <string name="xd_display_brightness">Brightness</string>
+    <string name="xd_display_rotate">Auto-rotate Screen</string>
+
     <!-- xd. mnmlist. -->
     <string name="xd_dashboard_xzrypr">Mnmlist</string>
 
