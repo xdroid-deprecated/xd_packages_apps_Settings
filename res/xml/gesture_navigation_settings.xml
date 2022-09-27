@@ -81,7 +81,7 @@
             android:summary="@string/fullscreen_gestures_summary"
             android:defaultValue="false" />
 
-        <com.xd.mnmlist.preferences.SecureSettingSwitchPreference
+        <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
             android:key="back_gesture_haptic"
             android:title="@string/back_gesture_haptic_title"
             android:summary="@string/back_gesture_haptic_summary"
