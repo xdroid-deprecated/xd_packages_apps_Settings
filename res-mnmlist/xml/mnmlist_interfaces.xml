@@ -18,6 +18,12 @@
      android:title="@string/interfaces_title"
      xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+      <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
+            android:key="display_settings_wallpaper_zoom"
+            android:title="@string/use_wp_zoom_title"
+            android:summary="@string/use_wp_zoom_summary"
+            android:defaultValue="false" />
+
      <PreferenceCategory
           android:title="@string/interfaces_statusbar_title">
 

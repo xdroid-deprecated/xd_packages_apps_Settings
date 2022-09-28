@@ -199,4 +199,7 @@
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Wp zoom -->
+    <string name="use_wp_zoom_title">Wallpaper Zoom</string>
+    <string name="use_wp_zoom_summary">Toggle wallpaper zoom behaviour</string>
 </resources>
