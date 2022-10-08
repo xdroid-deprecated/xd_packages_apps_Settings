@@ -38,6 +38,12 @@
                     android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         
           </Preference>
+          
+          <Preference
+              android:key="clock"
+              android:title="@string/status_bar_clock_title"
+              android:summary="@string/status_bar_clock_summary"
+              android:fragment="com.xd.mnmlist.fragments.StatusBarClock" />
 
           <Preference
                android:key="battery_settings"

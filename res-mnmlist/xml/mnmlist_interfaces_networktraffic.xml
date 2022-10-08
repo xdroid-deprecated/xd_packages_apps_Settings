@@ -45,4 +45,5 @@
         settings:min="1"
         android:defaultValue="1"
         settings:units="sec" />
+    
 </PreferenceScreen>
