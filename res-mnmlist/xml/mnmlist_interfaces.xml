@@ -51,6 +51,13 @@
                android:title="@string/battery_style_title"
                android:summary="@string/battery_style_summary" />
 	  
+          <!-- Separate signal icons -->
+          <com.xd.mnmlist.preferences.OverlaySwitchPreference
+               android:key="com.android.systemui.flags.no_combined_icons"
+               android:title="@string/separate_signal_icons_title"
+               android:summary="@string/separate_signal_icons_summary"
+               android:defaultValue="false" />
+
           <com.xd.mnmlist.preferences.SystemSettingSwitchPreference
                android:key="show_fourg_icon"
                android:title="@string/show_fourg_icon_title"

@@ -253,4 +253,7 @@
     <string name="qs_date_title">Date</string>
     <string name="qs_date_summary">Display date in quick status bar header</string>
     
+    <!-- Separate signal icons -->
+    <string name="separate_signal_icons_title">Separate signal icons</string>
+    <string name="separate_signal_icons_summary">Show signal and WiFi separately\nRequires a SystemUI restart</string>
 </resources>
