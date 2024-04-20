@@ -45,10 +45,16 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
     private static final String TAG = "HighlightableTopLevelAdapter";
 
     static final long DELAY_HIGHLIGHT_DURATION_MILLIS = 100L;
-    private static final int RES_NORMAL_BACKGROUND =
-            R.drawable.homepage_selectable_item_background;
-    private static final int RES_HIGHLIGHTED_BACKGROUND =
-            R.drawable.homepage_highlighted_item_background;
+
+    private static final int XD_CARD_NORMAL_BACKGROUND_TOP = R.drawable.xd_pref_card_top;
+    private static final int XD_CARD_NORMAL_BACKGROUND_MID = R.drawable.xd_pref_card_mid;
+    private static final int XD_CARD_NORMAL_BACKGROUND_BOT = R.drawable.xd_pref_card_bot;
+    private static final int XD_CARD_NORMAL_BACKGROUND_SIN = R.drawable.xd_pref_card_sin;
+
+    private static final int XD_CARD_SELECTED_BACKGROUND_TOP = R.drawable.xd_pref_card_selected_top;
+    private static final int XD_CARD_SELECTED_BACKGROUND_MID = R.drawable.xd_pref_card_selected_mid;
+    private static final int XD_CARD_SELECTED_BACKGROUND_BOT = R.drawable.xd_pref_card_selected_bot;
+    private static final int XD_CARD_SELECTED_BACKGROUND_SIN = R.drawable.xd_pref_card_selected_sin;
 
     private final int mTitleColorNormal;
     private final int mTitleColorHighlight;
@@ -216,6 +222,30 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
         }
     }
 
+    private int removeBackgroundHandler(int currentId){
+        if (currentId == R.drawable.xd_pref_card_top) {
+            return XD_CARD_NORMAL_BACKGROUND_TOP;
+        } else if (currentId == R.drawable.xd_pref_card_mid) {
+            return XD_CARD_NORMAL_BACKGROUND_MID;
+        } else if (currentId == R.drawable.xd_pref_card_bot){
+            return XD_CARD_NORMAL_BACKGROUND_BOT;
+        } else {
+            return XD_CARD_NORMAL_BACKGROUND_SIN;
+        }
+    }
+
+    private int addBackgroundHandler(int currentId){
+        if (currentId == R.drawable.xd_pref_card_top) {
+            return XD_CARD_SELECTED_BACKGROUND_TOP;
+        } else if (currentId == R.drawable.xd_pref_card_mid) {
+            return XD_CARD_SELECTED_BACKGROUND_MID;
+        } else if (currentId == R.drawable.xd_pref_card_bot){
+            return XD_CARD_SELECTED_BACKGROUND_BOT;
+        } else {
+            return XD_CARD_SELECTED_BACKGROUND_SIN;
+        }
+    }
+
     private void removeHighlightAt(int position) {
         if (position >= 0) {
             // De-highlight the existing preference view holder at an early stage
@@ -229,24 +259,37 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
 
     private void addHighlightBackground(PreferenceViewHolder holder) {
         final View v = holder.itemView;
-        v.setBackgroundResource(RES_HIGHLIGHTED_BACKGROUND);
-        ((TextView) v.findViewById(android.R.id.title)).setTextColor(mTitleColorHighlight);
-        ((TextView) v.findViewById(android.R.id.summary)).setTextColor(mSummaryColorHighlight);
-        final Drawable drawable = ((ImageView) v.findViewById(android.R.id.icon)).getDrawable();
-        if (drawable != null) {
-            drawable.setTint(mIconColorHighlight);
-        }
+
+        // TO-DO
+        // v.setBackgroundResource(
+        //     addBackgroundHandler(v.getBackground()
+        // ));
+
+        // TextView titleTextView = ((TextView)v.findViewById(android.R.id.title));
+        // if (titleTextView != null) {
+        //     titleTextView.setTextColor(mTitleColorHighlight);
+        // }
+        // TextView summaryTextView = ((TextView)v.findViewById(android.R.id.summary));
+        // if (summaryTextView != null) {
+        //     summaryTextView.setTextColor(mSummaryColorHighlight);
+        // }
     }
 
     private void removeHighlightBackground(PreferenceViewHolder holder) {
         final View v = holder.itemView;
-        v.setBackgroundResource(RES_NORMAL_BACKGROUND);
-        ((TextView) v.findViewById(android.R.id.title)).setTextColor(mTitleColorNormal);
-        ((TextView) v.findViewById(android.R.id.summary)).setTextColor(mSummaryColorNormal);
-        final Drawable drawable = ((ImageView) v.findViewById(android.R.id.icon)).getDrawable();
-        if (drawable != null) {
-            drawable.setTint(mIconColorNormal);
-        }
+
+        // TO-DO
+        // v.setBackgroundResource(
+        //     removeBackgroundHandler(v.getBackground()
+        // ));
+        // TextView titleTextView = ((TextView)v.findViewById(android.R.id.title));
+        // if (titleTextView != null) {
+        //     titleTextView.setTextColor(mTitleColorNormal);
+        // }
+        // TextView summaryTextView = ((TextView)v.findViewById(android.R.id.summary));
+        // if (summaryTextView != null) {
+        //     summaryTextView.setTextColor(mSummaryColorNormal);
+        // }
     }
 
     private boolean isHighlightNeeded() {

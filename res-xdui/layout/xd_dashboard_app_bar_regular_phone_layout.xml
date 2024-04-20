@@ -17,21 +17,31 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/app_bar_content"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginHorizontal="@dimen/homepage_app_bar_margin_horizontal_two_pane"
-    android:padding="@dimen/homepage_app_bar_padding_two_pane"
-    android:orientation="horizontal"
-    android:background="@drawable/homepage_app_bar_background">
+    android:background="@color/xd_base_layout_header"
+    android:orientation="vertical">
 
-    <include layout="@layout/search_bar_two_pane_version"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/xd_dashboard_header_height"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/account_avatar_two_pane_version"
-        android:layout_width="@dimen/avatar_length"
-        android:layout_height="@dimen/avatar_length"
-        android:layout_gravity="center"
-        android:contentDescription="@string/search_bar_account_avatar_content_description"/>
+        <TextView
+            android:id="@+id/xd_dashboard_title"
+            android:text="@string/settings_label"
+            style="@style/xd_dashboard_header_title"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/suggestion_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <include layout="@layout/search_bar"/>
 
 </LinearLayout>

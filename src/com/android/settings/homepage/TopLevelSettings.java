@@ -247,35 +247,31 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
-        initPreferenceCard();
-        int tintColor = Utils.getHomepageIconColor(getContext());
+
+        int tintColor = Utils.getHomepageIconColor(getContext()); 
+
+        LayoutPreference myAccount = getPreferenceScreen().findPreference("xd_my_account");
+        Preference myPhone = getPreferenceScreen().findPreference("xd_my_phone");
+        SwitchPreference switchPref = getPreferenceScreen().findPreference("airplane_mode");
+
         iteratePreferences(preference -> {
             Drawable icon = preference.getIcon();
             if (icon != null) {
                 icon.setTint(tintColor);
             }
+            if (preference.isVisible() && preference.getTitle() != null && 
+                preference.getLayoutResource() != R.layout.xd_dashboard_pref_sin && 
+                preference.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
+                preference.getLayoutResource() != R.layout.xd_dashboard_pref_bot && 
+                preference.getLayoutResource() != R.layout.xd_dashboard_pref_mid && 
+                preference.getLayoutResource() != R.layout.xd_dashboard_pref_mnmlist ) {
+                preference.setLayoutResource(R.layout.xd_dashboard_pref_mid_nosum);
+            }
+            if (preference.getKey().contains("wellbeing")){
+                preference.setLayoutResource(R.layout.xd_dashboard_pref_wellbeing);
+            }
         });
-    }
 
-     private void initPreferenceCard(){
-        LayoutPreference myAccount = getPreferenceScreen().findPreference("xd_my_account");
-        Preference myPhone = getPreferenceScreen().findPreference("xd_my_phone");
-        SwitchPreference switchPref = getPreferenceScreen().findPreference("airplane_mode");
-
-        for (int i = 0; i < getPreferenceScreen().getPreferenceCount(); i++) {
-            Preference pref = getPreferenceScreen().getPreference(i);
-            if (pref.isVisible() && pref.getTitle() != null && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_top && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_sin && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_bot && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_mid && 
-                pref.getLayoutResource() != R.layout.xd_dashboard_pref_mnmlist ) {
-                pref.setLayoutResource(R.layout.xd_dashboard_pref_mid_nosum);
-            }
-            if (pref.getKey().contains("wellbeing")){
-                pref.setLayoutResource(R.layout.xd_dashboard_pref_wellbeing);
-            }
-        }
         switchPref.setLayoutResource(R.layout.xd_dashboard_prefswitch_top);
         myAccount.setLayoutResource(R.layout.xd_dashboard_account);
         myPhone.setLayoutResource(R.layout.xd_dashboard_phone);
@@ -340,42 +336,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         return recyclerView;
     }
 
-    /** Sets the horizontal padding */
-    public void setPaddingHorizontal(int padding) {
-        mPaddingHorizontal = padding;
-        RecyclerView recyclerView = getListView();
-        if (recyclerView != null) {
-            recyclerView.setPadding(padding, 0, padding, 0);
-        }
-    }
-
-    /** Updates the preference internal paddings */
-    public void updatePreferencePadding(boolean isTwoPane) {
-        iteratePreferences(new PreferenceJob() {
-            private int mIconPaddingStart;
-            private int mTextPaddingStart;
-
-            @Override
-            public void init() {
-                mIconPaddingStart = getResources().getDimensionPixelSize(isTwoPane
-                        ? R.dimen.homepage_preference_icon_padding_start_two_pane
-                        : R.dimen.homepage_preference_icon_padding_start);
-                mTextPaddingStart = getResources().getDimensionPixelSize(isTwoPane
-                        ? R.dimen.homepage_preference_text_padding_start_two_pane
-                        : R.dimen.homepage_preference_text_padding_start);
-            }
-
-            @Override
-            public void doForEach(Preference preference) {
-                if (preference instanceof HomepagePreferenceLayout) {
-                    ((HomepagePreferenceLayout) preference).getHelper()
-                            .setIconPaddingStart(mIconPaddingStart);
-                    ((HomepagePreferenceLayout) preference).getHelper()
-                            .setTextPaddingStart(mTextPaddingStart);
-                }
-            }
-        });
-    }
 
     /** Returns a {@link TopLevelHighlightMixin} that performs highlighting */
     public TopLevelHighlightMixin getHighlightMixin() {

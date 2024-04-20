@@ -190,7 +190,7 @@
         android:icon="@drawable/ic_settings_system_dashboard_white"
         android:key="top_level_system"
         android:order="10"
-        android:title="@string/header_category_system"
+        android:title=" "
         android:summary="@string/system_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_system"/>
 

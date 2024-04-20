@@ -103,11 +103,6 @@ public class ActivityEmbeddingUtils {
             Log.d(TAG, "isSettingsSplitSupported = false");
             return false;
         }
-        // Activity Embedding feature is not enabled if a user chooses to disable the feature.
-        if (!FeatureFlagUtils.isEnabled(context, FeatureFlagUtils.SETTINGS_SUPPORT_LARGE_SCREEN)) {
-            Log.d(TAG, "isFlagEnabled = false");
-            return false;
-        }
         // Don't enable Activity embedding for setup wizard.
         if (!WizardManagerHelper.isUserSetupComplete(context)) {
             Log.d(TAG, "isUserSetupComplete = false");
