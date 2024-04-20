@@ -53,7 +53,7 @@ public class ActivityEmbeddingUtils {
      * @see androidx.window.embedding.SplitController.SplitSupportStatus#SPLIT_UNAVAILABLE
      */
     private static final boolean SHOULD_ENABLE_LARGE_SCREEN_OPTIMIZATION =
-            SystemProperties.getBoolean("persist.settings.large_screen_opt.enabled", false);
+            SystemProperties.getBoolean("persist.settings.large_screen_opt.enabled", true);
 
     private static final String TAG = "ActivityEmbeddingUtils";
 
@@ -101,11 +101,6 @@ public class ActivityEmbeddingUtils {
         // optimization or the device is not supported.
         if (!isSettingsSplitEnabled(context)) {
             Log.d(TAG, "isSettingsSplitSupported = false");
-            return false;
-        }
-        // Activity Embedding feature is not enabled if a user chooses to disable the feature.
-        if (!FeatureFlagUtils.isEnabled(context, FeatureFlagUtils.SETTINGS_SUPPORT_LARGE_SCREEN)) {
-            Log.d(TAG, "isFlagEnabled = false");
             return false;
         }
         // Don't enable Activity embedding for setup wizard.

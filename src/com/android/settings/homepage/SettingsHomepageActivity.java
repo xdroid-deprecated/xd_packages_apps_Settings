@@ -68,7 +68,6 @@ import com.android.settings.R;
 import com.android.settings.Settings;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsApplication;
-import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.CategoryMixin;
@@ -207,18 +206,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         setupEdgeToEdge();
         setContentView(R.layout.xd_dashboard_container);
 
-        // xdUI Dashboard
-        // Generate random welcome massage as title header
-        final TextView textView = findViewById(R.id.homepage_title);
-        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
-        Random genmsg = new Random();
-        int  n = genmsg.nextInt(msg.length-1);
-        textView.setText(msg[n]);
-
         mIsTwoPane = ActivityEmbeddingUtils.isAlreadyEmbedded(this);
 
         updateAppBarMinHeight();
         initHomepageContainer();
+        updateHomepageTitle();
         updateHomepageAppBar();
         updateHomepageBackground();
         mLoadedListeners = new ArraySet<>();
@@ -230,9 +222,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         getLifecycle().addObserver(mCategoryMixin);
 
         final String highlightMenuKey = getHighlightMenuKey();
+        
         // Only allow features on high ram devices.
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
-            initAvatarView();
             final boolean scrollNeeded = mIsEmbeddingActivityEnabled
                     && !TextUtils.equals(getString(DEFAULT_HIGHLIGHT_MENU_KEY), highlightMenuKey);
             showSuggestionFragment(scrollNeeded);
@@ -242,6 +234,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                         .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
             }
         }
+        
         mMainFragment = showFragment(() -> {
             final TopLevelSettings fragment = new TopLevelSettings();
             fragment.getArguments().putString(SettingsActivity.EXTRA_FRAGMENT_ARG_KEY,
@@ -261,9 +254,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             initSplitPairRules();
         }
 
-        updateHomepagePaddings();
         updateSplitLayout();
-
         enableTaskLocaleOverride();
     }
 
@@ -317,6 +308,14 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         updateHomepageUI();
     }
 
+    private void updateHomepageTitle() {
+        final TextView textView = findViewById(R.id.xd_dashboard_title);
+        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
+        Random genmsg = new Random();
+        int  n = genmsg.nextInt(msg.length-1);
+        textView.setText(msg[n]);
+    }
+
     private void updateSplitLayout() {
         if (!mIsEmbeddingActivityEnabled) {
             return;
@@ -331,6 +330,8 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             return;
         }
         mIsRegularLayout = !mIsRegularLayout;
+
+        updateHomepageTitle();
 
         // Update search title padding
         View searchTitle = findViewById(R.id.search_bar_title);
@@ -376,28 +377,14 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
     }
 
-    private void initAvatarView() {
-        final ImageView avatarView = findViewById(R.id.account_avatar);
-        final ImageView avatarTwoPaneView = findViewById(R.id.account_avatar_two_pane_version);
-        if (AvatarViewMixin.isAvatarSupported(this)) {
-            avatarView.setVisibility(View.VISIBLE);
-            getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
-
-            if (mIsEmbeddingActivityEnabled) {
-                avatarTwoPaneView.setVisibility(View.VISIBLE);
-                getLifecycle().addObserver(new AvatarViewMixin(this, avatarTwoPaneView));
-            }
-        }
-    }
-
     private void updateHomepageUI() {
         final boolean newTwoPaneState = ActivityEmbeddingUtils.isAlreadyEmbedded(this);
         if (mIsTwoPane != newTwoPaneState) {
             mIsTwoPane = newTwoPaneState;
             updateHomepageAppBar();
             updateHomepageBackground();
-            updateHomepagePaddings();
         }
+        updateHomepageTitle();
         updateSplitLayout();
     }
 
@@ -407,9 +394,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
 
         final Window window = getWindow();
-        final int color = mIsTwoPane
-                ? getColor(R.color.settings_two_pane_background_color)
-                : Utils.getColorAttrDefaultColor(this, android.R.attr.colorBackground);
+        final int color = getColor(R.color.xd_base_layout_header);
 
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         // Update status bar color
@@ -431,8 +416,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         // Hide the homepage for preparing the suggestion. If scrolling is needed, the list views
         // should be initialized in the invisible homepage view to prevent a scroll flicker.
         mHomepageView.setVisibility(scrollNeeded ? View.INVISIBLE : View.GONE);
-        // Hide the homepage for preparing the suggestion.
-        mHomepageView.setVisibility(View.GONE);
         // Schedule a timer to show the homepage and hide the suggestion on timeout.
         mHomepageView.postDelayed(() -> showHomepageWithSuggestion(false),
                 HOMEPAGE_LOADING_TIMEOUT_MS);
@@ -718,28 +701,12 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.GONE);
             findViewById(R.id.suggestion_container_two_pane).setVisibility(View.GONE);
         }
-    }
-
-    private void updateHomepagePaddings() {
-        if (!mIsEmbeddingActivityEnabled) {
-            return;
-        }
-        if (mIsTwoPane) {
-            int padding = getResources().getDimensionPixelSize(
-                    R.dimen.homepage_padding_horizontal_two_pane);
-            mMainFragment.setPaddingHorizontal(padding);
-        } else {
-            mMainFragment.setPaddingHorizontal(0);
-        }
-        mMainFragment.updatePreferencePadding(mIsTwoPane);
+        updateHomepageTitle();
     }
 
     private void updateAppBarMinHeight() {
         final int searchBarHeight = getResources().getDimensionPixelSize(R.dimen.search_bar_height);
-        final int margin = getResources().getDimensionPixelSize(
-                mIsEmbeddingActivityEnabled && mIsTwoPane
-                        ? R.dimen.homepage_app_bar_padding_two_pane
-                        : R.dimen.search_bar_margin);
+        final int margin = getResources().getDimensionPixelSize(R.dimen.search_bar_margin);
         findViewById(R.id.app_bar_container).setMinimumHeight(searchBarHeight + margin * 2);
     }
 

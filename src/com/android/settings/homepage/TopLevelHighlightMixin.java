@@ -176,7 +176,7 @@ public class TopLevelHighlightMixin implements Parcelable, DialogInterface.OnSho
         mTopLevelAdapter.highlightPreference(mCurrentKey, /* scrollNeeded= */ show);
     }
 
-    void setHighlightMenuKey(String menuKey, boolean scrollNeeded) {
+    void setHighlightMenuKey(String menuKey, boolean scrollNeeded ) {
         if (mTopLevelAdapter == null) {
             return;
         }
