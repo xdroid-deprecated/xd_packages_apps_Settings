@@ -51,7 +51,11 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "src-xdui/**/*.java" // xdroidOSS UI
+    ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/shared/**/*.kt",
     ],
@@ -60,6 +64,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
+        "res-xdui", // xdroidOSS UI
     ],
     static_libs: [
         // External dependencies

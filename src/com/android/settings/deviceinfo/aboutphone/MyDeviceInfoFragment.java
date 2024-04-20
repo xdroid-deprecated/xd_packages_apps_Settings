@@ -37,6 +37,8 @@ import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
+
+
 import com.android.settings.deviceinfo.UptimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
@@ -97,7 +99,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.my_device_info;
+        return R.xml.xd_about_phone;
     }
 
     @Override
@@ -214,7 +216,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
      * For Search.
      */
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.my_device_info) {
+            new BaseSearchIndexProvider(R.xml.xd_about_phone) {
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(

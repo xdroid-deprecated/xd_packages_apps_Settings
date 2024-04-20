@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The LineageOS Project
+ * Copyright (C) 2017 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,34 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-package com.android.settings.deviceinfo.firmwareversion;
+package xyz.xd.ui.frameworks.preferences;
 
 import android.content.Context;
 import android.os.SystemProperties;
-import android.text.TextUtils;
-
-import androidx.preference.Preference;
+import androidx.annotation.VisibleForTesting;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class XdroidKeeperPreferenceController extends BasePreferenceController {
+public class AOSPVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "XdroidKeeperPreferenceController";
-    private static final String ROM_PROPERTY = "org.xdroid.keeper";
+    @VisibleForTesting
+    private static final String AOSP_REVISION_PROP = "ro.aosp.revision";
 
-    public XdroidKeeperPreferenceController(Context context, String key) {
-        super(context, key);
+    public AOSPVersionPreferenceController(Context context, String preferenceKey) {
+        super(context, preferenceKey);
     }
 
+    @Override
     public int getAvailabilityStatus() {
         return AVAILABLE;
     }
 
+    @Override
     public CharSequence getSummary() {
-        String rom = SystemProperties.get(ROM_PROPERTY,
-                this.mContext.getString(R.string.device_info_default));
-        return rom;
+        return SystemProperties.get(AOSP_REVISION_PROP,
+                mContext.getString(R.string.unknown));
     }
 }

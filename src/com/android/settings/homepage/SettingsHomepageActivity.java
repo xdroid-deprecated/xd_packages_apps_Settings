@@ -46,6 +46,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.annotation.VisibleForTesting;
@@ -81,8 +82,8 @@ import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
 import java.net.URISyntaxException;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.lang.*;
 
 /** Settings homepage activity */
 public class SettingsHomepageActivity extends FragmentActivity implements
@@ -204,7 +205,15 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
 
         setupEdgeToEdge();
-        setContentView(R.layout.settings_homepage_container);
+        setContentView(R.layout.xd_dashboard_container);
+
+        // xdUI Dashboard
+        // Generate random welcome massage as title header
+        final TextView textView = findViewById(R.id.homepage_title);
+        String[] msg = getResources().getStringArray(R.array.xd_dashboard_greet);
+        Random genmsg = new Random();
+        int  n = genmsg.nextInt(msg.length-1);
+        textView.setText(msg[n]);
 
         mIsTwoPane = ActivityEmbeddingUtils.isAlreadyEmbedded(this);
 
@@ -418,10 +427,12 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         mSuggestionView = findViewById(R.id.suggestion_content);
         mTwoPaneSuggestionView = findViewById(R.id.two_pane_suggestion_content);
-        mHomepageView = findViewById(R.id.settings_homepage_container);
+        mHomepageView = findViewById(R.id.xd_dashboard_container);
         // Hide the homepage for preparing the suggestion. If scrolling is needed, the list views
         // should be initialized in the invisible homepage view to prevent a scroll flicker.
         mHomepageView.setVisibility(scrollNeeded ? View.INVISIBLE : View.GONE);
+        // Hide the homepage for preparing the suggestion.
+        mHomepageView.setVisibility(View.GONE);
         // Schedule a timer to show the homepage and hide the suggestion on timeout.
         mHomepageView.postDelayed(() -> showHomepageWithSuggestion(false),
                 HOMEPAGE_LOADING_TIMEOUT_MS);
