@@ -39,6 +39,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.LifecycleOwner;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
@@ -52,16 +53,22 @@ import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.network.InternetPreferenceController;
+import com.android.settings.network.TetherPreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.support.SupportPreferenceController;
 import com.android.settings.widget.HomepagePreference;
 import com.android.settings.widget.HomepagePreferenceLayoutHelper.HomepagePreferenceLayout;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.Instrumentable;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.drawer.Tile;
 import com.android.settingslib.search.SearchIndexable;
-
 import com.android.settingslib.widget.LayoutPreference;
+
+import java.util.ArrayList;
+import java.util.List;;
 
 @SearchIndexable(forTarget = MOBILE)
 public class TopLevelSettings extends DashboardFragment implements SplitLayoutListener,
@@ -112,6 +119,27 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
         super.onAttach(context);
         HighlightableMenu.fromXml(context, getPreferenceScreenResId());
         use(SupportPreferenceController.class).setActivity(getActivity());
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle(),
+                this /* LifecycleOwner */);
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(Context context,
+            Lifecycle lifecycle, LifecycleOwner lifecycleOwner) {
+
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+
+        final InternetPreferenceController internetPreferenceController =
+                new InternetPreferenceController(context, lifecycle, lifecycleOwner);
+                
+        controllers.add(new TetherPreferenceController(context, "tether_settings"));
+        if (internetPreferenceController != null) {
+            controllers.add(internetPreferenceController);
+        }
+        return controllers;
     }
 
     @Override

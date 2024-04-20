@@ -26,7 +26,7 @@
         android:order="-110"
         android:layout="@layout/xd_dashboard_account"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="xd_my_phone"
         android:order="-105"
         android:title="@string/xd_dashboard_device"
@@ -35,12 +35,12 @@
         settings:controller="xyz.xd.ui.frameworks.preferences.XDFullRevisionController"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"/>
 
-    <!-- <Preference
+    <!-- WIP mnmlist -->
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_mnmlist"
         android:order="-100"
-        android:title="@string/mnmlist_title"
-        settings:layout="@layout/xd_dashboard_pref_mnmlist"
-        android:fragment="com.xd.mnmlist.Dashboard"/> -->
+        android:title="mnmlist"
+        settings:layout="@layout/xd_dashboard_pref_mnmlist"/>
 
     <SwitchPreference
         android:key="airplane_mode"
@@ -48,120 +48,146 @@
         android:order="-96"
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:key="internet_settings"
-        android:title="@string/xd_dashboard_network"
+        android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
         android:order="-95"
         settings:layout="@layout/xd_dashboard_pref_mid"
         settings:keywords="@string/keywords_internet" />
 
-    <Preference
-        android:fragment="com.android.settings.TetherSettings"
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.network.tether.TetherSettings"
         android:key="tether_settings"
-        android:title="@string/xd_dashboard_portable_hotspot"
+        android:title="@string/tether_settings_title_all"
         android:order="-94"
         android:summary="@string/summary_placeholder"
+        settings:controller="com.android.settings.network.TetherPreferenceController"
         settings:layout="@layout/xd_dashboard_pref_mid"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_connected_devices"
         android:order="-90"
-        android:title="@string/xd_dashboard_conectivity"
+        android:title="@string/connected_devices_dashboard_title"
         settings:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_display"
         android:order="-85"
-        android:title="@string/xd_dashboard_display"
+        android:title="@string/display_settings"
         settings:layout="@layout/xd_dashboard_pref_top"
         android:fragment="com.android.settings.DisplaySettings"/>
 
-    <Preference
+    <com.android.settings.widget.RestrictedHomepagePreference
+        android:key="top_level_wallpaper"
+        android:order="-76"
+        android:title="@string/wallpaper_settings_title"
+        settings:layout="@layout/xd_dashboard_pref_mid"
+        settings:highlightableMenuKey="@string/menu_key_wallpaper"
+        settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_battery"
         android:order="-75"
-        android:title="@string/xd_dashboard_battery"
+        android:title="@string/power_usage_summary_title"
         settings:layout="@layout/xd_dashboard_pref_mid"
         android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_sound"
         android:order="-70"
-        android:title="@string/xd_dashboard_sound"
+        android:title="@string/sound_settings"
         settings:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.notification.SoundSettings"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_apps"
         android:order="-65"
-        android:title="@string/xd_dashboard_apps"
+        android:title="@string/apps_dashboard_title"
         settings:layout="@layout/xd_dashboard_pref_top"
         android:fragment="com.android.settings.applications.AppDashboardFragment"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_notification"
         android:order="-60"
-        android:title="@string/xd_dashboard_notif"
+        android:title="@string/configure_notification_settings"
         settings:layout="@layout/xd_dashboard_pref_mid"
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_accounts"
         android:order="-55"
-        android:title="@string/xd_dashboard_account"
+        android:title="@string/account_dashboard_title"
         settings:layout="@layout/xd_dashboard_pref_mid"
         android:fragment="com.android.settings.accounts.AccountDashboardFragment"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_storage"
         android:order="-50"
-        android:title="@string/xd_dashboard_storage"
+        android:title="@string/storage_settings"
         settings:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_privacy"
         android:order="-45"
-        android:title="@string/xd_dashboard_privacy"
+        android:title="@string/privacy_dashboard_title"
         settings:layout="@layout/xd_dashboard_pref_top"
         android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_location"
         android:order="-40"
-        android:title="@string/xd_dashboard_location"
+        android:title="@string/location_settings_title"
         settings:layout="@layout/xd_dashboard_pref_mid"
         android:fragment="com.android.settings.location.LocationSettings"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
+        android:key="top_level_emergency"
+        android:title="@string/emergency_settings_preference_title"
+        android:order="-37"
+        android:fragment="com.android.settings.emergency.EmergencyDashboardFragment"
+        settings:layout="@layout/xd_dashboard_pref_mid"
+        settings:isPreferenceVisible="@bool/config_show_emergency_settings"
+        settings:highlightableMenuKey="@string/menu_key_emergency"/>
+
+    <com.android.settings.widget.HomepagePreference
+        android:key="top_level_safety_center"
+        android:order="-36"
+        android:title="@string/safety_center_title"
+        settings:layout="@layout/xd_dashboard_pref_bot"
+        settings:highlightableMenuKey="@string/menu_key_safety_center"
+        settings:controller="com.android.settings.safetycenter.TopLevelSafetyCenterEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_security"
         android:order="-35"
-        android:title="@string/xd_dashboard_security"
+        android:title="@string/security_settings_title"
         settings:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.security.SecuritySettings"
         settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_accessibility"
         android:order="-30"
-        android:title="@string/xd_dashboard_accessibility"
+        android:title="@string/accessibility_settings"
         settings:layout="@layout/xd_dashboard_pref_top"
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_support"
         android:order="-5"
-        android:title="@string/xd_dashboard_support"
+        android:title="@string/page_tab_title_support"
         settings:layout="@layout/xd_dashboard_pref_mid"
         settings:controller="com.android.settings.support.SupportPreferenceController"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_system"
         android:order="100"
-        android:title="@string/xd_dashboard_system"
+        android:title="@string/header_category_system"
         settings:layout="@layout/xd_dashboard_pref_bot"
         android:fragment="com.android.settings.system.SystemDashboardFragment"/>
 
