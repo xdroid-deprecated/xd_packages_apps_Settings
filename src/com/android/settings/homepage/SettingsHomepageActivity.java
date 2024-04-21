@@ -389,10 +389,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     }
 
     private void updateHomepageBackground() {
-        if (!mIsEmbeddingActivityEnabled) {
-            return;
-        }
-
         final Window window = getWindow();
         final int color = getColor(R.color.xd_base_layout_header);
 
