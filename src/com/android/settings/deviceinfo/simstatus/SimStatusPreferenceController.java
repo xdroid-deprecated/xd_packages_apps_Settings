@@ -42,7 +42,7 @@ import java.util.List;
 
 public class SimStatusPreferenceController extends BasePreferenceController {
 
-    private static final String KEY_PREFERENCE_CATEGORY = "device_detail_category";
+    private static final String KEY_PREFERENCE_CATEGORY = "xd_category_network";
 
     private Fragment mFragment;
     private SlotSimStatus mSlotSimStatus;
@@ -106,6 +106,7 @@ public class SimStatusPreferenceController extends BasePreferenceController {
             final Preference multiSimPreference = createNewPreference(screen.getContext());
             multiSimPreference.setOrder(mSlotSimStatus.getPreferenceOrdering(simSlotNumber));
             multiSimPreference.setKey(mSlotSimStatus.getPreferenceKey(simSlotNumber));
+            multiSimPreference.setLayoutResource(R.layout.xd_pref_card_mid);
             category.addPreference(multiSimPreference);
         }
     }

@@ -45,7 +45,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "ImeiInfoPreferenceController";
 
-    private static final String KEY_PREFERENCE_CATEGORY = "device_detail_category";
+    private static final String KEY_PREFERENCE_CATEGORY = "xd_category_network";
     public static final String DEFAULT_KEY = "imei_info";
 
     private TelephonyManager mTelephonyManager;
@@ -103,6 +103,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
             multiImeiPreference.setKey(DEFAULT_KEY + (1 + simSlotNumber));
             multiImeiPreference.setEnabled(true);
             multiImeiPreference.setCopyingEnabled(true);
+            multiImeiPreference.setLayoutResource(R.layout.xd_pref_card_mid);
             category.addPreference(multiImeiPreference);
        }
     }

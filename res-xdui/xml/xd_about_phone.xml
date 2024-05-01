@@ -131,6 +131,17 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
 
+        <!-- IMEI -->
+        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
+            android:key="imei_info"
+            settings:layout="@layout/xd_pref_card_mid"
+            android:title="@string/status_imei"
+            android:summary="@string/summary_placeholder"
+            settings:keywords="@string/keywords_imei_info"
+            settings:enableCopying="true"
+            settings:isPreferenceVisible="@bool/config_show_sim_info"
+            settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
+
         <!-- EID -->
         <com.android.settingslib.CustomDialogPreferenceCompat
             android:key="eid_info"
@@ -142,17 +153,6 @@
             settings:isPreferenceVisible="@bool/config_show_sim_info"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.simstatus.SimEidPreferenceController"/>
-
-        <!-- IMEI -->
-        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
-            android:key="imei_info"
-            settings:layout="@layout/xd_pref_card_mid"
-            android:title="@string/status_imei"
-            android:summary="@string/summary_placeholder"
-            settings:keywords="@string/keywords_imei_info"
-            settings:enableCopying="true"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
         <!-- Wi-Fi MAC address -->
         <Preference
